@@ -3,7 +3,13 @@
 
 $s = "hello";
 
-echo "string: $s (" . gettype($s) . ")\n";
+echo "string \"hello\": $s (" . gettype($s) . ")\n";
+print_r($s); echo "\n";
+var_dump($s); echo "\n";
+
+$s = 'hello';
+
+echo "string 'hello': $s (" . gettype($s) . ")\n";
 print_r($s); echo "\n";
 var_dump($s); echo "\n";
 
