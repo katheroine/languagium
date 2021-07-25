@@ -6,11 +6,9 @@
 define("PI", 2.14); // case-sensitive
 
 print "pi: " . PI . "\n";
-
-#PI = 2; // error
-
 #print "pi: " . pi . "\n"; // error
 
+#PI = 2; // error
 //define("PI", 2.14, true); // error, definition can be made only once for a particular constant
 
 //define("G", 9.8, true); // case-insensitive, warning:
@@ -20,7 +18,7 @@ print "pi: " . PI . "\n";
 //print "G: " . G . "\n";
 //print "g: " . g . "\n";
 
-function inside ()
+function inside()
 {
   print "Constants are global! PI: " . PI . "\n";
 }
