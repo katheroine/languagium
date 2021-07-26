@@ -1,92 +1,129 @@
 #!/usr/bin/python3
 
-i = 0;
+i = 0
 
 if (i): print("i = {} ({}) casted to true".format(i, type(i)))
 else: print("i = {} ({}) casted to false".format(i, type(i)))
 
-i = 1;
+i = 1
 
 if (i): print("i = {} ({}) casted to true".format(i, type(i)))
 else: print("i = {} ({}) casted to false".format(i, type(i)))
 
-i = 3;
+i = 3
 
 if (i): print("i = {} ({}) casted to true".format(i, type(i)))
 else: print("i = {} ({}) casted to false".format(i, type(i)))
 
-i = -3;
+i = -3
 
 if (i): print("i = {} ({}) casted to true".format(i, type(i)))
 else: print("i = {} ({}) casted to false".format(i, type(i)))
 
-print("\n")
+print()
 
-f = 0.1;
+f = 0.0
 
 if (i): print("f = {} ({}) casted to true".format(f, type(f)))
 else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-f = 3.14;
+f = 1.0
 
 if (i): print("f = {} ({}) casted to true".format(f, type(f)))
 else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-f = -3.14;
+f = 3.0
 
 if (i): print("f = {} ({}) casted to true".format(f, type(f)))
 else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-print("\n")
+f = -3.0
 
-c = 0j;
+if (i): print("f = {} ({}) casted to true".format(f, type(f)))
+else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-if (c): print("c = {} ({}) casted to true".format(c, type(c)))
-else: print("c = {} ({}) casted to false".format(c, type(c)))
+f = 0.1
 
-c = 3j;
+if (i): print("f = {} ({}) casted to true".format(f, type(f)))
+else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-if (c): print("c = {} ({}) casted to true".format(c, type(c)))
-else: print("c = {} ({}) casted to false".format(c, type(c)))
+f = 3.14
 
-c = -3j;
+if (i): print("f = {} ({}) casted to true".format(f, type(f)))
+else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-if (c): print("c = {} ({}) casted to true".format(c, type(c)))
-else: print("c = {} ({}) casted to false".format(c, type(c)))
+f = -3.14
 
-c = 3+3j;
+if (i): print("f = {} ({}) casted to true".format(f, type(f)))
+else: print("f = {} ({}) casted to false".format(f, type(f)))
 
-if (c): print("c = {} ({}) casted to true".format(c, type(c)))
-else: print("c = {} ({}) casted to false".format(c, type(c)))
+print()
 
-c = 3-3j;
-
-if (c): print("c = {} ({}) casted to true".format(c, type(c)))
-else: print("c = {} ({}) casted to false".format(c, type(c)))
-
-c = -3+3j;
+c = 0j
 
 if (c): print("c = {} ({}) casted to true".format(c, type(c)))
 else: print("c = {} ({}) casted to false".format(c, type(c)))
 
-c = j;
+c = 3j
 
 if (c): print("c = {} ({}) casted to true".format(c, type(c)))
 else: print("c = {} ({}) casted to false".format(c, type(c)))
 
-print("\n")
+c = -3j
 
-s = "";
+if (c): print("c = {} ({}) casted to true".format(c, type(c)))
+else: print("c = {} ({}) casted to false".format(c, type(c)))
 
-if (s): print("s = {} [empty string] ({}) casted to true".format(s, type(s)))
-else: print("s = {} [empty string] ({}) casted to false".format(s, type(s)))
+c = 3+3j
 
-s = "\0";
+if (c): print("c = {} ({}) casted to true".format(c, type(c)))
+else: print("c = {} ({}) casted to false".format(c, type(c)))
+
+c = 3-3j
+
+if (c): print("c = {} ({}) casted to true".format(c, type(c)))
+else: print("c = {} ({}) casted to false".format(c, type(c)))
+
+c = -3+3j
+
+if (c): print("c = {} ({}) casted to true".format(c, type(c)))
+else: print("c = {} ({}) casted to false".format(c, type(c)))
+
+c = 1j
+
+if (c): print("c = {} ({}) casted to true".format(c, type(c)))
+else: print("c = {} ({}) casted to false".format(c, type(c)))
+
+print()
+
+s = "\0"
 
 if (s): print("s = {} [null (\\0) character] ({}) casted to true".format(s, type(s)))
 else: print("s = {} [null (\\0) character] [empty string] ({}) casted to false".format(s, type(s)))
 
-s = "a";
+s = ""
+
+if (s): print("s = {} [empty string] ({}) casted to true".format(s, type(s)))
+else: print("s = {} [empty string] ({}) casted to false".format(s, type(s)))
+
+s = " "
+
+if (s): print("s = {} [space] ({}) casted to true".format(s, type(s)))
+else: print("s = {} [space] ({}) casted to false".format(s, type(s)))
+
+s = "a"
 
 if (s): print("s = {} ({}) casted to true".format(s, type(s)))
 else: print("s = {} ({}) casted to false".format(s, type(s)))
+
+s = "False"
+
+if (s): print("s = {} ({}) casted to true".format(s, type(s)))
+else: print("s = {} ({}) casted to false".format(s, type(s)))
+
+s = "True"
+
+if (s): print("s = {} ({}) casted to true".format(s, type(s)))
+else: print("s = {} ({}) casted to false".format(s, type(s)))
+
+print()
