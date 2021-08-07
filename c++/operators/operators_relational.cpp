@@ -20,5 +20,10 @@ int main()
   c = a != b;
   std::cout << a << " != " << b << " = " << c << std::endl;
 
+  std::cout << std::endl;
+
+  c = a not_eq b;
+  std::cout << a << " not_eq " << b << " = " << c << std::endl;
+
   std::cout << std::noboolalpha;
 }
