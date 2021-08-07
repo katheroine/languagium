@@ -12,6 +12,8 @@ c = a / b;
 console.log(`${a} / ${b} = ${c}`);
 c = a % b;
 console.log(`${a} % ${b} = ${c}`);
+c = a ** b;
+console.log(`${a} ** ${b} = ${c}`);
 
 console.log(`-${a} = ${-a}`);
 console.log(`+${b} = ${+b}`);
