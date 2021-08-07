@@ -12,6 +12,8 @@ c = a / b
 print("{} / {} = {}".format(a, b, c))
 c = a % b
 print("{} % {} = {}".format(a, b, c))
+c = a ** b
+print("{} ** {} = {}".format(a, b, c))
 
 print("-{} = {}".format(a, -a))
 print("+{} = {}".format(b, +b))
