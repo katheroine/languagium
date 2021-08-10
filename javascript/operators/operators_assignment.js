@@ -44,11 +44,14 @@ console.log(`a <<= 2; a: ${a}`);
 a >>= 1 // 4
 console.log(`a >>= 1; a: ${a}`);
 
-a &= 6 // 4
+a >>>= 1 // 2
+console.log(`a >>>= 1; a: ${a}`);
+
+a &= 6 // 2
 console.log(`a &= 6; a: ${a}`);
 
-a |= 2 // 6
+a |= 2 // 2
 console.log(`a |= 2; a: ${a}`);
 
-a ^= 3 // 5
+a ^= 3 // 1
 console.log(`a ^= 3; a: ${a}`);
