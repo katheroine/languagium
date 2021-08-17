@@ -15,7 +15,7 @@ print("\$values[1]: {$values[1]}\n");
 print("\$values[2]: {$values[2]}\n\n");
 var_dump($values); print("\n\n");
 
-$words = ["last", "first", "two"];
+$words = ["first", "two", "last"];
 
 print("\$words[0]: {$words[0]}\n");
 print("\$words[1]: {$words[1]}\n");
