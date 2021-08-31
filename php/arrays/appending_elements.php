@@ -13,10 +13,10 @@ print_r($array); print("\n");
 
 array_push($array, 10);
 
-print("After append by array_push(\$array[], 10):\n\n");
+print("After append by array_push(\$array, 10):\n\n");
 print_r($array); print("\n");
 
 array_push($array, 12, 14, 16);
 
-print("After append by array_push(\$array[], 12, 14, 16):\n\n");
+print("After append by array_push(\$array, 12, 14, 16):\n\n");
 print_r($array); print("\n");
