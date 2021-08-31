@@ -6,7 +6,7 @@ $array = [2, 4, 6];
 print("Initial state:\n\n");
 print_r($array); print("\n");
 
-array_unshift($array, 10);
+array_unshift($array, 0);
 
 print("After append by array_unshift(\$array, 0):\n\n");
 print_r($array); print("\n");
