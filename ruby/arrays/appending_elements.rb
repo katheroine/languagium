@@ -5,10 +5,14 @@ array = [2, 4, 6]
 puts("Initial state:\n\n")
 puts(array.inspect, "\n")
 
+# << operator
+
 array << 8
 
 puts("After append by array << 8:\n\n")
 puts(array.inspect, "\n")
+
+# append
 
 array.append(10)
 
@@ -19,6 +23,8 @@ array.append(12, 14, 16)
 
 puts("After append by array.append(12, 14, 16):\n\n")
 puts(array.inspect, "\n")
+
+# push
 
 array.push(18)
 
