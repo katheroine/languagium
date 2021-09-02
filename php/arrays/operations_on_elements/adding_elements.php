@@ -6,10 +6,14 @@ $array = [2, 4, 6];
 print("Initial state:\n\n");
 print_r($array); print("\n");
 
+// [] operator
+
 $array[] = 8;
 
 print("After add by \$array[] = 8:\n\n");
 print_r($array); print("\n");
+
+// array_push
 
 array_push($array, 10);
 
@@ -20,6 +24,8 @@ array_push($array, 12, 14, 16);
 
 print("After add by array_push(\$array[], 12, 14, 16):\n\n");
 print_r($array); print("\n");
+
+// array_unshift
 
 array_unshift($array, 0);
 
