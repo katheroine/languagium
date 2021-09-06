@@ -67,3 +67,10 @@ array.delete_at(-2)
 
 puts("After remove by array.delete_at(-2):\n\n")
 puts(array.inspect, "\n")
+
+# dlete_if
+
+array.delete_if {|e| e > 15}
+
+puts("After remove by array.delete_if {|e| e > 15}:\n\n")
+puts(array.inspect, "\n")
