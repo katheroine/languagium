@@ -10,16 +10,19 @@ $house = [
 ];
 $species = 'owl';
 
-$address = compact('city', 'street', 'house');
-
+print("\$name = $name\n");
 print("\$city = $city\n");
 print("\$street = $street\n");
 print("\$house =\n");
 print_r($house);
-print("\$address produced by compact:\n");
+print("\$species = $species\n");
+
+$address = compact('city', 'street', 'house');
+
+print("\n\$address produced by compact:\n");
 print_r($address);
 
 $character = compact('name', 'address', 'species');
 
-print("\$character produced by compact:\n");
+print("\n\$character produced by compact:\n");
 print_r($character);
