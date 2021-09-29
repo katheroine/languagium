@@ -1,50 +1,46 @@
 #include <iostream>
 
-void simplest_function()
+void simple_function()
 {
-  std::cout << "Simple function (not returning value).\n";
+  std::cout << "Simple function." << std::endl;
 }
 
-bool simple_function()
-{
-  std::cout << "Simple function (returning value).\n";
-  return true;
-}
-
-int function_with_local_variable()
+void function_with_local_variable()
 {
   int i = 4;
-  std::cout << "A function with a local variable: " << i << "\n\n";
-  return 10;
+  std::cout << "A function with a local variable: " << i << std::endl;
 }
 
-const char* function_with_arguments(int number, const char* text)
+int function_returning_value()
+{
+  std::cout << "A function returning value." << std::endl;
+  return 9;
+}
+
+void function_with_arguments(int number, const char* text)
 {
   std::cout << "A function with some arguments:\n"
     << "number: " << number
     << std::endl
     << "text: " << text
     << std::endl;
-  return "bye";
 }
 
 int main()
 {
-  bool b;
-  int i;
-  const char* s;
+  int i = 10;
 
   std::cout << "Functions:\n\n";
-  std::cout << std::boolalpha;
 
-  simplest_function();
+  simple_function();
+  std::cout << std::endl;
 
-  b = simple_function();
-  std::cout << "returned value: " << b << std::endl << std::endl;
+  function_with_local_variable();
+  std::cout << std::endl;
 
-  i = function_with_local_variable();
+  i = function_returning_value();
   std::cout << "returned value: " << i << std::endl << std::endl;
 
-  s = function_with_arguments(6, "orange");
-  std::cout << "returned value: " << s << std::endl << std::endl;
+  function_with_arguments(6, "orange");
+  std::cout << std::endl;
 }

@@ -8,7 +8,7 @@ end;
 procedure procedure_with_local_variable();
 var i: integer;
 begin
-  i := 3;
+  i := 4;
   write('A procedure with a local variable: ');
   writeln(i);
 end;
@@ -22,7 +22,11 @@ begin
   writeln(text);
 end;
 
+var i: integer;
+
 begin
+  i := 10;
+
   writeln('Procedures:');
   writeln();
 

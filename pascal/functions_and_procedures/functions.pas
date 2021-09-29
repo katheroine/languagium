@@ -12,7 +12,7 @@ begin
   i := 4;
   write('A function with a local variable: ');
   writeln(i);
-  function_with_local_variable := 10;
+  function_with_local_variable := 9;
 end;
 
 function function_with_arguments(number: integer; text: string): string;
@@ -30,6 +30,10 @@ var i: integer;
 var s: string;
 
 begin
+  b := false;
+  i := 10;
+  s := 'hello';
+
   writeln('Functions:');
   writeln();
 

@@ -2,32 +2,32 @@
 
 import typing
 
-def simplest_function() -> None:
-  print("Simple function (not returning value).")
+def simple_function() -> None:
+  print("Simple function.")
 
-def simple_function() -> bool:
-  print("Simple function (returning value).")
-  return True
-
-def function_with_local_variable() -> int:
+def function_with_local_variable() -> None:
   i = 4
   print(f"A function with a local variable: {i}")
-  return 10
 
-def function_with_arguments(number: int, text: str) -> str:
+def function_returning_value() -> int:
+  print("A function returning value.")
+  return 9
+
+def function_with_arguments(number: int, text: str) -> None:
   print(f"A function with some arguments:\nnumber: {number}\ntext: {text}")
-  return "bye"
+
+i = 10
 
 print("Functions:\n")
 
-simplest_function()
+simple_function()
 print()
 
-b = simple_function()
-print(f"returned value: {b}\n")
+function_with_local_variable()
+print()
 
-i = function_with_local_variable()
+i = function_returning_value()
 print(f"returned value: {i}\n")
 
-s = function_with_arguments(6, "orange")
-print(f"returned value: {s}\n")
+function_with_arguments(6, "orange")
+print()
