@@ -37,6 +37,7 @@ things.insert(2, 2.4)
 things.insert(9, "last") # It's gonna be last element
 # because 9th index doesn't exist.
 
+print("Initialised, after some insertings (by insert()):\n")
 print(f"things[0]: {things[0]}")
 print(f"things[1]: {things[1]}")
 print(f"things[2]: {things[2]}")
