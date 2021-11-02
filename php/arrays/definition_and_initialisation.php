@@ -40,3 +40,14 @@ $array_7 = array(
 );
 print("Initialised, defined as 3-element partially associative by array():\n\n");
 print_r($array_7); print("\n");
+
+$city = 'Twin Peaks';
+$street = 'Hundret Acre Wood';
+$house = [
+  'no' => 6,
+  'flat_no' => 127
+];
+
+$array_8 = compact('city', 'street', 'house');
+print("Initialised, defined as 3-element associative by compact():\n\n");
+print_r($array_8); print("\n");
