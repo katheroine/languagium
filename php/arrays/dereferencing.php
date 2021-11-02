@@ -59,4 +59,24 @@ print("Second value: $el_2\n");
 print("Third value: $el_3\n");
 print("First nested value: $nel_1\n");
 print("Second nested value: $nel_2\n");
-print("Third nested value: $nel_3\n");
+print("Third nested value: $nel_3\n\n");
+
+$properties = [
+  'name' => 'Amelie',
+  'address' => [
+    'city' => 'Twin Peaks',
+    'street' => 'Hundret Acre Wood',
+    'house' => [
+      'no' => 6,
+      'flat_no' => 127
+    ],
+  ],
+  'species' => 'owl',
+];
+
+extract($properties);
+
+print("First property: $name\n");
+print("Second property:\n");
+print_r($address);
+print("Third property: $species\n");
