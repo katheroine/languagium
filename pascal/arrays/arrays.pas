@@ -12,27 +12,15 @@ begin
 
   writeln('After assignments:');
   writeln();
-  write('numbers[0]: ');
-  write(numbers[0]);
-  writeln();
-  write('numbers[1]: ');
-  write(numbers[1]);
-  writeln();
-  write('numbers[2]: ');
-  write(numbers[2]);
-  writeln();
+  writeln('numbers[0]: ', numbers[0]);
+  writeln('numbers[1]: ', numbers[1]);
+  writeln('numbers[2]: ', numbers[2]);
   writeln();
 
   writeln('Initialised:');
   writeln();
-  write('values[1]: ');
-  write(values[1]);
-  writeln();
-  write('values[2]: ');
-  write(values[2]);
-  writeln();
-  write('values[3]: ');
-  write(values[3]);
-  writeln();
+  writeln('values[1]: ', values[1]);
+  writeln('values[2]: ', values[2]);
+  writeln('values[3]: ', values[3]);
   writeln();
 end.
