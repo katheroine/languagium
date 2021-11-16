@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
-list = [1, 3, 5]
-iterator = iter(list)
+tuple = (2, 4, 6)
+iterator = iter(tuple)
 
-print(f"list: {list}")
+print(f"tuple: {tuple}")
 print(f"iterator: {iterator}\n")
 
 element = next(iterator)
@@ -20,3 +20,5 @@ try:
     print(f"next(iterator): {element}")
 except StopIteration:
     print("Cannot move forward.")
+
+print()
