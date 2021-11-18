@@ -27,6 +27,10 @@ array_6 = Array.[](3, 5, 7)
 puts("Initialised, defined as 3-element by Array.[]():\n")
 puts(array_6.inspect, "\n")
 
-array_7 = (3..7).step(2).collect { |x| x * 10 }
-puts("Initialised, defined as 3-element by range.collect():\n")
+array_7 = Array.new(3) {|i| i}
+puts("Initialised, defined as 3-element with consecutive natural numbers by Array.new:\n")
 puts(array_7.inspect, "\n")
+
+array_8 = (3..7).step(2).collect { |x| x * 10 }
+puts("Initialised, defined as 3-element by range.collect():\n")
+puts(array_8.inspect, "\n")
