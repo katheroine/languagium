@@ -1,8 +1,8 @@
 #!/usr/bin/php8.0
 <?php
 
-$values = [9.5, 8.5, 7.5];
-$items = [2, "orange"];
+$values = [9.5, 2.5, 7.5];
+$items = [2.5, "orange"];
 
 print("values:\n");
 print_r($values);
