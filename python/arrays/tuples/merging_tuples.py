@@ -8,5 +8,5 @@ print(f"items: {items}\n")
 
 elements = values + items
 
-print(f"elements = values + items")
+print("elements = values + items")
 print(f"elements: {elements}\n")

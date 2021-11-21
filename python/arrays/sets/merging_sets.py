@@ -8,15 +8,15 @@ print(f"items: {items}\n")
 
 elements = set.union(values, items)
 
-print(f"elements = set.union(values, items)")
+print("elements = set.union(values, items)")
 print(f"elements: {elements}\n")
 
 elements = values | items
 
-print(f"elements = values | items")
+print("elements = values | items")
 print(f"elements: {elements}\n")
 
 items.update(values)
 
-print(f"items.update(values)")
+print("items.update(values)")
 print(f"items: {items}\n")

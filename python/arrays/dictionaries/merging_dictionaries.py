@@ -23,5 +23,5 @@ print(f"elements: {elements}\n")
 
 items.update(things)
 
-print(f"items.update(things)")
+print("items.update(things)")
 print(f"items: {items}\n")
