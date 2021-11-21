@@ -10,7 +10,7 @@ items = {
     'color' => 'orange',
     3.14 => 'PI',
     'plant' => 'grape',
-    'utensil' => 'spoon',
+    'utensil' => 'cup',
 }
 
 puts("things: #{things}")
