@@ -10,18 +10,15 @@ function function_with_local_variable(): integer;
 var i: integer;
 begin
   i := 4;
-  write('A function with a local variable: ');
-  writeln(i);
+  writeln('A function with a local variable: ', i);
   function_with_local_variable := 9;
 end;
 
 function function_with_arguments(number: integer; text: string): string;
 begin
   writeln('A function with some arguments: ');
-  write('number: ');
-  writeln(number);
-  write('text: ');
-  writeln(text);
+  writeln('number: ', number);
+  writeln('text: ', text);
   function_with_arguments := 'bye';
 end;
 
@@ -38,17 +35,14 @@ begin
   writeln();
 
   b := simple_function();
-  write('returned value: ');
-  writeln(b);
+  writeln('returned value: ', b);
   writeln();
 
   i := function_with_local_variable();
-  write('returned value: ');
-  writeln(i);
+  writeln('returned value: ', i);
   writeln();
 
   s := function_with_arguments(6, 'orange');
-  write('returned value: ');
-  writeln(s);
+  writeln('returned value: ', s);
   writeln();
 end.
