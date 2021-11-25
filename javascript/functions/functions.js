@@ -11,6 +11,7 @@ function function_with_local_variable() {
 
 function function_returning_value() {
   console.log("A function returning value.");
+  return 9;
 }
 
 function function_with_arguments(number, text) {
@@ -28,7 +29,7 @@ function_with_local_variable();
 console.log();
 
 i = function_returning_value();
-console.log();
+console.log(`returned value: ${i}\n`);
 
 function_with_arguments(6, "orange");
 console.log();
