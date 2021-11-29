@@ -12,43 +12,14 @@ var w: word;
 var low: longword;
 
 begin
-  write('boolean b: ');
-  writeln(b);
-  writeln();
-
-  write('cardinal ca: ');
-  writeln(ca);
-  writeln();
-
-  write('integer i: ');
-  writeln(i);
-  writeln();
-
-  write('shortint shi: ');
-  writeln(shi);
-  writeln();
-
-  write('smallint smi: ');
-  writeln(smi);
-  writeln();
-
-  write('longint loi: ');
-  writeln(loi);
-  writeln();
-
-  write('int64 i64: ');
-  writeln(i64);
-  writeln();
-
-  write('byte bt: ');
-  writeln(bt);
-  writeln();
-
-  write('word w: ');
-  writeln(w);
-  writeln();
-
-  write('longword low: ');
-  writeln(low);
-  writeln();
+  writeln('boolean b: ', b);
+  writeln('cardinal ca: ', ca);
+  writeln('integer i: ', i);
+  writeln('shortint shi: ', shi);
+  writeln('smallint smi: ', smi);
+  writeln('longint loi: ', loi);
+  writeln('int64 i64: ', i64);
+  writeln('byte bt: ', bt);
+  writeln('word w: ', w);
+  writeln('longword low: ', low);
 end.
