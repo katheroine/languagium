@@ -36,6 +36,7 @@ int main()
   char16_t c16t; // from C++11
   char32_t c32t; // from C++11
 
+  std::cout << "bool b: " << typeid(b).name() << std::endl;
   std::cout << "int i: " << typeid(i).name() << std::endl;
   std::cout << "signed int si: " << typeid(si).name() << std::endl;
   std::cout << "unsigned int ui: " << typeid(ui).name() << std::endl;
