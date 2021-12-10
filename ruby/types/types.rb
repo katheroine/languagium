@@ -16,6 +16,7 @@ h = {
   'color' => 'orange',
   3.14 => 'PI',
 }
+# Function
 u = -> (number) { number * 3 }
 
 puts "b = #{b}, class: #{b.class}"
