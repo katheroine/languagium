@@ -26,6 +26,12 @@ puts "i.abs = #{ai}, class: #{ai.class}, size: #{ai.size}"
 
 puts
 
+i = 123_456_789
+
+puts "i = #{i}, class: #{i.class}, size: #{i.size}"
+
+puts
+
 3.times { |i| puts "Time #{i}" }
 3.upto(6) { |i| puts "Step up #{i}" }
 5.downto(2) { |i| puts "Step down #{i}" }
