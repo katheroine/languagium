@@ -1,18 +1,27 @@
 #!/usr/bin/ruby2.7
 
 # Boolean
-bt = true
-bf = false
+b = true
 # Integer
-i = 15
+i = 5
 # Floating point
-f = 12.4
+f = 2.4
+# String
+s = "hello"
+# Array
+a = [3, 5, 7]
+# Hash
+h = {
+  2 => "Hello, there!",
+  'color' => 'orange',
+  3.14 => 'PI',
+}
+u = -> (number) { number * 3 }
 
-puts "bt = #{bt}, class: #{bt.class}"
-puts "bf = #{bf}, class: #{bf.class}"
+puts "b = #{b}, class: #{b.class}"
 puts "i = #{i}, class: #{i.class}"
 puts "f = #{f}, class: #{f.class}"
-
-puts
-
-puts "123_456_789 = #{123_456_789}"
+puts "s = #{s}, class: #{s.class}"
+puts "a = #{a}, class: #{a.class}"
+puts "h = #{h}, class: #{h.class}"
+puts "u = #{u}, class: #{u.class}"
