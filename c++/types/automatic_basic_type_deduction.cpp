@@ -15,6 +15,7 @@ int main()
   auto sloi = +1L;
   auto sloloi = +1LL;
   auto uloi = 1uL;
+  auto uloloi = 1uLL;
 
   // Floating point
   auto f = 1.1F;
@@ -29,28 +30,31 @@ int main()
 
   std::cout << std::boolalpha;
 
-  std::cout << "b = " << b << ": " << typeid(b).name() << std::endl;
-  std::cout << "i = " << i << ": " << typeid(i).name() << std::endl;
-  std::cout << "si = +" << si << ": " << typeid(si).name() << std::endl;
-  std::cout << "ui = " << ui << "u: " << typeid(ui).name() << std::endl;
-  std::cout << "loi = " << loi << "L: " << typeid(loi).name() << std::endl;
-  std::cout << "loloi = " << loloi << "LL: " << typeid(loloi).name() << std::endl;
-  std::cout << "sloi = +" << sloi << "L: " << typeid(sloi).name() << std::endl;
-  std::cout << "sloloi = +" << sloloi << "LL: " << typeid(sloloi).name() << std::endl;
-  std::cout << "uloi = " << uloi << "uL: " << typeid(uloi).name() << std::endl;
+  std::cout << "auto b = " << b << "; // boolean (" << typeid(b).name() << ")\n";
+  std::cout << "auto i = " << i << "; // integer (" << typeid(i).name() << ")\n";
+  std::cout << "auto si = +" << si << "; // (signed) integer (" << typeid(si).name() << ")\n";
+  std::cout << "auto ui = " << ui << "u; // unsigned integer (" << typeid(ui).name() << ")\n";
+  std::cout << "auto loi = " << loi << "L; // long integer (" << typeid(loi).name() << ")\n";
+  std::cout << "auto loloi = " << loloi << "LL; // long long integer (" << typeid(loloi).name() << ")\n";
+  std::cout << "auto sloi = +" << sloi << "L; // (signed) long integer (" << typeid(sloi).name() << ")\n";
+  std::cout << "auto sloloi = +" << sloloi << "LL; // (signed) long long integer (" << typeid(sloloi).name() << ")\n";
+  std::cout << "auto uloi = " << uloi << "uL; // unsigned long integer (" << typeid(uloi).name() << ")\n";
+  std::cout << "auto uloloi = " << uloloi << "uLL; // unsigned long long integer (" << typeid(uloloi).name() << ")\n";
 
   std::cout << std::endl;
 
-  std::cout << "float f: " << typeid(f).name() << std::endl;
-  std::cout << "double d: " << typeid(d).name() << std::endl;
-  std::cout << "long double lod: " << typeid(lod).name() << std::endl;
+  std::cout << "auto f = " << f << "F; // floating point (" << typeid(f).name() << ")\n";
+  std::cout << "auto d = " << d << "; // floating point double precision (" << typeid(d).name() << ")\n";
+  std::cout << "auto lod = " << lod << "L; // long floating point double precision (" << typeid(lod).name() << ")\n";
 
   std::cout << std::endl;
 
-  std::cout << "c = '" << c << "': " << typeid(c).name() << std::endl;
-  std::cout << "wct = L'" << wct << "': " << typeid(wct).name() << std::endl;
-  std::cout << "c16t = u'" << u'a' << "': " << typeid(c16t).name() << std::endl;
-  std::cout << "c32t = U'" << U'a' << "': " << typeid(c32t).name() << std::endl;
+  std::cout << "auto c = '" << c << "'; // char (" << typeid(c).name() << ")\n";
+  std::cout << "auto wct = L'" << wct << "'; // wide character (" << typeid(wct).name() << ")\n";
+  std::cout << "auto c16t = u'" << c16t << "'; // 16-bit character (" << typeid(c16t).name() << ")\n";
+  std::cout << "auto c32t = U'" << c32t << "'; // 32-bit character (" << typeid(c32t).name() << ")\n";
+
+  std::cout << std::endl;
 
   std::cout << std::noboolalpha;
 }
