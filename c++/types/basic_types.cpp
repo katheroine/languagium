@@ -36,35 +36,37 @@ int main()
   char16_t c16t; // from C++11
   char32_t c32t; // from C++11
 
-  std::cout << "bool b: " << typeid(b).name() << std::endl;
-  std::cout << "int i: " << typeid(i).name() << std::endl;
-  std::cout << "signed int si: " << typeid(si).name() << std::endl;
-  std::cout << "unsigned int ui: " << typeid(ui).name() << std::endl;
-  std::cout << "short int shi: " << typeid(shi).name() << std::endl;
-  std::cout << "long int loi: " << typeid(loi).name() << std::endl;
-  std::cout << "long long int loloi: " << typeid(loloi).name() << std::endl;
-  std::cout << "signed short int sshi: " << typeid(sshi).name() << std::endl;
-  std::cout << "signed long int sloi: " << typeid(sloi).name() << std::endl;
-  std::cout << "signed long long int sloloi: " << typeid(sloloi).name() << std::endl;
-  std::cout << "unsigned short int ushi: " << typeid(ushi).name() << std::endl;
-  std::cout << "unsigned long int uloi: " << typeid(uloi).name() << std::endl;
-  std::cout << "unsigned long long int uloloi: " << typeid(uloloi).name() << std::endl;
+  std::cout << "bool b; // boolean (" << typeid(b).name() << ")\n";
+  std::cout << "int i; // integer (" << typeid(i).name() << ")\n";
+  std::cout << "signed int si; // signed integer (" << typeid(si).name() << ")\n";
+  std::cout << "unsigned int ui; // unsigned integer (" << typeid(ui).name() << ")\n";
+  std::cout << "short int shi; // short integer (" << typeid(shi).name() << ")\n";
+  std::cout << "long int loi; // long integer (" << typeid(loi).name() << ")\n";
+  std::cout << "long long int loloi; // long long integer (" << typeid(loloi).name() << ")\n";
+  std::cout << "signed short int sshi; // signed short integer (" << typeid(sshi).name() << ")\n";
+  std::cout << "signed long int sloi; // signed long integer (" << typeid(sloi).name() << ")\n";
+  std::cout << "signed long long int sloloi; // signed long long integer (" << typeid(sloloi).name() << ")\n";
+  std::cout << "unsigned short int ushi; // unsigned short integer (" << typeid(ushi).name() << ")\n";
+  std::cout << "unsigned long int uloi; // unsigned long integer (" << typeid(uloi).name() << ")\n";
+  std::cout << "unsigned long long int uloloi; // unsigned long long integer (" << typeid(uloloi).name() << ")\n";
 
   std::cout << std::endl;
 
-  std::cout << "float f: " << typeid(f).name() << std::endl;
-  std::cout << "double d: " << typeid(d).name() << std::endl;
-  std::cout << "long double lod: " << typeid(lod).name() << std::endl;
+  std::cout << "float f; // floating point (" << typeid(f).name() << ")\n";
+  std::cout << "double d; // floating point double precision (" << typeid(d).name() << ")\n";
+  std::cout << "long double lod; // long floating point double precision (" << typeid(lod).name() << ")\n";
 
   std::cout << std::endl;
 
-  std::cout << "char c: " << typeid(c).name() << std::endl;
-  std::cout << "signed char sc: " << typeid(sc).name() << std::endl;
-  std::cout << "unsigned char uc: " << typeid(uc).name() << std::endl;
-  std::cout << "wchar_t wct: " << typeid(wct).name() << std::endl;
-  //std::cout << "signed wchar_t swct: " << typeid(swct).name() << std::endl;
-  //std::cout << "unsigned wchar_t uwct: " << typeid(uwct).name() << std::endl;
-  //std::cout << "char8_t c8t: " << typeid(c8t).name() << std::endl;
-  std::cout << "char16_t c16t: " << typeid(c16t).name() << std::endl;
-  std::cout << "char32_t c32t: " << typeid(c32t).name() << std::endl;
+  std::cout << "char c; // character (" << typeid(c).name() << ")\n";
+  std::cout << "signed char sc; // signed character (" << typeid(sc).name() << ")\n";
+  std::cout << "unsigned char uc; // unsigned character (" << typeid(uc).name() << ")\n";
+  std::cout << "wchar_t wct; // wide character (" << typeid(wct).name() << ")\n";
+  //std::cout << "signed wchar_t swct; // signed wide character (" << typeid(swct).name() << ")\n";
+  //std::cout << "unsigned wchar_t uwct; // unsigned wide character (" << typeid(uwct).name() << ")\n";
+  //std::cout << "char8_t c8t; // 8-bit character (" << typeid(c8t).name() << ")\n";
+  std::cout << "char16_t c16t; // 16-bit character (" << typeid(c16t).name() << ")\n";
+  std::cout << "char32_t c32t; // 32-bit character (" << typeid(c32t).name() << ")\n";
+
+  std::cout << std::endl;
 }
