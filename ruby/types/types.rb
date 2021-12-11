@@ -1,23 +1,34 @@
 #!/usr/bin/ruby2.7
 
-# Boolean
+require 'ostruct'
+
 b = true
-# Integer
 i = 5
-# Floating point
 f = 2.4
-# String
 s = "hello"
-# Array
 a = [3, 5, 7]
-# Hash
 h = {
   2 => "Hello, there!",
   'color' => 'orange',
   3.14 => 'PI',
 }
-# Function
 u = -> (number) { number * 3 }
+o = OpenStruct.new({
+  '2' => "Hello, there!",
+  'color' => 'orange',
+  '3.14' => 'PI',
+})
+co = Class.new do
+  def number
+    @number
+  end
+  def set_number(number)
+    @number = number
+  end
+  def get_number
+    number
+  end
+end.new
 
 puts "b = #{b}, class: #{b.class}"
 puts "i = #{i}, class: #{i.class}"
@@ -26,3 +37,5 @@ puts "s = #{s}, class: #{s.class}"
 puts "a = #{a}, class: #{a.class}"
 puts "h = #{h}, class: #{h.class}"
 puts "u = #{u}, class: #{u.class}"
+puts "o = #{o}, class: #{o.class}"
+puts "co = #{co}, class: #{co.class}"
