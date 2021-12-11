@@ -6,11 +6,21 @@ $b = true;
 $i = 5;
 $d = 2.4;
 $s = "hello";
-$a = [1, 2, 3];
-$f = function(int $number) {
-  echo "number = $number\n";
+$a = [3, 5, 7];
+$h = [
+  2 => "Hello, there!",
+  'color' => 'orange',
+  3.14 => 'PI',
+];
+$u = function(int $number) {
+  return number * 3;
 };
-$o = new class {
+$o = (object) [
+  2 => "Hello, there!",
+  'color' => 'orange',
+  3.14 => 'PI',
+];
+$co = new class {
   private int $number;
   public function set_number(int $number): void {
     $this->number = $number;
@@ -44,10 +54,18 @@ echo "array (" . gettype($a) . ")\n";
 print_r($a); echo "\n";
 var_dump($a); echo "\n";
 
-echo "function (" . gettype($f) . ")\n";
-print_r($f); echo "\n";
-var_dump($f); echo "\n";
+echo "hash (" . gettype($h) . ")\n";
+print_r($h); echo "\n";
+var_dump($h); echo "\n";
 
-echo "object (" . gettype($o) . ")\n";
+echo "function (" . gettype($u) . ")\n";
+print_r($u); echo "\n";
+var_dump($u); echo "\n";
+
+echo "object (created from hash) (" . gettype($o) . ")\n";
 print_r($o); echo "\n";
 var_dump($o); echo "\n";
+
+echo "object (created from anonymous class) (" . gettype($co) . ")\n";
+print_r($co); echo "\n";
+var_dump($co); echo "\n";
