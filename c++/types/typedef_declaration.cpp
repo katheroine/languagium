@@ -11,7 +11,12 @@ int main()
   quantity samples_number;
   marker sample_status;
 
-  std::cout << "air_temp: " << typeid(air_temp).name() << std::endl;
-  std::cout << "samples_number: " << typeid(samples_number).name() << std::endl;
-  std::cout << "sample_status: " << typeid(sample_status).name() << std::endl;
+  std::cout << "typedef double temperature;\n"
+  << "temperature air_temp; // (" << typeid(air_temp).name() << ")\n\n";
+
+  std::cout << "typedef int quantity;\n"
+  << "quantity samples_number; // (" << typeid(samples_number).name() << ")\n\n";
+  
+  std::cout << "typedef char marker;\n"
+  << "marker sample_status; // (" << typeid(sample_status).name() << ")\n\n";
 }
