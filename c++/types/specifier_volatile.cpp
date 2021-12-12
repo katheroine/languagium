@@ -4,5 +4,5 @@ int main()
 {
   volatile double temp = 25.5;
 
-  std::cout << "temp: " << temp << std::endl;
+  std::cout << "volatile double temp = " << temp << ";\n";
 }

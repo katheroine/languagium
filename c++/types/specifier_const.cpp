@@ -4,7 +4,7 @@ int main()
 {
   const double pi = 2.14;
 
-  std::cout << "pi: " << pi << std::endl;
+  std::cout << "const double pi = " << pi << ";\n";
 
   //pi = 2; // error
 }
