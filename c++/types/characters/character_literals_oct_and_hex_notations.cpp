@@ -8,5 +8,5 @@ int main()
   //char oc = '\0143';
   char oc = 0143;
   std::cout << "'\\0143': " << oc << std::endl;
-  std::cout << "'\\x63': " << '\x63' << std::endl;
+  std::cout << "'\\x63': " << '\x63' << std::endl << std::endl;
 }
