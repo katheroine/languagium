@@ -28,14 +28,17 @@ int main()
   std::cout << std::endl;
 
   status post_status;
+
   post_status = published;
   std::cout << "post_status: " << post_status << std::endl;
   post_status = testing;
   std::cout << "post_status: " << post_status << std::endl;
-
   //post_status = 4; // error
 
   std::cout << std::endl;
 
-  std::cout << "status (size): " << sizeof(status) << std::endl;
+  std::cout << "sizeof(status): " << sizeof(status) << std::endl;
+  std::cout << "sizeof(post_status): " << sizeof(post_status) << std::endl;
+
+  std::cout << std::endl;
 }
