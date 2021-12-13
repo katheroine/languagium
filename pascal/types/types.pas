@@ -16,14 +16,14 @@ var w: word;
 var low: longword;
 
 begin
-  writeln('b: boolean; // = ', b);
-  writeln('ca: cardinal; // = ', ca);
-  writeln('i: integer; // = ', i);
-  writeln('shi: shortint; // = ', shi);
-  writeln('smi: smallint; // = ', smi);
-  writeln('loi: longint; // = ', loi);
-  writeln('i64: int64; // = ', i64);
-  writeln('bt: byte; // = ', bt);
-  writeln('w: word; // = ', w);
-  writeln('low: longword; // = ', low);
+  writeln('b: boolean; // boolean: ', b);
+  writeln('ca: cardinal; // cardinal number: ', ca);
+  writeln('i: integer; // integer: ', i);
+  writeln('shi: shortint; // short integer: ', shi);
+  writeln('smi: smallint; // small integer: ', smi);
+  writeln('loi: longint; // long integer: ', loi);
+  writeln('i64: int64; // 64-byte integer: ', i64);
+  writeln('bt: byte; // byte: ', bt);
+  writeln('w: word; // string: ', w);
+  writeln('low: longword; // long string: ', low);
 end.
