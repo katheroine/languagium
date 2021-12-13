@@ -30,42 +30,35 @@ $co = new class {
   }
 };
 
-echo "null: $n (" . gettype($n) . ")\n";
-print_r($n); echo "\n";
-var_dump($n); echo "\n";
+echo "\$n = null; // null: " . $n . " (" . gettype($n) . ")\n\n";
 
-echo "boolean: $b (" . gettype($b) . ")\n";
-print_r($b); echo "\n";
-var_dump($b); echo "\n";
+echo "\$b = true; // boolean: " . $b . " (" . gettype($b) . ")\n\n";
 
-echo "integer: $i (" . gettype($i) . ")\n";
-print_r($i); echo "\n";
-var_dump($i); echo "\n";
+echo "\$i = 5; // integer: " . $i . " (" . gettype($i) . ")\n\n";
 
-echo "floating point: $d (" . gettype($d) . ")\n";
-print_r($d); echo "\n";
-var_dump($d); echo "\n";
+echo "\$d = 2.4; // floating point double precision: " . $d . " (" . gettype($d) . ")\n\n";
 
-echo "string: $s (" . gettype($s) . ")\n";
-print_r($s); echo "\n";
-var_dump($s); echo "\n";
+echo "\$s = \"hello\"; // string: " . $s . " (" . gettype($s) . ")\n\n";
 
-echo "array (" . gettype($a) . ")\n";
-print_r($a); echo "\n";
-var_dump($a); echo "\n";
+echo "\$a = [3, 5, 7]; // array:\n";
+print_r($a);
+echo "(" . gettype($a) . ")\n\n";
 
-echo "hash (" . gettype($h) . ")\n";
-print_r($h); echo "\n";
-var_dump($h); echo "\n";
+echo "\$h = [\n  2 => \"Hello, there!\",\n  'color' => 'orange',\n  3.14 => 'PI',\n];\n// hash:\n";
+print_r($h);
+echo "(" . gettype($h) . ")\n\n";
 
-echo "function (" . gettype($u) . ")\n";
-print_r($u); echo "\n";
-var_dump($u); echo "\n";
+echo "\$u = function(int \$number) {\n  return number * 3;\n};\n// function:\n";
+print_r($u);
+echo "(" . gettype($u) . ")\n\n";
 
-echo "object (created from hash) (" . gettype($o) . ")\n";
-print_r($o); echo "\n";
-var_dump($o); echo "\n";
+echo "\$o = (object) [  2 => \"Hello, there!\",\n  'color' => 'orange',\n  3.14 => 'PI',\n];\n// object (created from hash):\n";
+print_r($o);
+echo "(" . gettype($o) . ")\n\n";
 
-echo "object (created from anonymous class) (" . gettype($co) . ")\n";
-print_r($co); echo "\n";
-var_dump($co); echo "\n";
+echo "\$co = new class {\n  private int \$number;
+  public function set_number(int \$number): void {\n    \$this->number = \$number;\n  }
+  public function get_number(): int {\n    return \$number;\n  }\n};
+// object (created from anonymous class):\n";
+print_r($co);
+echo "(" . gettype($co) . ")\n\n";
