@@ -2,6 +2,7 @@
 
 require 'ostruct'
 
+n = nil
 b = true
 i = 5
 f = 2.4
@@ -30,12 +31,17 @@ co = Class.new do
   end
 end.new
 
-puts "b = #{b}, class: #{b.class}"
-puts "i = #{i}, class: #{i.class}"
-puts "f = #{f}, class: #{f.class}"
-puts "s = #{s}, class: #{s.class}"
-puts "a = #{a}, class: #{a.class}"
-puts "h = #{h}, class: #{h.class}"
-puts "u = #{u}, class: #{u.class}"
-puts "o = #{o}, class: #{o.class}"
-puts "co = #{co}, class: #{co.class}"
+puts "n = nil # nil: #{n} (#{n.class})\n\n"
+puts "b = true # boolean: #{b} (#{b.class})\n\n"
+puts "i = 5 # integer: #{i} (#{i.class})\n\n"
+puts "f = 2.4 # floating point: #{f} (#{f.class})\n\n"
+puts "s = \"hello\" # string: #{s} (#{s.class})\n\n"
+puts "a = [3, 5, 7] # array: #{a} (#{a.class})\n\n"
+puts "h = {\n  2 => \"Hello, there!\",\n  'color' => 'orange',\n  3.14 => 'PI',\n}\n# hash: #{h} (#{h.class})\n\n"
+puts "u = -> (number) { number * 3 } # function: #{u} (#{u.class})\n\n"
+puts "o = OpenStruct.new({\n  '2' => \"Hello, there!\",\n  'color' => 'orange',\n  '3.14' => 'PI',\n})\n# object: #{o} (#{o.class})\n\n"
+puts "co = Class.new do\n  def number\n    @number\n  end
+  def set_number(number)\n    @number = number\n  end
+  def get_number\n    number\n  end
+end.new
+# object: #{co} (#{co.class})\n\n"
