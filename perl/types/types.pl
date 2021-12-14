@@ -2,7 +2,6 @@
 
 use strict;
 use warnings;
-use Data::Dumper;
 
 my $i = 5;
 my $d = 2.4;
@@ -18,20 +17,9 @@ my $u = sub {
   return $number * 3;
 };
 
-print "integer: $i (" . (ref($i) || "scalar") . ")\n";
-print Dumper($i) . "\n\n";
-
-print "floating point: $d (" . (ref($i) || "scalar") . ")\n";
-print Dumper($d) . "\n\n";
-
-print "string: $s (" . (ref($s) || "scalar") . ")\n";
-print Dumper($s) . "\n\n";
-
-print "array: @a (" . (ref(@a) || "scalar") . ")\n";
-print Dumper(@a) . "\n\n";
-
-print "hash: @{[%h]} (" . (ref(%h) || "scalar") . ")\n";
-print Dumper(%h) . "\n\n";
-
-print "function: $u (" . (ref($u) || "scalar") . ")\n";
-print Dumper($u) . "\n\n";
+print "my \$i = 5; # integer: $i\n\n";
+print "my \$d = 2.4; # floating point: $d\n\n";
+print "my \$s = \"hello\"; # string: $s\n\n";
+print "my \@a = (3, 5, 7); # array: @a\n\n";
+print "my \%h = (\n  2 => \"Hello, there!\",\n  'color' => 'orange',\n  3.14 => 'PI',\n);\n# hash: @{[%h]}\n\n";
+print "my \$u = sub {\n  my (\$number) = @\_;\n  return \$number * 3;\n};\n# function: $u\n\n";
