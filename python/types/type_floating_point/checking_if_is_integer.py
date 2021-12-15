@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-v = 0.0
-print("{}: {}".format(v, v.is_integer()))
-
-v = 10.0
-print("{}: {}".format(v, v.is_integer()))
-
-v = 10.1
-print("{}: {}".format(v, v.is_integer()))
+print("0.0.is_integer():", 0.0.is_integer());
+print("1.0.is_integer():", 1.0.is_integer());
+print("(-1.0).is_integer():", (-1.0).is_integer());
+print("0.1.is_integer():", 0.1.is_integer());
+print("(-0.1).is_integer():", (-0.1).is_integer());
+print("1.1.is_integer():", 1.1.is_integer());
+print("(-1.1).is_integer():", (-1.1).is_integer());
