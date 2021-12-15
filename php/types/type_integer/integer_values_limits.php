@@ -1,19 +1,10 @@
 #!/usr/bin/php8.0
 <?php
 
-print "The largest integer supported: " . PHP_INT_MAX . "\n";
-print "The smallest integer supported: " . PHP_INT_MIN . "\n";
-print "The size of an integer in bytes: " . PHP_INT_SIZE . "\n";
-
-print "\n";
-
-$i = 10;
-print "{$i}: " . gettype($i) . "\n";
-$i = PHP_INT_MIN;
-print "{$i} (minimal integer): " . gettype($i) . "\n";
-$i = PHP_INT_MIN - 1;
-print "{$i} (smaller than minimal integer): " . gettype($i) . "\n";
-$i = PHP_INT_MAX;
-print "{$i} (maximal integer): " . gettype($i) . "\n";
+print "The largest integer supported: PHP_INT_MAX = " . PHP_INT_MAX . " (" . gettype(PHP_INT_MAX) . ")\n";
 $i = PHP_INT_MAX + 1;
-print "{$i} (bigger than maximal integer): " . gettype($i) . "\n";
+print "Bigger than maximal integer): PHP_INT_MAX + 1 = (" . gettype($i) . ")\n\n";
+print "The smallest integer supported: PHP_INT_MIN = " . PHP_INT_MIN . " (" . gettype(PHP_INT_MIN) . ")\n";
+$i = PHP_INT_MIN - 1;
+print "Smaller than minimal integer: PHP_INT_MIN - 1 = $i (" . gettype($i) . ")\n\n";
+print "The size of an integer in bytes: PHP_INT_SIZE = " . PHP_INT_SIZE . " (" . gettype(PHP_INT_SIZE) . ")\n\n";
