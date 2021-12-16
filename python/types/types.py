@@ -15,6 +15,9 @@ g = {
   'color': 'orange',
   3.14: 'PI',
 }
+y = b"hello"
+j = bytearray(3)
+m = memoryview(b"hello")
 u = lambda number: number * 3
 
 print(f"b = True # boolean: {b} ({type(b)})\n")
@@ -28,4 +31,7 @@ print(f"t = (3, 5, 7) # tuple: {t} ({type(t)})\n")
 print(f"e = {{3, 4, 5}} # set: {e} ({type(e)})\n")
 print(f"z = frozenset({{3, 4, 5}}) # frozen set: {z} ({type(z)})\n")
 print(f"g = {{\n  2: \"Hello, there!\",\n  'color': 'orange',\n  3.14: 'PI',\n}}\n# dictionary: {g} ({type(g)})\n")
+print(f"y = b\"hello\" # bytes: {y} ({type(y)})")
+print(f"j = bytearray(3) # byte array: {j} ({type(j)})")
+print(f"m = memoryview(b\"hello\") # memory view: {m} ({type(m)})")
 print(f"u = lambda number: number * 3 # function: {u} ({type(u)})\n")
