@@ -1,23 +1,23 @@
 #!/usr/bin/php8.0
 <?php
 
-$a = 1; $b = 2; $c = 3;
+$i = 1; $f = 2.3; $c = "apple";
 
 // Wanrning!
 // Placing interpolated variables inside strings without {} is not recommended.
 // Quoted keys cannot be parsed.
 
-echo "\$a = $a, \$b = {$b}, \$c = ${c}\n\n";
+echo "\$i = $i, \$f = {$f}, \$c = ${c}\n\n";
 
-$d = [
+$a = [
   "orange",
   "blue",
   "green",
 ];
 
-echo "\$d[0] = $d[0], \$d[1] = {$d[1]}, \$d[2] = ${d[2]}\n\n";
+echo "\$a[0] = $a[0], \$a[1] = {$a[1]}, \$a[2] = ${a[2]}\n\n";
 
-$e = [
+$g = [
   "text_0" => "Stat rosa pristina nomine, nomina nuda tenemus.",
   "text_1" => "Omnis mundi creatura quasi liber et pictura nobis est in speculum.",
   "text_2" => "Videmus nunc per speculum et in aenigmate.",
@@ -28,16 +28,17 @@ $e = [
 // This syntax is proper but for defined constants.
 // But if it is used inside the interpolated string without {} it is proper.
 
-echo "\$e['text_0']: $e[text_0]\n";
-echo "\$e['text_1']: {$e['text_1']}\n";
-echo "\$e['text_2']: ${e['text_2']}\n\n";
+echo "\$g['text_0']: $g[text_0]\n";
+echo "\$g['text_1']: {$g['text_1']}\n";
+echo "\$g['text_2']: ${g['text_2']}\n\n";
 
-$f = new class {
+$o = new class {
   public string $nickname = "katheroine";
   public string $profession = "programmer";
   public string $os = "Linux";
 };
 
-echo "\$f->nickname: $f->nickname\n";
-echo "\$f->profession: {$f->profession}\n";
-//echo "\$f->os: ${f->os}\n"; // error
+echo "\$o->nickname: $o->nickname\n";
+echo "\$o->profession: {$o->profession}\n";
+//echo "\$o->os: ${o->os}\n"; // error
+echo "\n";
