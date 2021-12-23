@@ -16,5 +16,8 @@ var
 begin
   // https://docwiki.embarcadero.com/Libraries/Alexandria/en/System.SysUtils.Format
   writeln(Format('i = %d, f = %f, s = %s', [i, f, s]));
+  writeln();
+
   writeln(Format('a[0] = %s, a[1] = %s, a[2] = %s', [a[0], a[1], a[2]]));
+  writeln();
 end.
