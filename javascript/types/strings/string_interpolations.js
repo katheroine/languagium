@@ -2,7 +2,7 @@
 
 let i = 1, f = 2.3, c = "apple";
 
-console.log(`i = ${i}, f = ${f}, c = ${c}`);
+console.log(`i = ${i}, f = ${f}, c = ${c}\n`);
 
 let a = [
   "orange",
@@ -10,7 +10,7 @@ let a = [
   "green",
 ];
 
-console.log(`a[0] = ${a[0]}, a[1] = ${a[1]}, a[2] = ${a[2]}`);
+console.log(`a[0] = ${a[0]}, a[1] = ${a[1]}, a[2] = ${a[2]}\n`);
 
 let g = {
   "text_0": "Stat rosa pristina nomine, nomina nuda tenemus.",
@@ -21,3 +21,4 @@ let g = {
 console.log(`g['text_0']: ${g['text_0']}`);
 console.log(`g['text_1']: ${g['text_1']}`);
 console.log(`g['text_2']: ${g['text_2']}`);
+console.log();
