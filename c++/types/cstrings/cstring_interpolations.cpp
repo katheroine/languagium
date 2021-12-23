@@ -6,7 +6,7 @@ int main()
   float f = 2.3;
   const char* s = "apple";
 
-  printf("i = %d, f = %f, s = %s\n", i, f, s);
+  printf("i = %d, f = %f, s = %s\n\n", i, f, s);
 
   const char* a[] = {
     "orange",
@@ -14,5 +14,5 @@ int main()
     "green"
   };
 
-  printf("a[0] = %s, a[1] = %s, a[2] = %s\n", a[0], a[1], a[2]);
+  printf("a[0] = %s, a[1] = %s, a[2] = %s\n\n", a[0], a[1], a[2]);
 }
