@@ -1,23 +1,23 @@
 #!/usr/bin/env node
 
-let a = 1, b = 2, c = 3;
+let i = 1, f = 2.3, c = "apple";
 
-console.log(`a = ${a}, b = ${b}, c = ${c}`);
+console.log(`i = ${i}, f = ${f}, c = ${c}`);
 
-let d = [
+let a = [
   "orange",
   "blue",
   "green",
 ];
 
-console.log(`d[0] = ${d[0]}, d[1] = ${d[1]}, d[2] = ${d[2]}`);
+console.log(`a[0] = ${a[0]}, a[1] = ${a[1]}, a[2] = ${a[2]}`);
 
-let e = {
+let g = {
   "text_0": "Stat rosa pristina nomine, nomina nuda tenemus.",
   "text_1": "Omnis mundi creatura quasi liber et pictura nobis est in speculum.",
   "text_2": "Videmus nunc per speculum et in aenigmate.",
 };
 
-console.log(`e['text_0']: ${e['text_0']}`);
-console.log(`e['text_1']: ${e['text_1']}`);
-console.log(`e['text_2']: ${e['text_2']}`);
+console.log(`g['text_0']: ${g['text_0']}`);
+console.log(`g['text_1']: ${g['text_1']}`);
+console.log(`g['text_2']: ${g['text_2']}`);
