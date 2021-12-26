@@ -1,4 +1,4 @@
-program SearchSubstring;
+program SubstringModification;
 
 uses strutils;
 
