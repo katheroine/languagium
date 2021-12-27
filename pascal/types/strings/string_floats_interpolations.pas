@@ -10,4 +10,5 @@ begin
   writeln(Format('f = %f', [f]));
   writeln(Format('f = %.3f', [f]));
   writeln(Format('f = %7.2f', [f]));
+  writeln(Format('f = %08.1f', [f]));
 end.
