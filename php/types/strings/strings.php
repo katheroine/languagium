@@ -2,16 +2,24 @@
 <?php
 
 $s = "hello";
-print("string \"hello\": $s (" . gettype($s) . ")\n");
+print("string \"hello\": {$s} (" . gettype($s) . ")\n");
 
 $s = 'hello';
-print("string 'hello': $s (" . gettype($s) . ")\n");
+print("string 'hello': {$s} (" . gettype($s) . ")\n");
 
 print "length: " . strlen($s) . "\n\n";
 
 $cite = "Stat rosa pristina nomine, nomina nuda tenemus.";
-print "cite: $cite\n";
+print "cite: {$cite}\n";
 print "words quantity: " . str_word_count($cite) . "\n\n";
+
+$text = <<<EOS
+  Videmus nunc
+  per speculum
+  et in aenigmate.
+EOS;
+
+print "text:\n{$text}\n\n";
 
 $s1 = "abc";
 $s2 = "def";
