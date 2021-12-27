@@ -30,3 +30,5 @@ $number = 0;
 
 // Shortened form for HTML templates:
 while ($number < 10): echo("{$number}...\n"); ++$number; endwhile;
+
+echo "\n";
