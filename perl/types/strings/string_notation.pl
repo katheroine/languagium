@@ -17,3 +17,6 @@ print("qq\\hello\\: " . $s . "\n");
 
 $s = q|hello|;
 print("q|hello|: " . $s . "\n");
+
+$s = qq|hello|;
+print("qq|hello|: " . $s . "\n");
