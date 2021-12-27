@@ -7,7 +7,3 @@ while number < 10:
     number += 1
 
 print()
-
-number = 0
-
-while number < 10: print(f'{number}...'); number += 1
