@@ -31,4 +31,6 @@ int main()
   i = 0;
 
   while (i < 10) std::cout << i++ << "...\n";
+
+  std::cout << std::endl;
 }
