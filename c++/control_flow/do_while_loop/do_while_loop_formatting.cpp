@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 int main()
@@ -32,4 +33,6 @@ int main()
   i = 0;
 
   do std::cout << i++ << "...\n"; while (i < 10);
+
+  std::cout << std::endl;
 }
