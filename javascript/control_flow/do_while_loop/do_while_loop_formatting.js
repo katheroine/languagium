@@ -7,7 +7,7 @@ do {
   ++i;
 } while (i < 10);
 
-console.log()
+console.log();
 
 i = 0;
 
@@ -28,3 +28,5 @@ console.log()
 i = 0;
 
 do console.log(`${i++}...`); while (i < 10);
+
+console.log();
