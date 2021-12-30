@@ -54,3 +54,5 @@ switch (now)
     console.log("Hello!");
     break;
 }
+
+console.log();
