@@ -38,3 +38,5 @@ when "night"
 else
   puts("Hello!")
 end
+
+puts()
