@@ -55,3 +55,5 @@ switch ($now)
     print("Hello!\n");
     break;
 }
+
+print("\n");
