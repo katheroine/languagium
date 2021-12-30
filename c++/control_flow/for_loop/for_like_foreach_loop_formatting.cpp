@@ -17,4 +17,6 @@ int main()
   {
     std::cout << i << "...\n";
   }
+
+  std::cout << std::endl;
 }
