@@ -12,4 +12,4 @@ if ($c == 0)
 goto begin;
 
 end:
-print($a . "\n");
+print($a . "\n\n");
