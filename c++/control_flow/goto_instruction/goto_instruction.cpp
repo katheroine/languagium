@@ -15,5 +15,5 @@ begin:
   goto begin;
 
 end:
-  std::cout << a << std::endl;
+  std::cout << a << std::endl << std::endl;
 }
