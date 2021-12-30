@@ -13,3 +13,5 @@ for i in a do puts "#{i}..." end
 puts
 
 for i in a; puts "#{i}..." end
+
+puts
