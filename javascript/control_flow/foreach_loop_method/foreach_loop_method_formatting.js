@@ -25,3 +25,5 @@ let iteration_callback = function(i) {
 };
 
 a.forEach(iteration_callback);
+
+console.log();
