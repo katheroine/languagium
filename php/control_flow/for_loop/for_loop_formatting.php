@@ -24,3 +24,5 @@ endfor;
 echo "\n";
 
 for ($i = 0; $i < 10; $i++): echo "{$i}...\n"; endfor;
+
+echo "\n";
