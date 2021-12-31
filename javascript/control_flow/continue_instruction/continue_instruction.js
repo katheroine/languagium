@@ -10,3 +10,5 @@ while (i < 10) {
 
   console.log("*********************")
 }
+
+console.log();
