@@ -12,3 +12,5 @@ while number < 10
 
   puts("*********************")
 end
+
+puts()
