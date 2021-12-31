@@ -9,3 +9,5 @@ puts
 a.each do |i|
   puts "#{i}..."
 end
+
+puts
