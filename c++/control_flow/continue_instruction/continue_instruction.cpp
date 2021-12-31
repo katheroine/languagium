@@ -13,4 +13,6 @@ int main()
 
     std::cout << "*********************\n";
   }
+
+  std::cout << std::endl;
 }
