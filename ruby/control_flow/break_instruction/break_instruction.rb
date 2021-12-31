@@ -10,3 +10,5 @@ while number < 10
     break
   end
 end
+
+puts()
