@@ -26,3 +26,5 @@ endforeach;
 echo "\n";
 
 foreach ($a as $i): echo "{$i}...\n"; endforeach;
+
+echo "\n";
