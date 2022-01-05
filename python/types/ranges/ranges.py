@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 r = range(5, 8, 1)
-print(f"r = range (5, 8, 1) ({type(r)})")
+print(f"range (5, 8, 1): {r} ({type(r)})")
 print("elements: ", end = '')
 for e in r:
   print(e, " ", end = '')
@@ -13,7 +13,7 @@ print(f"index of element 6: {r.index(6)}")
 print()
 
 r = range(5, 10, 2)
-print(f"r = range (5, 10, 2) ({type(r)})")
+print(f"range (5, 10, 2): {r} ({type(r)})")
 print("elements: ", end = '')
 for e in r:
   print(e, " ", end = '')
