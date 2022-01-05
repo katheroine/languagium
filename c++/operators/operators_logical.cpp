@@ -19,8 +19,10 @@ int main()
   c = b || b;
   std::cout << b << " || " << b << " = " << c << std::endl;
 
-  std::cout << "!" << a << " = " << !a << std::endl;
-  std::cout << "!" << b << " = " << !b << std::endl;
+  c = !a;
+  std::cout << "!" << a << " = " << c << std::endl;
+  c = !b;
+  std::cout << "!" << b << " = " << c << std::endl;
 
   std::cout << std::endl;
 
@@ -36,9 +38,17 @@ int main()
   std::cout << a << " or " << a << " = " << c << std::endl;
   c = b or b;
   std::cout << b << " or " << b << " = " << c << std::endl;
+  c = a xor b;
+  std::cout << a << " xor " << b << " = " << c << std::endl;
+  c = a xor a;
+  std::cout << a << " xor " << a << " = " << c << std::endl;
+  c = b xor b;
+  std::cout << b << " xor " << b << " = " << c << std::endl;
 
-  std::cout << "not " << a << " = " << not a << std::endl;
-  std::cout << "not " << b << " = " << not b << std::endl;
+  c = not a;
+  std::cout << "not " << a << " = " << c << std::endl;
+  c = not b;
+  std::cout << "not " << b << " = " << c << std::endl;
 
   std::cout << std::boolalpha;
 }
