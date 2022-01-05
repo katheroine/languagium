@@ -15,8 +15,10 @@ puts "#{a} || #{a} = #{c}"
 c = b || b
 puts "#{b} || #{b} = #{c}"
 
-puts "!#{a} = #{!a}"
-puts "!#{b} = #{!b}"
+c = !a
+puts "!#{a} = #{c}"
+c = !b
+puts "!#{b} = #{c}"
 
 puts()
 
@@ -33,5 +35,7 @@ puts "(#{a} or #{a}) = #{c}"
 c = (b or b)
 puts "(#{b} or #{b}) = #{c}"
 
-puts "not #{a} = #{not a}"
-puts "not #{b} = #{not b}"
+c = (not a)
+puts "not #{a} = #{c}"
+c = (not b)
+puts "not #{b} = #{c}"
