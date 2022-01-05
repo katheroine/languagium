@@ -15,5 +15,7 @@ console.log(`${a} || ${a} = ${c}`);
 c = b || b;
 console.log(`${b} || ${b} = ${c}`);
 
-console.log(`!${a} = ${!a}`);
-console.log(`!${b} = ${!b}`);
+c = !a;
+console.log(`!${a} = ${c}`);
+c = !b;
+console.log(`!${b} = ${c}`);
