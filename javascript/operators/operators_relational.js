@@ -1,20 +1,21 @@
 #!/usr/bin/env node
 
-let a = 1, b = 2, c = false;
+a = 1, b = 2;
 
-c = a < b
+c = a < b;
 console.log(`${a} < ${b} = ${c}`);
-c = a > b
+c = a > b;
 console.log(`${a} > ${b} = ${c}`);
-c = a <= b
+c = a <= b;
 console.log(`${a} <= ${b} = ${c}`);
-c = a >= b
+c = a >= b;
 console.log(`${a} >= ${b} = ${c}`);
-c = a == b
+c = a == b;
 console.log(`${a} == ${b} = ${c}`);
-c = a != b
+c = a != b;
 console.log(`${a} != ${b} = ${c}`);
-c = a === b
+
+c = a === b;
 console.log(`${a} === ${b} = ${c}`);
-c = a !== b
+c = a !== b;
 console.log(`${a} !== ${b} = ${c}`);
