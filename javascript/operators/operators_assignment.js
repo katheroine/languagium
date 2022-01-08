@@ -18,7 +18,7 @@ console.log();
 a = b // 3
 b = 5 // 5
 
-console.log(`a = ${b}; a: ${a}`);
+console.log(`a = b; a: ${a}`);
 console.log(`b = 5; b: ${b}`);
 
 console.log();
