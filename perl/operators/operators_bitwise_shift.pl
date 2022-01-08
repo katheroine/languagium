@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
 my $n = 4; # 00100
 
 print("${n} >> 1 = " . ($n >> 1) . "\n"); # 00010 # 2
