@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+use strict;
+use warnings;
+
 my $a = 0; my $b = 0;
 
 print("\$a: ${a}\n");
