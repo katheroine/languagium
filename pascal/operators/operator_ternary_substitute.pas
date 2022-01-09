@@ -1,4 +1,4 @@
-program OperatorTernary;
+program OperatorTernarySubstitute;
 
 uses math, strutils;
 
