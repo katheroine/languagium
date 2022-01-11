@@ -1,5 +1,6 @@
-c++/*.out
-java/*.class
-scala/*$.class
-scala/*.class
+*.out
+*.exe
+*.o
+*.hi
+*.class
 
