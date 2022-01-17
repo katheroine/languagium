@@ -2,13 +2,14 @@
 <?php
 
 $letters = [
-    1    => "a",
-    "1"  => "b",
-    1.5  => "c",
-    true => "d",
+  1    => "a",
+  "1"  => "b", // the value "a" will be overwritten by "b"
+  1.5  => "c", // the value "b" will be overwritten by "c"
+  true => "d", // the values "c" will be overwritten by "d"
 ];
 
-var_dump($letters); print("\n");
+var_dump($letters);
+print("\n");
 
 $values = [
   1    => 'a',
@@ -25,4 +26,5 @@ $values = [
   2 => 'l', // the value "k" will be overwritten by "l"
 ];
 
-var_dump($values); print("\n");
+var_dump($values);
+print("\n");
