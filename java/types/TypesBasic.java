@@ -16,20 +16,20 @@ class TypesPrimitive {
     // Characters
     char c = 'a';
 
-    System.out.print(String.format("bool b = true; // boolean: %b\n", b));
-    System.out.print(String.format("int i = 5L; // integer: %d\n", i));
-    System.out.print(String.format("short shi = 5; // short integer: %d\n", shi));
-    System.out.print(String.format("long loi = 5; // long integer: %d\n", loi));
-    System.out.print(String.format("byte y = 5; // byte: %d\n", y));
+    System.out.print(String.format("bool b = true; // boolean: %b (%s)\n", b, ((Object) b).getClass().getSimpleName()));
+    System.out.print(String.format("int i = 5L; // integer: %d (%s)\n", i, ((Object) i).getClass().getSimpleName()));
+    System.out.print(String.format("short shi = 5; // short integer: %d (%s)\n", shi, ((Object) shi).getClass().getSimpleName()));
+    System.out.print(String.format("long loi = 5; // long integer: %d (%s)\n", loi, ((Object) loi).getClass().getSimpleName()));
+    System.out.print(String.format("byte y = 5; // byte: %d (%s)\n", y, ((Object) y).getClass().getSimpleName()));
 
     System.out.print("\n");
 
-    System.out.print(String.format("float f = 2.4f; // floating point: %f\n", f));
-    System.out.print(String.format("double d = 2.4; // floating point double precision: %f\n", d));
+    System.out.print(String.format("float f = 2.4f; // floating point: %f (%s)\n", f, ((Object) f).getClass().getSimpleName()));
+    System.out.print(String.format("double d = 2.4; // floating point double precision: %f (%s)\n", d, ((Object) d).getClass().getSimpleName()));
 
     System.out.print("\n");
 
-    System.out.print(String.format("char i = 'a'; // character: %c\n", c));
+    System.out.print(String.format("char i = 'a'; // character: %c (%s)\n", c, ((Object) c).getClass().getSimpleName()));
 
     System.out.print("\n");
   }
