@@ -1,4 +1,4 @@
-class TypesPrimitive {
+class TypesBasic {
   public static void main(String[] args) {
     // Boolean
     boolean b = true;
