@@ -1,6 +1,6 @@
 using System;
 
-class TypesPrimitive {
+class TypesBasic {
   static void Main(string[] args) {
     // Boolean
     bool b = true;
