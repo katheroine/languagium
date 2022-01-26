@@ -3,10 +3,11 @@
 int main()
 {
   std::cout << "'c': " << 'c' << std::endl;
-  // generates warnings and compiles with unappropriate result:
-  //std::cout << "'\\0143': " << '\0143' << std::endl;
-  //char oc = '\0143';
+  char dc = 99;
+  std::cout << "char dc = 99; // dc: " << dc << std::endl;
   char oc = 0143;
-  std::cout << "'\\0143': " << oc << std::endl;
-  std::cout << "'\\x63': " << '\x63' << std::endl << std::endl;
+  std::cout << "char oc = 0143; // oc: " << oc << std::endl;
+  char hc = 0x63;
+  std::cout << "char hc = 0x63; // hc: " << hc << std::endl;
+  std::cout << "'\\x63': " << '\x63' << std::endl;
 }
