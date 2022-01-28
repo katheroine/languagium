@@ -30,9 +30,9 @@ int main()
   signed char sc;
   unsigned char uc;
   wchar_t wct;
-  //signed wchar_t swct;
-  //unsigned wchar_t uwct;
-  //char8_t c8t; // from C++20
+  // signed wchar_t swct;
+  // unsigned wchar_t uwct;
+  char8_t c8t; // from C++20
   char16_t c16t; // from C++11
   char32_t c32t; // from C++11
 
@@ -62,9 +62,9 @@ int main()
   std::cout << "signed char sc; // signed character (" << typeid(sc).name() << ")\n";
   std::cout << "unsigned char uc; // unsigned character (" << typeid(uc).name() << ")\n";
   std::cout << "wchar_t wct; // wide character (" << typeid(wct).name() << ")\n";
-  //std::cout << "signed wchar_t swct; // signed wide character (" << typeid(swct).name() << ")\n";
-  //std::cout << "unsigned wchar_t uwct; // unsigned wide character (" << typeid(uwct).name() << ")\n";
-  //std::cout << "char8_t c8t; // 8-bit character (" << typeid(c8t).name() << ")\n";
+  // std::cout << "signed wchar_t swct; // signed wide character (" << typeid(swct).name() << ")\n";
+  // std::cout << "unsigned wchar_t uwct; // unsigned wide character (" << typeid(uwct).name() << ")\n";
+  std::cout << "char8_t c8t; // 8-bit character (" << typeid(c8t).name() << ")\n";
   std::cout << "char16_t c16t; // 16-bit character (" << typeid(c16t).name() << ")\n";
   std::cout << "char32_t c32t; // 32-bit character (" << typeid(c32t).name() << ")\n";
 
