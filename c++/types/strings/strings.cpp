@@ -4,13 +4,12 @@
 
 int main()
 {
-  std::string s = "hello";
-  std::cout << "\"hello\": " << s << " (" << typeid(s).name() << ")\n";
-
-  std::cout << "length: " << s.length() << "\n\n";
+  std::string word = "hello";
+  std::cout << "word = " << word << " (" << typeid(word).name() << ")\n"
+    << "length: " << word.length() << "\n\n";
 
   std::string cite = "Stat rosa pristina nomine, nomina nuda tenemus.";
-  std::cout << "cite: " << cite << "\n\n";
+  std::cout << "cite = " << cite << "\n\n";
 
   std::string s1 = "abc";
   std::string s2 = "def";
