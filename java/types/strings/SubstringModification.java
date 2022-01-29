@@ -5,6 +5,6 @@ class SubstringModification {
 
     String modified_cite = cite.replace("rosa", "odonata");
 
-    System.out.println(String.format("modified_cite = %s\n", modified_cite));
+    System.out.println(String.format("modified cite = %s\n", modified_cite));
   }
 }
