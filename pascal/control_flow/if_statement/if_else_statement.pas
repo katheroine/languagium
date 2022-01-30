@@ -19,16 +19,16 @@ begin
   condition := false;
 
   if (condition) then
-    writeln('False: ok')
+    writeln('false: ok')
   else
-    writeln('False: nope');
+    writeln('false: nope');
 
   condition := true;
 
   if (condition) then
-    writeln('True: ok')
+    writeln('true: ok')
   else
-    writeln('True: nope');
+    writeln('true: nope');
 
   writeln();
 end.
