@@ -25,5 +25,3 @@ if (2 > 1) {
 } else {
   console.log('!(2 > 1)');
 }
-
-console.log();
