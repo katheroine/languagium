@@ -19,14 +19,16 @@ int main()
   condition = false;
 
   if (condition)
-    std::cout << "False: ok" << std::endl;
+    std::cout << "false: ok" << std::endl;
   else
-    std::cout << "False: nope" << std::endl;
+    std::cout << "false: nope" << std::endl;
 
   condition = true;
 
   if (condition)
-    std::cout << "True: ok" << std::endl;
+    std::cout << "true: ok" << std::endl;
   else
-    std::cout << "True: nope" << std::endl;
+    std::cout << "true: nope" << std::endl;
+
+  std::cout << std::endl;
 }
