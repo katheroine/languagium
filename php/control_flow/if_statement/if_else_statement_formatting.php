@@ -44,5 +44,3 @@ else:
 endif;
 
 if (2 > 1):  echo "2 > 1\n"; else: echo "!(2 > 1)\n"; endif;
-
-echo "\n";
