@@ -13,12 +13,12 @@ class IfStatement {
     condition = false;
 
     if (condition)
-      System.out.print("False: ok\n");
+      System.out.print("false: ok\n");
 
     condition = true;
 
     if (condition)
-      System.out.print("True: ok\n");
+      System.out.print("true: ok\n");
 
     System.out.print("\n");
   }
