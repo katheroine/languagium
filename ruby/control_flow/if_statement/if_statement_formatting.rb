@@ -19,5 +19,3 @@ if 2 > 1 then puts '2 > 1' end
 if 2 > 1; puts '2 > 1' end
 
 puts '2 > 1' if 2 > 1
-
-puts
