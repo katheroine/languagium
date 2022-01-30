@@ -32,6 +32,4 @@ begin
   begin
     writeln('!(2 > 1)');
   end;
-
-  writeln();
 end.
