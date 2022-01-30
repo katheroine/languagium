@@ -15,12 +15,12 @@ begin
   condition := false;
 
   if (condition) then
-    writeln('False: ok');
+    writeln('false: ok');
 
   condition := true;
 
   if (condition) then
-    writeln('True: ok');
+    writeln('true: ok');
 
   writeln();
 end.
