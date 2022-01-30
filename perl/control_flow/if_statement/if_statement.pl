@@ -16,13 +16,13 @@ print("\n");
 my $condition = 0;
 
 if ($condition) {
-  print("False (0): ok\n");
+  print("false (0): ok\n");
 }
 
 $condition = 1;
 
 if ($condition) {
-  print("True (1): ok\n");
+  print("true (1): ok\n");
 }
 
 print("\n");
