@@ -15,12 +15,12 @@ int main()
   condition = false;
 
   if (condition)
-    std::cout << "False: ok" << std::endl;
+    std::cout << "false: ok" << std::endl;
 
   condition = true;
 
   if (condition)
-    std::cout << "True: ok" << std::endl;
+    std::cout << "true: ok" << std::endl;
 
   std::cout << std::endl;
 }
