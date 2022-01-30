@@ -21,6 +21,4 @@ int main()
   {
     std::cout << "2 > 1" << std::endl;
   }
-
-  std::cout << std::endl;
 }
