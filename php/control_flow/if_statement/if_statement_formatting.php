@@ -32,5 +32,3 @@ if (2 > 1): echo "2 > 1\n"; endif;
 if (2 > 1):
   echo "2 > 1\n";
 endif;
-
-echo "\n";
