@@ -21,6 +21,4 @@ begin
     writeln('1 > 0')
   else
     writeln('!(2 > 1) && !(1 > 0)');
-
-  writeln();
 end.
