@@ -9,6 +9,4 @@ int main()
     std::cout << i << "...\n";
     ++i;
   }
-
-  std::cout << std::endl;
 }
