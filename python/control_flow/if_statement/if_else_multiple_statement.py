@@ -20,5 +20,3 @@ elif (1 > 0):
   print('1 > 0')
 else:
   print('!(2 > 1) && !(1 > 0)')
-
-print()
