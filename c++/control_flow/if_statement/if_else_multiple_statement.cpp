@@ -22,6 +22,4 @@ int main()
     std::cout << "1 > 0" << std::endl;
   else
     std::cout << "!(2 > 1) && !(1 > 0)" << std::endl;
-
-  std::cout << std::endl;
 }
