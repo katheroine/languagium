@@ -13,12 +13,12 @@ class IfStatement {
     condition = false;
 
     if (condition)
-      System.Console.WriteLine("False: ok");
+      System.Console.WriteLine("false: ok");
 
     condition = true;
 
     if (condition)
-      System.Console.WriteLine("True: ok");
+      System.Console.WriteLine("true: ok");
 
     System.Console.WriteLine();
   }
