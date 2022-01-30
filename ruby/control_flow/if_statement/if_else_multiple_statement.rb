@@ -23,5 +23,3 @@ elsif 1 > 0
 else
   puts '!(2 > 1) && !(1 > 0)'
 end
-
-puts
