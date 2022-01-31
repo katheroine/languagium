@@ -1,11 +1,9 @@
 #!/usr/bin/php
 <?php
 
-$number = 0;
+$i = 0;
 
-while ($number < 10) {
-  echo("{$number}...\n");
-  ++$number;
+while ($i < 10) {
+  echo("{$i}...\n");
+  ++$i;
 }
-
-echo "\n";
