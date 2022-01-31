@@ -1,34 +1,49 @@
 #!/usr/bin/php
 <?php
 
-$number = 0;
+$i = 0;
 
-while ($number < 10) {
-  echo("{$number}...\n");
-  ++$number;
+while ($i < 10) {
+  print("{$i}...\n");
+  ++$i;
 }
 
-echo "\n";
+print("\n");
 
-$number = 0;
+$i = 0;
+
+while ($i < 10) {
+  print($i++ . "...\n");
+}
+
+print("\n");
+
+$i = 0;
+
+while ($i < 10)
+  print($i++ . "...\n");
+
+print("\n");
+
+$i = 0;
+
+while ($i < 10) print($i++ . "...\n"); ++$i;
+
+print("\n");
 
 // Shortened form for HTML templates:
-while ($number < 10):
-  echo("{$number}...\n");
-  ++$number;
+
+$i = 0;
+
+while ($i < 10):
+  print("{$i}...\n");
+  ++$i;
 endwhile;
 
-echo "\n";
+print("\n");
 
-$number = 0;
+$i = 0;
 
-while ($number < 10) { echo("{$number}...\n"); ++$number; }
+while ($i < 10): print("{$i}...\n"); ++$i; endwhile;
 
-echo "\n";
-
-$number = 0;
-
-// Shortened form for HTML templates:
-while ($number < 10): echo("{$number}...\n"); ++$number; endwhile;
-
-echo "\n";
+print("\n");
