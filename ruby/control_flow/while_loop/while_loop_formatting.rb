@@ -1,24 +1,33 @@
 #!/usr/bin/ruby
 
-number = 0
+i = 0
 
-while number < 10
-  puts("#{number}...")
-  number += 1
+while i < 10
+  puts("#{i}...")
+  i += 1
 end
 
 puts
 
-number = 0
+i = 0
 
-while number < 10 do puts("#{number}..."); number += 1; end
+while (i < 10)
+  puts("#{i}...")
+  i += 1
+end
 
 puts
 
-number = 0
+i = 0
 
-#while number < 10 { puts("#{number}..."); number += 1; } # error
+while i < 10 do puts("#{i}..."); i += 1; end
 
-while number < 10; puts("#{number}..."); number += 1; end
+puts
+
+i = 0
+
+#while i < 10 { puts("#{i}..."); i += 1; } # error
+
+while i < 10; puts("#{i}..."); i += 1; end
 
 puts
