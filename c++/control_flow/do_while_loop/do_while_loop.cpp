@@ -9,6 +9,4 @@ int main()
     std::cout << i << "...\n";
     ++i;
   } while (i < 10);
-
-  std::cout << std::endl;
 }
