@@ -1,15 +1,23 @@
 #!/usr/bin/python3
 
-number = 0
+i = 0
 
-while number < 10:
-    print(f'{number}...')
-    number += 1
+while i < 10:
+    print(f'{i}...')
+    i += 1
 
 print()
 
-number = 0
+i = 0
 
-while number < 10: print(f'{number}...'); number += 1
+while (i < 10):
+    print(f'{i}...')
+    i += 1
+
+print()
+
+i = 0
+
+while i < 10: print(f'{i}...'); i += 1
 
 print()
