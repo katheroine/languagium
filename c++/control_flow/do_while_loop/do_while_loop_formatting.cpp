@@ -5,8 +5,7 @@ int main()
 {
   int i = 0;
 
-  do
-  {
+  do {
     std::cout << i << "...\n";
     ++i;
   } while (i < 10);
@@ -15,8 +14,7 @@ int main()
 
   i = 0;
 
-  do
-  {
+  do {
     std::cout << i++ << "...\n";
   } while (i < 10);
 
