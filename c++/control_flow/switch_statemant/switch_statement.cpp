@@ -67,6 +67,4 @@ int main()
       std::cout << "Hello!" << std::endl;
       break;
   }
-
-  std::cout << std::endl;
 }
