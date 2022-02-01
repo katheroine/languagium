@@ -12,7 +12,8 @@ class SwitchStatement {
 
     now = PartsOfTheDay.afternoon;
 
-    switch (now) {
+    switch (now)
+    {
       case PartsOfTheDay.morning:
         System.Console.WriteLine("Good morning!");
         break;
@@ -29,7 +30,8 @@ class SwitchStatement {
 
     now = PartsOfTheDay.evening;
 
-    switch (now) {
+    switch (now)
+    {
       case PartsOfTheDay.morning:
         System.Console.WriteLine("Good morning!");
         break;
@@ -44,7 +46,8 @@ class SwitchStatement {
 
     now = PartsOfTheDay.other;
 
-    switch (now) {
+    switch (now)
+    {
       case PartsOfTheDay.morning:
         System.Console.WriteLine("Good morning!");
         break;
