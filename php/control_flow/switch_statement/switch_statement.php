@@ -3,8 +3,7 @@
 
 $now = "afternoon";
 
-switch ($now)
-{
+switch ($now) {
   case "morning":
     print("Good morning!\n");
     break;
@@ -21,8 +20,7 @@ switch ($now)
 
 $now = "evening";
 
-switch ($now)
-{
+switch ($now) {
   case "morning":
     print("Good morning!\n");
     break;
@@ -37,8 +35,7 @@ switch ($now)
 
 $now = "other";
 
-switch ($now)
-{
+switch ($now) {
   case "morning":
     print("Good morning!\n");
     break;
@@ -55,5 +52,3 @@ switch ($now)
     print("Hello!\n");
     break;
 }
-
-print("\n");
