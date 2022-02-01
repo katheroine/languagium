@@ -1,17 +1,33 @@
 #!/usr/bin/php
 <?php
 
-$number = 0;
+$i = 0;
 
 do {
-  echo("{$number}...\n");
-  ++$number;
-} while ($number < 10);
+  print("{$i}...\n");
+  ++$i;
+} while ($i < 10);
 
-echo "\n";
+print "\n";
 
-$number = 0;
+$i = 0;
 
-do { echo("{$number}...\n"); ++$number; } while ($number < 10);
+do {
+  print($i++ . "...\n");
+} while ($i < 10);
 
-echo "\n";
+print "\n";
+
+$i = 0;
+
+do
+  print($i++ . "...\n");
+while ($i < 10);
+
+print "\n";
+
+$i = 0;
+
+do print($i++ . "...\n"); while ($i < 10);
+
+print "\n";
