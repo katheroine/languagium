@@ -1,4 +1,4 @@
-program WhileDoLoop;
+program WhileLoop;
 
 var
   i: integer = 0;

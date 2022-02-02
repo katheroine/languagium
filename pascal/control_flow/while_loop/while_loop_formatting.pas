@@ -1,4 +1,4 @@
-program WhileDoLoop;
+program WhileLoopFormatting;
 
 var
   i: integer;
