@@ -6,6 +6,4 @@ int main()
 
   for (int i : a)
     std::cout << i << "...\n";
-
-  std::cout << std::endl;
 }
