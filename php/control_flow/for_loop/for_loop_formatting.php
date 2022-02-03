@@ -17,6 +17,7 @@ for ($i = 0; $i < 10; $i++) {
 echo "\n";
 
 // Shortened form for HTML templates:
+
 for ($i = 0; $i < 10; $i++):
   echo "{$i}...\n";
 endfor;
