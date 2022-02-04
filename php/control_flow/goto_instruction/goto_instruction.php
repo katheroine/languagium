@@ -4,12 +4,12 @@
 $c = 10;
 $a = 0;
 
-begin:
+start:
 $a += $c;
 $c--;
 if ($c == 0)
-  goto end;
-goto begin;
+  goto stop;
+goto start;
 
-end:
-print($a . "\n\n");
+stop:
+print($a . "\n");
