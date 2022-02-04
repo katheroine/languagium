@@ -7,13 +7,13 @@ int main()
   c = 10;
   a = 0;
 
-begin:
+start:
   a += c;
   c--;
   if (c == 0)
-    goto end;
-  goto begin;
+    goto stop;
+  goto start;
 
-end:
-  std::cout << a << std::endl << std::endl;
+stop:
+  std::cout << a << std::endl;
 }
