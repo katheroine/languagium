@@ -19,6 +19,7 @@ foreach ($a as $i) {
 echo "\n";
 
 // Shortened form for HTML templates:
+
 foreach ($a as $i):
   echo "{$i}...\n";
 endforeach;
