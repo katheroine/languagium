@@ -3,9 +3,15 @@
 use strict;
 use warnings;
 
-my @i = 0..9;
+my @r = 0..9;
 
-for (@i) {
+for my $i (@r) {
+  print("$i...\n");
+}
+
+print("\n");
+
+for (@r) {
   print("$_...\n");
 }
 
