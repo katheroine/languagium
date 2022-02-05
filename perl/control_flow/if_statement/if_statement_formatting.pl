@@ -3,14 +3,32 @@
 use strict;
 use warnings;
 
-if (1 > 2) {
+my $condition = (1 > 2);
+
+if ($condition) {
   print("1 > 2\n");
 }
 
-if (1 > 2) { print("1 > 2\n"); }
+$condition = (2 > 1);
+
+if ($condition) {
+  print("2 > 1\n");
+}
+
+print("\n");
+
+if (1 > 2) {
+  print("1 > 2\n");
+}
 
 if (2 > 1) {
   print("2 > 1\n");
 }
 
+print("\n");
+
+if (1 > 2) { print("1 > 2\n"); }
+
 if (2 > 1) { print("2 > 1\n"); }
+
+print("\n");

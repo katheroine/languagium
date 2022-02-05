@@ -10,19 +10,3 @@ if (1 > 2) {
 if (2 > 1) {
   print("2 > 1\n");
 }
-
-print("\n");
-
-my $condition = 0;
-
-if ($condition) {
-  print("false (0): ok\n");
-}
-
-$condition = 1;
-
-if ($condition) {
-  print("true (1): ok\n");
-}
-
-print("\n");
