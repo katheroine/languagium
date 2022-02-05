@@ -14,23 +14,3 @@ if (2 > 1) {
 } else {
   print("!(2 > 1)\n");
 }
-
-print("\n");
-
-my $condition = 0;
-
-if ($condition) {
-  print("false (0): ok\n");
-} else {
-  print("false (0): nope\n");
-}
-
-$condition = 1;
-
-if ($condition) {
-  print("true (1): ok\n");
-} else {
-  print("true (1): nope\n");
-}
-
-print("\n");
