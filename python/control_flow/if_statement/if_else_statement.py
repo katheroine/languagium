@@ -9,21 +9,3 @@ if 2 > 1:
     print('2 > 1')
 else:
     print('!(2 > 1)')
-
-print()
-
-condition = False
-
-if condition:
-    print('False: ok')
-else:
-    print('False: nope')
-
-condition = True
-
-if condition:
-    print('True: ok')
-else:
-    print('True: nope')
-
-print()
