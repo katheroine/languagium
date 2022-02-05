@@ -1,36 +1,56 @@
 #!/usr/bin/php
 <?php
 
-if (1 > 2)
-  echo "1 > 2\n";
+$condition = (1 > 2);
 
-if (1 > 2) echo "1 > 2\n";
+if ($condition)
+  print("1 > 2\n");
+
+$condition = (2 > 1);
+
+if ($condition)
+  print("2 > 1\n");
+
+print("\n");
+
+if (1 > 2)
+  print("1 > 2\n");
+
+if (2 > 1)
+  print("2 > 1\n");
+
+print("\n");
+
+if (1 > 2) print("1 > 2\n");
+
+if (2 > 1) print("2 > 1\n");
+
+print("\n");
 
 if (1 > 2) {
-  echo "1 > 2\n";
+  print("1 > 2\n");
 }
+
+if (2 > 1) {
+  print("2 > 1\n");
+}
+
+print("\n");
 
 // Shortened form for HTML templates:
 
 if (1 > 2):
-  echo "1 > 2\n";
+  print("1 > 2\n");
 endif;
-
-if (1 > 2): echo "1 > 2\n"; endif;
-
-if (2 > 1)
-  echo "2 > 1\n";
-
-if (2 > 1) echo "2 > 1\n";
-
-if (2 > 1) {
-  echo "2 > 1\n";
-}
-
-// Shortened form for HTML templates:
-
-if (2 > 1): echo "2 > 1\n"; endif;
 
 if (2 > 1):
-  echo "2 > 1\n";
+  print("2 > 1\n");
 endif;
+
+print("\n");
+
+if (1 > 2): print("1 > 2\n"); endif;
+
+if (2 > 1): print("2 > 1\n"); endif;
+
+print("\n");
