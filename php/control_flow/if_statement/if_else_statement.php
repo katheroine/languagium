@@ -10,21 +10,3 @@ if (2 > 1)
   print("2 > 1\n");
 else
   print("!(2 > 1)\n");
-
-print("\n");
-
-$condition = False;
-
-if ($condition)
-  print("False: ok\n");
-else
-  print("False: nope\n");
-
-$condition = True;
-
-if ($condition)
-  print("True: ok\n");
-else
-  print("True: nope\n");
-
-print("\n");
