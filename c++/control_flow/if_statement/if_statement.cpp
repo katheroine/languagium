@@ -7,20 +7,4 @@ int main()
 
   if (2 > 1)
     std::cout << "2 > 1" << std::endl;
-
-  std::cout << std::endl;
-
-  bool condition;
-
-  condition = false;
-
-  if (condition)
-    std::cout << "false: ok" << std::endl;
-
-  condition = true;
-
-  if (condition)
-    std::cout << "true: ok" << std::endl;
-
-  std::cout << std::endl;
 }
