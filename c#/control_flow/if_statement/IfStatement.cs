@@ -5,21 +5,5 @@ class IfStatement {
 
     if (2 > 1)
       System.Console.WriteLine("2 > 1");
-
-    System.Console.WriteLine();
-
-    bool condition;
-
-    condition = false;
-
-    if (condition)
-      System.Console.WriteLine("false: ok");
-
-    condition = true;
-
-    if (condition)
-      System.Console.WriteLine("true: ok");
-
-    System.Console.WriteLine();
   }
 }
