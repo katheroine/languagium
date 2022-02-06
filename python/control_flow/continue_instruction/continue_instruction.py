@@ -10,5 +10,3 @@ while number < 10:
         continue
 
     print("*********************")
-
-print()
