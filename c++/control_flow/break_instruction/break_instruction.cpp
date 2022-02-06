@@ -11,6 +11,4 @@ int main()
     if (i > 5)
       break;
   }
-
-  std::cout << std::endl;
 }
