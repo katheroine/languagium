@@ -25,3 +25,9 @@ $i = 0;
 while ($i < 10) { print($i++ . "...\n"); }
 
 print("\n");
+
+$i = 0;
+
+print($i++ . "...\n") while ($i < 10);
+
+print("\n");
