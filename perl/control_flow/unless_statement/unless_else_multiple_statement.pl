@@ -16,7 +16,7 @@ unless (2 > 1) {
 } elsif (1 > 0) {
   print("1 > 0\n");
 } else {
-  print("!(1 > 2) && !(1 > 0)\n");
+  print("(1 > 2) && !(1 > 0)\n");
 }
 
 unless (1 > 2) {
@@ -24,5 +24,5 @@ unless (1 > 2) {
 } elsif (1 > 0) {
   print("1 > 0\n");
 } else {
-  print("!(1 > 2) && !(1 > 0)\n");
+  print("(1 > 2) && !(1 > 0)\n");
 }
