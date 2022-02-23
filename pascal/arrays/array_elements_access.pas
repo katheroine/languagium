@@ -1,4 +1,4 @@
-program Arrays;
+program ArrayElementsAccess;
 
 var
   numbers: array[0..2] of integer;
