@@ -10,8 +10,8 @@ type
   );
 
   Animal = record
-      breed: string;
-    end;
+    breed: string;
+  end;
 
 var
   numbers: array[0..2] of integer = (2, 4, 6);
@@ -22,69 +22,33 @@ var
   menagerie: array[0..2] of Animal = ((breed: 'Cattle'), (breed: 'Syrian'), (breed: 'Tan'));
 
 begin
-  write('numbers[0]: ');
-  write(numbers[0]);
-  writeln();
-  write('numbers[1]: ');
-  write(numbers[1]);
-  writeln();
-  write('numbers[2]: ');
-  write(numbers[2]);
-  writeln();
+  writeln('numbers[0]: ', numbers[0]);
+  writeln('numbers[1]: ', numbers[1]);
+  writeln('numbers[2]: ', numbers[2]);
   writeln();
 
-  write('values[1]: ');
-  write(values[1]);
-  writeln();
-  write('values[2]: ');
-  write(values[2]);
-  writeln();
-  write('values[3]: ');
-  write(values[3]);
-  writeln();
+  writeln('values[1]: ', values[1]);
+  writeln('values[2]: ', values[2]);
+  writeln('values[3]: ', values[3]);
   writeln();
 
-  write('letters[-3]: ');
-  write(letters[-3]);
-  writeln();
-  write('letters[-2]: ');
-  write(letters[-2]);
-  writeln();
-  write('letters[-1]: ');
-  write(letters[-1]);
-  writeln();
+  writeln('letters[-3]: ', letters[-3]);
+  writeln('letters[-2]: ', letters[-2]);
+  writeln('letters[-1]: ', letters[-1]);
   writeln();
 
-  write('words[''a'']: ');
-  write(words['a']);
-  writeln();
-  write('words[''b'']: ');
-  write(words['b']);
-  writeln();
-  write('words[''c'']: ');
-  write(words['c']);
-  writeln();
+  writeln('words[''a'']: ', words['a']);
+  writeln('words[''b'']: ', words['b']);
+  writeln('words[''c'']: ', words['c']);
   writeln();
 
-  write('evaluations[0]: ');
-  write(evaluations[0]);
-  writeln();
-  write('evaluations[1]: ');
-  write(evaluations[1]);
-  writeln();
-  write('evaluations[2]: ');
-  write(evaluations[2]);
-  writeln();
+  writeln('evaluations[0]: ', evaluations[0]);
+  writeln('evaluations[1]: ', evaluations[1]);
+  writeln('evaluations[2]: ', evaluations[2]);
   writeln();
 
-  write('menagerie[0]: ');
-  write(menagerie[0].breed);
-  writeln();
-  write('menagerie[1]: ');
-  write(menagerie[1].breed);
-  writeln();
-  write('menagerie[2]: ');
-  write(menagerie[2].breed);
-  writeln();
+  writeln('menagerie[0]: ', menagerie[0].breed);
+  writeln('menagerie[1]: ', menagerie[1].breed);
+  writeln('menagerie[2]: ', menagerie[2].breed);
   writeln();
 end.
