@@ -1,4 +1,4 @@
-program Arrays;
+program ConstantArrays;
 
 {$J-}
 const
