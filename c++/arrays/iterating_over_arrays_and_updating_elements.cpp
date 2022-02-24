@@ -50,4 +50,21 @@ int main()
     std::cout << "[" << i << "] => " << array[i] << std::endl;
 
   std::cout << std::endl;
+
+  array[0] = 1;
+  array[1] = 3;
+  array[2] = 5;
+
+  std::cout << "Before:\n";
+  for (int i = 0; i < 3; i++)
+    std::cout << "[" << i << "] => " << array[i] << std::endl;
+
+  for (int &element : array)
+    element *= 5;
+
+  std::cout << "After:\n";
+  for (int i = 0; i < 3; i++)
+    std::cout << "[" << i << "] => " << array[i] << std::endl;
+
+  std::cout << std::endl;
 }
