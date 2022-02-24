@@ -2,7 +2,7 @@
 
 void function_receiving_array_by_pointer(int argument[], int size)
 {
-  std::cout << "Function receiving array by value\n"
+  std::cout << "Function receiving array by pointer\n"
     << "-- begin:\n";
 
   for(int i = 0; i < size; i++)
@@ -20,7 +20,7 @@ void function_receiving_array_by_pointer(int argument[], int size)
 
 void function_receiving_array_by_explicit_pointer(int *argument, int size)
 {
-  std::cout << "Function receiving array by value\n"
+  std::cout << "Function receiving array by explicit pointer\n"
     << "-- begin:\n";
 
   for(int i = 0; i < size; i++)
