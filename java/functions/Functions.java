@@ -1,19 +1,19 @@
 class Functions {
-  static void simple_function() {
+  static void simpleFunction() {
     System.out.println("Simple function.");
   }
 
-  static void function_with_local_variable() {
+  static void functionWithLocalVariable() {
     int i = 4;
     System.out.println(String.format("A function with a local variable: %d", i));
   }
 
-  static int function_returning_value() {
+  static int functionReturningValue() {
     System.out.println("A function returning value.");
     return 9;
   }
 
-  static void function_with_arguments(int number, String text) {
+  static void functionWithArguments(int number, String text) {
     System.out.println(String.format("A function with some arguments:\nnumber: %d\ntext: %s", number, text));
   }
 
@@ -22,16 +22,16 @@ class Functions {
 
     System.out.println("Functions:\n");
 
-    simple_function();
+    simpleFunction();
     System.out.println();
 
-    function_with_local_variable();
+    functionWithLocalVariable();
     System.out.println();
 
-    i = function_returning_value();
+    i = functionReturningValue();
     System.out.println(String.format("returned value: %d\n", i));
 
-    function_with_arguments(6, "orange");
+    functionWithArguments(6, "orange");
     System.out.println();
   }
 }
