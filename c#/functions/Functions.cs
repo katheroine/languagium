@@ -1,19 +1,19 @@
 class Functions {
-  static void simple_function() {
+  static void SimpleFunction() {
     System.Console.WriteLine("Simple function.");
   }
 
-  static void function_with_local_variable() {
+  static void FunctionWithLocalVariable() {
     int i = 4;
     System.Console.WriteLine(string.Format("A function with a local variable: {0}", i));
   }
 
-  static int function_returning_value() {
+  static int FunctionReturningValue() {
     System.Console.WriteLine("A function returning value.");
     return 9;
   }
 
-  static void function_with_arguments(int number, string text) {
+  static void FunctionWithArguments(int number, string text) {
     System.Console.WriteLine(string.Format("A function with some arguments:\nnumber: {0}\ntext: {1}", number, text));
   }
 
@@ -22,16 +22,16 @@ class Functions {
 
     System.Console.WriteLine("Functions:\n");
 
-    simple_function();
+    SimpleFunction();
     System.Console.WriteLine();
 
-    function_with_local_variable();
+    FunctionWithLocalVariable();
     System.Console.WriteLine();
 
-    i = function_returning_value();
+    i = FunctionReturningValue();
     System.Console.WriteLine(string.Format("returned value: {0}\n", i));
 
-    function_with_arguments(6, "orange");
+    FunctionWithArguments(6, "orange");
     System.Console.WriteLine();
   }
 }
