@@ -1,4 +1,4 @@
-program ReturningValues;
+program ReturningValue;
 
 function returning_boolean(): boolean;
 begin
