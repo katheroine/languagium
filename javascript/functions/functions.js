@@ -6,7 +6,7 @@ function simple_function() {
 
 function function_with_local_variable() {
   let i = 4;
-  console.log(`A function with local variable: ${i}`);
+  console.log(`A function with a local variable: ${i}`);
 }
 
 function function_returning_value() {
