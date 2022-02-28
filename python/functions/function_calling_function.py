@@ -3,14 +3,16 @@
 import typing
 
 def inside() -> str:
-    print("Inside.")
+    print("* Inside.")
     return "IN"
 
 def outside() -> str:
-    print("Outside:\n"
-        + "Calling function from function...")
-    inside()
+    print("# Outside:\n"
+        + "# Calling function from function...")
+    result = inside()
+    print(f"# result: {result}")
     return "OUT"
 
 print("Calling function...")
-outside()
+result = outside()
+print(f"result: {result}")
