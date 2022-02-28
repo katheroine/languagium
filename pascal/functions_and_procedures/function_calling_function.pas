@@ -5,19 +5,25 @@ type
 
 function inside(): string4;
 begin
-  writeln('Inside');
+  writeln('* Inside.');
   inside := 'IN';
 end;
 
 function outside(): string4;
+var
+  result: string;
 begin
-  writeln('Outside:');
-  writeln('Calling function from function...');
-  inside();
+  writeln('# Outside:');
+  writeln('# Calling function from function...');
+  result := inside();
+  writeln('# result: ', result);
   outside := 'OUT';
 end;
 
+var
+  result: string;
 begin
   writeln('Calling function...');
-  outside();
+  result := outside();
+  writeln('result: ', result);
 end.
