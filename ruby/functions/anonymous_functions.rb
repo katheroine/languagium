@@ -4,7 +4,7 @@ simple_function = -> { puts "Simple function." }
 
 function_with_local_variable = -> {
   i = 4
-  puts("A function with local variable: #{i}")
+  puts("A function with a local variable: #{i}")
 }
 
 function_returning_value = -> {
