@@ -1,9 +1,9 @@
 class MoneyBox {
   String name = "";
-  double saved_amount = 0;
+  double savedAmount = 0;
 
   void save(double amount) {
-    saved_amount += amount;
+    savedAmount += amount;
   }
 }
 
@@ -13,14 +13,14 @@ class Classes {
     piggy.name = "Miss Piggy";
 
     System.out.println("Money box name: " + piggy.name);
-    System.out.println("Money box saved amount: " + piggy.saved_amount);
+    System.out.println("Money box saved amount: " + piggy.savedAmount);
 
     piggy.save(20);
 
-    System.out.println("Money box saved amount: " + piggy.saved_amount);
+    System.out.println("Money box saved amount: " + piggy.savedAmount);
 
     piggy.save(100);
 
-    System.out.println("Money box saved amount: " + piggy.saved_amount);
+    System.out.println("Money box saved amount: " + piggy.savedAmount);
   }
 }
