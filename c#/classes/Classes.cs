@@ -1,26 +1,26 @@
 class MoneyBox {
-  public string name = "";
-  public double saved_amount = 0;
+  public string Name = "";
+  public double SavedAmount = 0;
 
-  public void save(double amount) {
-    saved_amount += amount;
+  public void Save(double amount) {
+    SavedAmount += amount;
   }
 }
 
 class Classes {
   public static void Main(string[] args) {
     MoneyBox piggy = new MoneyBox();
-    piggy.name = "Miss Piggy";
+    piggy.Name = "Miss Piggy";
 
-    System.Console.WriteLine("Money box name: " + piggy.name);
-    System.Console.WriteLine("Money box saved amount: " + piggy.saved_amount);
+    System.Console.WriteLine("Money box name: " + piggy.Name);
+    System.Console.WriteLine("Money box saved amount: " + piggy.SavedAmount);
 
-    piggy.save(20);
+    piggy.Save(20);
 
-    System.Console.WriteLine("Money box saved amount: " + piggy.saved_amount);
+    System.Console.WriteLine("Money box saved amount: " + piggy.SavedAmount);
 
-    piggy.save(100);
+    piggy.Save(100);
 
-    System.Console.WriteLine("Money box saved amount: " + piggy.saved_amount);
+    System.Console.WriteLine("Money box saved amount: " + piggy.SavedAmount);
   }
 }
