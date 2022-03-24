@@ -5,8 +5,8 @@ class MoneyBox {
     this.name = "";
     this.saved_amount = 0;
     this.save = function(amount) {
-    this.saved_amount += amount;
-  }
+      this.saved_amount += amount;
+    }
   }
 }
 
