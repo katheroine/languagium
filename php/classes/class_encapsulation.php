@@ -26,7 +26,7 @@ class Account {
     if ($this->connections_number == 10)
       return false;
 
-    $this->connections[$this->connections_number] = $connected_account_id;
+    array_push($this->connections, $connected_account_id);
     $this->connections_number++;
 
     return true;
