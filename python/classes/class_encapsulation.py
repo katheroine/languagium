@@ -25,7 +25,7 @@ class Account:
             return False
 
         self._connections.append(connected_account_id)
-        self.__connections_number = self.__connections_number + 1
+        self.__connections_number += 1
 
         return True
 
