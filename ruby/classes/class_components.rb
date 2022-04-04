@@ -9,18 +9,18 @@ class Account
       "E-mail: ", @email, "\n",
       "Is active: ", @is_active , "\n",
       "Has connections: ", has_connections(), "\n"
-    );
+    )
   end
 
   def has_connections()
-    return @connections_number ? (@connections_number > 0) : false;
+    return @connections_number ? (@connections_number > 0) : false
   end
 end
 
-timothy = Account.new();
+timothy = Account.new
 
-timothy.login = "tim";
-timothy.email = "timothy.muppetone@gmail.com";
-timothy.is_active = true;
+timothy.login = "tim"
+timothy.email = "timothy.muppetone@gmail.com"
+timothy.is_active = true
 
-timothy.display();
+timothy.display()
