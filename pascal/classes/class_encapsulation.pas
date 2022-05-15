@@ -5,12 +5,14 @@ program ClassEncapsulation;
 type
   Account = class
   is_active: boolean; // public by default
+  const
+    connections_max_number = 10;
   public
     login: string;
     email: string;
     id: integer;
   protected
-    connections: array[0..9] of integer;
+    connections: array[0..(connections_max_number - 1)] of integer;
   private
     connections_number: integer;
   public
@@ -52,7 +54,7 @@ end;
 
 function Account.addConnection(connected_account_id: integer): boolean;
 begin
-  if (connections_number = 10) then
+  if (connections_number = connections_max_number) then
       addConnection := false
   else
   begin
@@ -67,7 +69,7 @@ var
   i: integer;
   connection_account_id: integer = 0;
 begin
-  for i := 0 to 9 do
+  for i := 0 to (connections_max_number - 1) do
   begin
     connection_account_id := connections[i];
     if (checking_account_id = connection_account_id) then

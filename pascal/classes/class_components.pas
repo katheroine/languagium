@@ -3,13 +3,15 @@
 program ClassComponents;
 
 type Account = class
+  const
+    connections_max_number = 10;
   public
     login: string;
     email: string;
     is_active: boolean;
     id: integer;
 
-    connections: array[0..9] of integer;
+    connections: array[0..(connections_max_number - 1)] of integer;
     connections_number: integer;
 
     constructor create();
