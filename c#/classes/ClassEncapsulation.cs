@@ -4,7 +4,8 @@ class Account {
   public string Email = "";
   public int Id = 0;
 
-  protected int[] Connections = new int[10];
+  public const int ConnectionsMaxNumber = 10;
+  protected int[] Connections = new int[ConnectionsMaxNumber];
   private int ConnectionsNumber = 0;
 
   public void Display() {
@@ -20,7 +21,7 @@ class Account {
     return (ConnectionsNumber > 0);
   }
   public bool AddConnection(int connectedAccountId) {
-    if (ConnectionsNumber == 10)
+    if (ConnectionsNumber == ConnectionsMaxNumber)
       return false;
 
     Connections[ConnectionsNumber] = connectedAccountId;

@@ -4,6 +4,7 @@ class Account {
   public bool IsActive = false;
   public int Id = 0;
 
+  public const int ConnectionsMaxNumber = 10;
   public int[] Connections;
   public int ConnectionsNumber = 0;
 
