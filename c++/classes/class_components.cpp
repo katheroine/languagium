@@ -7,6 +7,9 @@ public:
   bool is_active = false;
   unsigned int id = 0;
 
+  const int connections_max_number = 10;
+  /* For being used in the array definition
+  const component must be also static. */
   int connections[10];
   unsigned short int connections_number = 0;
 

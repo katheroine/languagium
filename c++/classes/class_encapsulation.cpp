@@ -7,6 +7,9 @@ public:
   std::string email = "";
   unsigned int id = 0;
 protected:
+  const int connections_max_number = 10;
+  /* For being used in the array definition
+  const component must be also static. */
   int connections[10];
 private:
   unsigned short int connections_number = 0;
@@ -17,7 +20,7 @@ public:
     return (connections_number > 0);
   };
   bool addConnection(unsigned int connected_account_id) {
-    if (connections_number == 10)
+    if (connections_number == connections_max_number)
       return false;
 
     connections[connections_number] = connected_account_id;
