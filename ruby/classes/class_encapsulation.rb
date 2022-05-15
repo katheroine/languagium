@@ -1,6 +1,7 @@
 #!/usr/bin/ruby2.7
 
 class Account
+  CONNECTIONS_MAX_NUMBER = 10
   # :is_active is pubic by default
   attr_accessor :login, :email, :is_active, :id, :connections, :connections_number
   public :login, :email, :id, :display
@@ -26,7 +27,7 @@ public
     return @connections_number ? (@connections_number > 0) : false
   end
   def add_connection(connected_account_id)
-    if (@connections_number == 10)
+    if (@connections_number == CONNECTIONS_MAX_NUMBER)
       return false
     end
 

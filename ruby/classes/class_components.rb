@@ -1,7 +1,9 @@
 #!/usr/bin/ruby2.7
 
 class Account
-  attr_accessor :login, :email, :is_active, :id, :connections_number;
+  attr_accessor :login, :email, :is_active, :id, :connections_number
+
+  CONNECTIONS_MAX_NUMBER = 10
 
   def display()
     print("ID: ", @id, "\n",
