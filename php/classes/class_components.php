@@ -1,4 +1,4 @@
-#!/usr/bin/php8.0
+#!/usr/bin/php8.1
 <?php
 
 class Account {
@@ -7,6 +7,7 @@ class Account {
   public bool $is_active = false;
   public int $id = 0;
 
+  public const CONNECTIONS_MAX_NUMBER = 10;
   public array $connections = [];
   public int $connections_number = 0;
 

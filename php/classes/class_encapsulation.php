@@ -7,6 +7,7 @@ class Account {
   public bool $is_active = false;
   public int $id = 0;
 
+  protected const CONNECTIONS_MAX_NUMBER = 10;
   protected array $connections = [];
   private int $connections_number = 0;
 
@@ -23,7 +24,7 @@ class Account {
     return ($this->connections_number > 0);
   }
   public function add_connection(int $connected_account_id) {
-    if ($this->connections_number == 10)
+    if ($this->connections_number == self::CONNECTIONS_MAX_NUMBER)
       return false;
 
     array_push($this->connections, $connected_account_id);
