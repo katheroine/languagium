@@ -22,16 +22,22 @@ public:
       << "The courtain is comming up." << std::endl;
 
     const char *balcony = ":::::";
-
     std::cout << "Julia, oh Julia! Come to the balcony: " << balcony << std::endl;
+
+    std::cout << "Applause from the balcony: " << OperaHouse::balcony << std::endl;
   }
 };
 
+const char* singing() {
+  return "Trill, trill!";
+}
+
 int main() {
   const char *balcony = "!!!!!";
-
   std::cout << "Look at those beatiful flowers on that tenement balcony: " << balcony << std::endl
-    << "Let's go home." << std::endl;
+    << "And the birds are singing the morning songs: " << singing() << std::endl;
+
+  std::cout << "Let's go home." << std::endl;
 
   House home;
   home.siesta();
@@ -42,5 +48,7 @@ int main() {
   warsaw_great_theatre.entrance();
   warsaw_great_theatre.scene();
 
-  std::cout << "We're comming back home and the flowers looks awesome in the moon light on the tenement balcony: " << balcony << std::endl;
+  const char *singing = "Lalalalalaaaaa!!!";
+  std::cout << "We're comming back home and the flowers looks awesome in the moon light on the tenement balcony: " << balcony << std::endl
+    << "And this party animal is singing the song of his people: " << singing << std::endl;
 }
