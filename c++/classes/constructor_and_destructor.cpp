@@ -16,7 +16,7 @@ public:
 };
 
 int main() {
-  std::cout << "The object will be created now."<< std::endl;
+  std::cout << "The object will be created now." << std::endl;
 
   Item thing;
   thing.action();
