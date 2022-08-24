@@ -124,7 +124,7 @@ int main() {
     << "cl *po = &o; // " << typeid(po).name() << std::endl
     << "o.i: " << o.i << std::endl
     << "po: " << po << std::endl
-    << "(*po).i: " << (*po).i << std::endl;
+    << "(*po).i: " << (*po).i << ", po->i: " << po->i << std::endl;
 
   (*po).i = 512;
 
