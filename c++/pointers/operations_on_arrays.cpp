@@ -12,6 +12,16 @@ int main() {
 
   std::cout << std::endl;
 
+  pi = &numbers[0];
+
+  for (int i = 0; i < 5; i++) {
+    std::cout << "numbers[" << i << "]: " << *(pi++) << std::endl;
+  }
+
+  std::cout << std::endl;
+
+  pi = &numbers[0];
+
   for (int i = 0; i < 5; i++) {
     std::cout << "numbers[" << i << "]: " << pi[i] << std::endl;
   }
