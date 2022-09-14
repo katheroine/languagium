@@ -29,4 +29,14 @@ int main()
   std::cout << "AFTER: values = ";
   for (auto v: values) std::cout << v << " ";
   std::cout << std::endl << std::endl;
+
+  values[0] = 5; values[1] = 7; values[2] = 9;
+
+  std::cout << "BEFORE: values = ";
+  for (auto v: values) std::cout << v << " ";
+  std::cout << std::endl;
+  function_receiving_array_argument_by_pointer(values, 3);
+  std::cout << "AFTER: values = ";
+  for (auto v: values) std::cout << v << " ";
+  std::cout << std::endl << std::endl;
 }
