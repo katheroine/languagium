@@ -8,6 +8,8 @@ int main() {
   double *ptr;
 
   ptr = new double[10000000000];
+
+  delete ptr;
 }
 
 void handle_memory_allocation_failure() {
