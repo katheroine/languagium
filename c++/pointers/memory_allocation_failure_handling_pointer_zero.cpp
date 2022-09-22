@@ -9,5 +9,7 @@ int main() {
 
   if (!ptr) {
     std::cout << "Memory allocation failure has occured!" << std::endl;
+  } else {
+    delete ptr;
   }
 }
