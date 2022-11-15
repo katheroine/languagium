@@ -27,7 +27,7 @@ int main() {
   std::cout << result << std::endl << std::endl;
 
   fpointer = function_two;
-  result = fpointer("Kathe");
+  result = (*fpointer)("Kathe");
   std::cout << result << std::endl << std::endl;
 
   fpointer = function_three;
