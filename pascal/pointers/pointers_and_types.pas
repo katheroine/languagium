@@ -1,7 +1,14 @@
 program PointersAndTypes;
 
-type
-  integers3 = array[0..2] of integer;
+function u(): integer;
+begin
+  u := 3;
+end;
+
+function u1(): integer;
+begin
+  u1 := 1024;
+end;
 
 var
   b: boolean = true;
@@ -19,8 +26,10 @@ var
   s: string = 'Hi, there!';
   ps: ^string = @s;
 
-  a: integers3 = (5, 10, 15);
-  pa: ^integers3 = @a;
+  a: array[0..2] of integer = (5, 10, 15);
+  pa: ^integer = @(a[0]);
+
+  pu: function(): integer = @u;
 
 begin
   writeln('b: boolean = true; // boolean: ', b);
@@ -55,12 +64,28 @@ begin
   writeln('pc^ = ''t''; c: ', c);
   writeln();
 
+  writeln('s: string = ''Hi, there!''; // string: ', s);
+  writeln('ps: ^string = @s; // string pointer: ', ps^);
+
+  ps^ := 'Bye.';
+
+  writeln('ps^ = ''Bye.''; s: ', s);
+  writeln();
+
   writeln('integers3 = array[0..2] of integer;');
   writeln('a: integers3 = (5, 10, 15); // 3-element array of integers: [', a[0], ', ', a[1], ', ', a[2], ']');
-  writeln('pa: ^integers3 = @a; // 3-element array of integers pointer: [', pa^[0], ', ', pa^[1], ', ', pa^[2], ']');
+  writeln('pa: ^integers3 = @a; // 3-element array of integers pointer: [', pa^, ', ', (pa + 1)^, ', ', (pa + 2)^, ']');
 
-  pa^[0] := 3; pa^[1] := 6; pa^[2] := 9;
+  pa^ := 3; (pa + 1)^ := 6; (pa + 2)^ := 9;
 
-  writeln('pa^[0] := 3; pa^[1] = 6; pa^[2] := 9; a: [', a[0], ', ', a[1], ', ', a[2], ']');
+  writeln('pa^ := 3; (pa + 1)^ = 6; (pa + 2)^ := 9; a: [', a[0], ', ', a[1], ', ', a[2], ']');
+  writeln();
+
+  writeln('function u(): integer; // functon: ', u());
+  writeln('pu: function(): integer = @u; // function pointer: ', pu());
+
+  pu := @u1;
+
+  writeln('pu := u1; pu: ', pu());
   writeln();
 end.
