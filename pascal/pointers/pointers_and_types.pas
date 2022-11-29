@@ -5,9 +5,9 @@ begin
   u := 3;
 end;
 
-function u1(): integer;
-begin
-  u1 := 1024;
+type cl = object
+  public
+    i: integer;
 end;
 
 var
@@ -30,6 +30,9 @@ var
   pa: ^integer = @(a[0]);
 
   pu: function(): integer = @u;
+
+  o: cl;
+  po: ^cl = @o;
 
 begin
   writeln('b: boolean = true; // boolean: ', b);
@@ -83,9 +86,14 @@ begin
 
   writeln('function u(): integer; // functon: ', u());
   writeln('pu: function(): integer = @u; // function pointer: ', pu());
+  writeln();
 
-  pu := @u1;
+  o.i := 256;
+  writeln('o: cl; // object: ', o.i);
+  writeln('po: ^cl = @o; // object pointer: ', po^.i);
 
-  writeln('pu := u1; pu: ', pu());
+  o.i := 512;
+
+  writeln('o.i := 512; po^.i: ', po^.i);
   writeln();
 end.
