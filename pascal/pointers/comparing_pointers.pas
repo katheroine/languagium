@@ -15,4 +15,19 @@ begin
   begin
     writeln('Second pointer is not set on any place in the memory.');
   end;
+
+  pint := @(numbers[3]);
+
+  if ((pint > pi) and (pi <> nil)) then
+  begin
+    writeln('First pointer is set on the element being nearest the beginning of the table than the second one.');
+  end
+  else if ((pint < pi) and (pint <> nil)) then
+  begin
+    writeln('First pointer is set on the element being nearest the end of the table than the second one.');
+  end
+  else if ((pint = pi) and (pi <> nil)) then
+  begin
+    writeln('First pointer point the same element as the second one.');
+  end;
 end.
