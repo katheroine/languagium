@@ -3,7 +3,7 @@ class Token {
   public string Color;
 }
 
-class StaticClassVariable {
+class ClassStaticVariable {
   public static void Main(string[] args) {
     Token token_1 = new Token();
     Token token_2 = new Token();

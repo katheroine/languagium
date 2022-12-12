@@ -1,6 +1,6 @@
 {$MODE OBJFPC}
 
-program StaticClassVariable;
+program ClassStaticVariable;
 
 type Token = class
   public
