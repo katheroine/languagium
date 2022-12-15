@@ -32,4 +32,11 @@ int main() {
   pointer_to_token->color = "indigo";
 
   std::cout << "pointer_to_token->number: " << pointer_to_token->number << ", pointer_to_token->color: " << pointer_to_token->color << std::endl;
+
+  Token &reference_to_token = some_token;
+
+  reference_to_token.number = 8;
+  reference_to_token.color = "navy";
+
+  std::cout << "reference_to_token.number: " << reference_to_token.number << ", reference_to_token.color: " << reference_to_token.color << std::endl;
 }
