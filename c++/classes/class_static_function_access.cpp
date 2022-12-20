@@ -30,4 +30,33 @@ int main() {
   some_token.reset();
 
   std::cout << "some_token.number: " << some_token.number << ", some_token.color: " << some_token.color << std::endl;
+
+  Token *pointer_to_token = &some_token;
+
+  (*pointer_to_token).update(6, "amaranthine");
+
+  std::cout << "(*pointer_to_token).number: " << (*pointer_to_token).number << ", (*pointer_to_token).color: " << (*pointer_to_token).color << std::endl;
+
+  (*pointer_to_token).reset();
+
+  std::cout << "(*pointer_to_token).number: " << (*pointer_to_token).number << ", (*pointer_to_token).color: " << (*pointer_to_token).color << std::endl;
+
+  pointer_to_token->update(7, "indigo");
+
+  std::cout << "pointer_to_token->number: " << pointer_to_token->number << ", pointer_to_token->color: " << pointer_to_token->color << std::endl;
+
+  pointer_to_token->reset();
+
+  std::cout << "pointer_to_token->number: " << pointer_to_token->number << ", pointer_to_token->color: " << pointer_to_token->color << std::endl;
+
+  Token &reference_to_token = some_token;
+
+  reference_to_token.update(8, "navy");
+
+  std::cout << "reference_to_token.number: " << reference_to_token.number << ", reference_to_token.color: " << reference_to_token.color << std::endl;
+
+  reference_to_token.reset();
+
+  std::cout << "reference_to_token.number: " << reference_to_token.number << ", reference_to_token.color: " << reference_to_token.color << std::endl;
+
 }
