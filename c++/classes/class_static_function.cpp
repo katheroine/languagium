@@ -9,7 +9,7 @@ public:
     number = token_number;
     color = token_color;
   }
-  void static reset() {
+  static void reset() {
     number = 0;
   }
 };
