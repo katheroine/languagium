@@ -65,7 +65,7 @@ begin
   writeln('Token.number: ', Token.number);
   writeln();
 
-  Token.reset();
+  token_1.reset();
 
   writeln('token_1.number: ', token_1.number, ', token_1.color: ', token_1.color);
   writeln('token_2.number: ', token_2.number, ', token_2.color: ', token_2.color);
