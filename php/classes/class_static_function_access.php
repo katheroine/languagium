@@ -14,19 +14,22 @@ class Token {
 }
 
 Token::reset();
+print("Token::number: " . Token::$number . "\n");
 
-print("\nToken::number: " . Token::$number . "\n\n");
+print("\n");
 
 $some_token = new Token();
 
 $some_token->update(5, "magenta");
-
 print("\$some_token->color: {$some_token->color}\n");
-print("\nToken::number: " . Token::$number . "\n\n");
+print("Token::number: " . Token::$number . "\n");
+
+print("\n");
 
 $reference_to_token = &$some_token;
 
 $reference_to_token->update(6, "amaranthine");
-
 print("\$some_token->color: {$some_token->color}\n");
-print("\nToken::number: " . Token::$number . "\n\n");
+print("Token::number: " . Token::$number . "\n");
+
+print("\n");
