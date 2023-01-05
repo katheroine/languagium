@@ -34,24 +34,25 @@ begin
   some_token := Token.create();
 
   Token.reset();
-
   writeln('Token.number: ', Token.number);
 
-  some_token.update(5, 'magenta');
+  writeln();
 
+  some_token.update(5, 'magenta');
   writeln('some_token.number: ', some_token.number, ', some_token.color: ', some_token.color);
 
   some_token.reset();
-
   writeln('some_token.number: ', some_token.number, ', some_token.color: ', some_token.color);
+
+  writeln();
 
   pointer_to_token := @some_token;
 
   pointer_to_token^.update(6, 'amaranthine');
-
   writeln('pointer_to_token^.number: ', pointer_to_token^.number, ', pointer_to_token^.color: ', pointer_to_token^.color);
 
   pointer_to_token^.reset();
-
   writeln('pointer_to_token^.number: ', pointer_to_token^.number, ', pointer_to_token^.color: ', pointer_to_token^.color);
+
+  writeln();
 end.
