@@ -21,28 +21,28 @@ token_2.color = "orange"
 token_3.number = 3
 token_3.color = "violet"
 
-print(f"token_1.number: {token_1.number}, token_1.color: {token_1.color}");
-print(f"token_2.number: {token_2.number}, token_2.color: {token_2.color}");
-print(f"token_3.number: {token_3.number}, token_3.color: {token_3.color}");
+print(f"token_1.number: {token_1.number}, token_1.color: {token_1.color}")
+print(f"token_2.number: {token_2.number}, token_2.color: {token_2.color}")
+print(f"token_3.number: {token_3.number}, token_3.color: {token_3.color}")
 
-print(f"\nToken.number: {Token.number}\n");
+print(f"\nToken.number: {Token.number}\n")
 
 Token.number = 10
 token_1.number = 5
 token_1.color = "petrol"
 
-print(f"token_1.number: {token_1.number}, token_1.color: {token_1.color}");
-print(f"token_2.number: {token_2.number}, token_2.color: {token_2.color}");
-print(f"token_3.number: {token_3.number}, token_3.color: {token_3.color}");
+print(f"token_1.number: {token_1.number}, token_1.color: {token_1.color}")
+print(f"token_2.number: {token_2.number}, token_2.color: {token_2.color}")
+print(f"token_3.number: {token_3.number}, token_3.color: {token_3.color}")
 
-print(f"\nToken.number: {Token.number}\n");
+print(f"\nToken.number: {Token.number}\n")
 
 Token.number = 20
 token_2.number = 4
 token_2.color = "ginger"
 
-print(f"token_1.number: {token_1.number}, token_1.color: {token_1.color}");
-print(f"token_2.number: {token_2.number}, token_2.color: {token_2.color}");
-print(f"token_3.number: {token_3.number}, token_3.color: {token_3.color}");
+print(f"token_1.number: {token_1.number}, token_1.color: {token_1.color}")
+print(f"token_2.number: {token_2.number}, token_2.color: {token_2.color}")
+print(f"token_3.number: {token_3.number}, token_3.color: {token_3.color}")
 
-print(f"\nToken.number: {Token.number}\n");
+print(f"\nToken.number: {Token.number}\n")
