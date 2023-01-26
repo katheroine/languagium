@@ -1,7 +1,7 @@
 {$MODE OBJFPC}
 {$H+}
 
-program ClassStaticFunction;
+program ClassStaticFunctionAccess;
 
 type Token = class
   public
