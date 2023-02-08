@@ -22,6 +22,7 @@ class Basket {
   }
 
   public void show() {
+    System.out.print(label + ": ");
     for (int i = 0; i < items.length; i++) {
       System.out.print(items[i] + " ");
     }
