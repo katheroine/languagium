@@ -10,7 +10,7 @@ class Item {
   }
 }
 
-class ConstructorAndDestructor {
+class Constructor {
   public static void main(String args[]) {
     System.out.println("The object will be created now.");
 
