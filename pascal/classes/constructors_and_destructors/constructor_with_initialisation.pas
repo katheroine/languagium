@@ -30,18 +30,24 @@ end;
 procedure Basket.put(item: string);
 begin
   if (load_counter < capacity) then
+  begin
     items[load_counter] := item;
-
-  inc(load_counter);
+    inc(load_counter);
+  end;
 end;
 
 function Basket.pull(): string;
 var
   item: string;
 begin
-  item := items[load_counter];
-  items[load_counter] := '';
-  dec(load_counter);
+  if (load_counter > 0) then
+  begin
+    item := items[load_counter - 1];
+    items[load_counter - 1] := '';
+    dec(load_counter);
+  end
+  else
+    item := '';
 
   pull := item;
 end;
@@ -65,6 +71,27 @@ begin
   handbasket.put('apple');
   handbasket.put('pear');
   handbasket.put('plum');
+  handbasket.put('peach');
+
+  writeln('BASKET:');
+
+  handbasket.show();
+
+  writeln('REMOVED ITEMS:');
+
+  writeln(handbasket.pull());
+  writeln(handbasket.pull());
+
+  writeln('BASKET:');
+
+  handbasket.show();
+
+  writeln('REMOVED ITEMS:');
+
+  writeln(handbasket.pull());
+  writeln(handbasket.pull());
+
+  writeln('BASKET:');
 
   handbasket.show();
 end.
