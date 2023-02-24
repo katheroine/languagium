@@ -9,14 +9,20 @@ class Basket {
   public void put(String item) {
     if (load_counter < capacity) {
       items[load_counter] = item;
+      load_counter++;
     }
-    load_counter++;
   }
 
   public String pull() {
-    String item = items[load_counter];
-    items[load_counter] = "";
-    load_counter--;
+    String item;
+
+    if (load_counter > 0) {
+      item = items[load_counter - 1];
+      items[load_counter - 1] = "";
+      load_counter--;
+    } else {
+      item = "";
+    }
 
     return item;
   }
@@ -44,6 +50,28 @@ class ConstructorWithArguments {
     handbasket.put("plum");
     handbasket.put("peach");
     handbasket.put("grape");
+
+    System.out.println("BASKET:");
+
+    handbasket.show();
+
+    System.out.println("REMOVED ITEMS:");
+
+    System.out.println(handbasket.pull());
+    System.out.println(handbasket.pull());
+    System.out.println(handbasket.pull());
+
+    System.out.println("BASKET:");
+
+    handbasket.show();
+
+    System.out.println("REMOVED ITEMS:");
+
+    System.out.println(handbasket.pull());
+    System.out.println(handbasket.pull());
+    System.out.println(handbasket.pull());
+
+    System.out.println("BASKET:");
 
     handbasket.show();
   }
