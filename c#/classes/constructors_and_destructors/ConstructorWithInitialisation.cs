@@ -7,14 +7,20 @@ class Basket {
   public void put(string item) {
     if (load_counter < capacity) {
       items[load_counter] = item;
+      load_counter++;
     }
-    load_counter++;
   }
 
   public string pull() {
-    string item = items[load_counter];
-    items[load_counter] = "";
-    load_counter--;
+    string item;
+
+    if (load_counter > 0) {
+      item = items[load_counter - 1];
+      items[load_counter - 1] = "";
+      load_counter--;
+    } else {
+      item = "";
+    }
 
     return item;
   }
@@ -38,6 +44,26 @@ class ConstructorWithInitialisation {
     handbasket.put("apple");
     handbasket.put("pear");
     handbasket.put("plum");
+
+    System.Console.WriteLine("BASKET:");
+
+    handbasket.show();
+
+    System.Console.WriteLine("REMOVED ITEMS:");
+
+    System.Console.WriteLine(handbasket.pull());
+    System.Console.WriteLine(handbasket.pull());
+
+    System.Console.WriteLine("BASKET:");
+
+    handbasket.show();
+
+    System.Console.WriteLine("REMOVED ITEMS:");
+
+    System.Console.WriteLine(handbasket.pull());
+    System.Console.WriteLine(handbasket.pull());
+
+    System.Console.WriteLine("BASKET:");
 
     handbasket.show();
   }
