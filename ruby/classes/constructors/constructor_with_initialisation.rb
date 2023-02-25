@@ -9,15 +9,18 @@ class Basket
   def put(item)
     if (@load_counter < CAPACITY)
       @items[@load_counter] = item
+      @load_counter += 1
     end
-
-    @load_counter += 1
   end
 
   def pull()
-    item = @items[@load_counter]
-    @items[@load_counter] = ""
-    @load_counter -= 1
+    if (@load_counter > 0)
+      item = @items[@load_counter - 1]
+      @items[@load_counter - 1] = ""
+      @load_counter -= 1
+    else
+      item = ""
+    end
 
     return item
   end
@@ -38,5 +41,26 @@ handbasket = Basket.new()
 handbasket.put("apple")
 handbasket.put("pear")
 handbasket.put("plum")
+handbasket.put("peach")
+
+puts("BASKET:")
+
+handbasket.show()
+
+puts("REMOVED ITEMS:")
+
+puts(handbasket.pull())
+puts(handbasket.pull())
+
+puts("BASKET:")
+
+handbasket.show()
+
+puts("REMOVED ITEMS:")
+
+puts(handbasket.pull())
+puts(handbasket.pull())
+
+puts("BASKET:")
 
 handbasket.show()
