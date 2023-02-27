@@ -15,7 +15,7 @@ private:
   int load_counter;
 };
 
-Basket::Basket(): capacity(3) {
+Basket::Basket(): capacity(4) {
   label = "[original]";
   items = new std::string[capacity];
   load_counter = 0;
@@ -95,6 +95,7 @@ int main() {
 
   std::cout << "COPIED BACKUP BASKET:" << std::endl;
 
+  backup_basket.put("peach");
   backup_basket.show();
 
   std::cout << std::endl;
@@ -103,6 +104,7 @@ int main() {
 
   std::cout << "COPIED REDUNDANT BASKET:" << std::endl;
 
+  redundant_basket.put("apricot");
   redundant_basket.show();
 
   std::cout << std::endl;
@@ -111,7 +113,14 @@ int main() {
 
   std::cout << "COPIED ANOTHER BASKET:" << std::endl;
 
+  another_basket.put("grape");
   another_basket.show();
+
+  std::cout << std::endl;
+
+  std::cout << "ORIGINAL BASKET:" << std::endl;
+
+  handbasket.show();
 
   std::cout << std::endl;
 
