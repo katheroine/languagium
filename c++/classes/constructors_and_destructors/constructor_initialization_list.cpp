@@ -47,8 +47,7 @@ public:
   void present() {
     cout << "This is " << first_name << " " << surname << endl
       << "born in " << birth_country << " " << birth_date.getFormatted() << endl
-      << "gender: " << gender << endl
-      << endl;
+      << "gender: " << gender << endl;
   }
 
 private:
@@ -66,7 +65,11 @@ int main() {
 
   jnx.present();
 
+  cout << endl;
+
   Person ncoxo(12, 3, 2006, "Sweden", "nonbinary", "Nico", "Forsberg");
 
   ncoxo.present();
+
+  cout << endl;
 }
