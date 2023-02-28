@@ -29,13 +29,13 @@ class Basket {
 
   public void show() {
     System.out.print(label + ": ");
-    for (int i = 0; i < items.length; i++) {
+    for (int i = 0; i < load_counter; i++) {
       System.out.print(items[i] + " ");
     }
     System.out.println();
   }
 
-  String label;
+  private String label;
   private final int capacity;
   private String[] items;
   private int load_counter;
