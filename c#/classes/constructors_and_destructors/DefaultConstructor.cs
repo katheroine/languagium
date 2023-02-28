@@ -26,7 +26,7 @@ class Basket {
   }
 
   public void show() {
-    for (int i = 0; i < items.Length; i++) {
+    for (int i = 0; i < load_counter; i++) {
       System.Console.Write(items[i] + " ");
     }
     System.Console.WriteLine();
