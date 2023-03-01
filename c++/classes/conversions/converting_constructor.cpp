@@ -58,6 +58,16 @@ void Basket::show() {
   std::cout << std::endl;
 }
 
+void receiving(Basket basket) {
+  basket.show();
+}
+
+Basket giving() {
+  const char *vegetable = "parsley";
+
+  return vegetable;
+}
+
 int main() {
   Basket handbasket = "carrot";
 
@@ -70,4 +80,28 @@ int main() {
   Basket another_basket = Basket("beetroot");
 
   another_basket.show();
+
+  Basket yet_another_basket = (Basket)"radish";
+
+  yet_another_basket.show();
+
+  Basket further_basket = static_cast<Basket>("turnip");
+
+  further_basket.show();
+
+  Basket *ultimate_basket = new Basket("celery");
+
+  ultimate_basket->show();
+
+  std::cout << std::endl;
+
+  std::cout << "From receiving function:" << std::endl;
+  receiving("kohlrabi");
+
+  std::cout << std::endl;
+
+  std::cout << "After giving function:" << std::endl;
+  (giving()).show();
+
+  std::cout << std::endl;
 }
