@@ -92,6 +92,10 @@ int main() {
 
   std::cout << food << std::endl;
 
+  const char *meal = (const char *)(handbasket);
+
+  std::cout << meal << std::endl;
+
   const char *thing = static_cast<const char *>(handbasket);
 
   std::cout << thing << std::endl;
