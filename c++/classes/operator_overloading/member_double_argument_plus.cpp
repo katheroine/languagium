@@ -43,14 +43,14 @@ public:
     files[index] = file;
   }
 
-  Folder operator+(Folder folder);
+  Folder operator+(Folder &folder);
 
 private:
   const int capacity;
   std::string *files;
 };
 
-Folder Folder::operator+(Folder folder) {
+Folder Folder::operator+(Folder &folder) {
   int result_capacity = getCapacity() + folder.getCapacity();
   Folder result_folder(result_capacity);
 
