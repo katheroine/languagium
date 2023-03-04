@@ -94,4 +94,14 @@ int main() {
   archieve.show();
 
   std::cout << std::endl;
+
+  Folder file(1);
+
+  file.putFile(0, "paper");
+
+  Folder storage = file + manila + briefcase;
+
+  storage.show();
+
+  std::cout << std::endl;
 }
