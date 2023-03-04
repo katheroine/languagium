@@ -48,7 +48,7 @@ private:
   std::string *files;
 };
 
-Folder operator-(Folder folder) {
+Folder operator-(Folder &folder) {
   Folder result_folder(folder.getCapacity());
 
   for(int i = 0; i < folder.getCapacity(); i++) {
