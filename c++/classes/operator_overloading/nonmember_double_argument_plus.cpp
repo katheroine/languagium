@@ -6,7 +6,7 @@ public:
     files = new std::string[capacity];
   }
 
-  Folder(Folder &folder_pattern): capacity(folder_pattern.capacity) {
+  Folder(const Folder &folder_pattern): capacity(folder_pattern.capacity) {
     files = new std::string[folder_pattern.capacity];
 
     for (int i = 0; i < folder_pattern.capacity; i++) {
@@ -18,11 +18,11 @@ public:
     delete [] files;
   }
 
-  int getCapacity() {
+  int getCapacity() const {
     return capacity;
   }
 
-  std::string getFile(int index) {
+  std::string getFile(int index) const {
     std::string result_file = "";
     if (index < capacity)
       result_file = files[index];
@@ -48,7 +48,7 @@ private:
   std::string *files;
 };
 
-Folder operator+(Folder &folder_1, Folder &folder_2) {
+Folder operator+(const Folder &folder_1, const Folder &folder_2) {
   int result_capacity = folder_1.getCapacity() + folder_2.getCapacity();
   Folder result_folder(result_capacity);
 
