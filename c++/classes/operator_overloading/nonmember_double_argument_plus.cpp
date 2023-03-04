@@ -48,7 +48,7 @@ private:
   std::string *files;
 };
 
-Folder operator+(Folder folder_1, Folder folder_2) {
+Folder operator+(Folder &folder_1, Folder &folder_2) {
   int result_capacity = folder_1.getCapacity() + folder_2.getCapacity();
   Folder result_folder(result_capacity);
 
