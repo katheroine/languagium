@@ -53,7 +53,7 @@ Folder & Folder::operator++() {
   for(int i = 0; i < capacity; i++) {
     resized_files[i] = files[i];
   }
-  resized_files[capacity] = "";
+  resized_files[capacity] = "...";
 
   capacity = resized_capacity;
 
