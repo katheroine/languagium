@@ -47,6 +47,10 @@ private:
 };
 
 Folder Folder::operator--(int) {
+  if (! (capacity > 0)) {
+      return *this;
+  }
+
   Folder temp_folder = *this;
 
   int result_capacity = capacity - 1;
