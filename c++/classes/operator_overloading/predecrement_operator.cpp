@@ -47,6 +47,10 @@ private:
 };
 
 Folder & Folder::operator--() {
+  if (! (capacity > 0)) {
+      return *this;
+  }
+
   int result_capacity = capacity - 1;
   std::string *result_files = new std::string[result_capacity];
 
