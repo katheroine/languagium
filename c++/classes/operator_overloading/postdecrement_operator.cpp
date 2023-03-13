@@ -49,17 +49,17 @@ private:
 Folder Folder::operator--(int) {
   Folder temp_folder = *this;
 
-  int resized_capacity = capacity - 1;
-  std::string *resized_files = new std::string[resized_capacity];
+  int result_capacity = capacity - 1;
+  std::string *result_files = new std::string[result_capacity];
 
-  for(int i = 0; i < resized_capacity; i++) {
-    resized_files[i] = files[i];
+  for(int i = 0; i < result_capacity; i++) {
+    result_files[i] = files[i];
   }
 
-  capacity = resized_capacity;
+  capacity = result_capacity;
 
   delete [] files;
-  files = resized_files;
+  files = result_files;
 
   return temp_folder;
 }
