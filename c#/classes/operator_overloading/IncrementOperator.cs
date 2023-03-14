@@ -44,15 +44,11 @@ class Folder {
   public static Folder operator++(Folder folder) {
     int result_capacity = folder.capacity + 1;
     Folder result_folder = new Folder(result_capacity);
-    // string[] result_files = new string[result_capacity];
 
     for(int i = 0; i < folder.capacity; i++) {
       result_folder.files[i] = folder.files[i];
     }
     result_folder.files[folder.capacity] = "...";
-
-    // folder.capacity = result_capacity;
-    // folder.files = result_files;
 
     return result_folder;
   }
