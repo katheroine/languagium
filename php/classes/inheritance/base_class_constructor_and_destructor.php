@@ -20,7 +20,7 @@ class Value {
 class Datum extends Value {
   public string $description;
 
-  public function __construct(float $value, string $label, string $description) {
+  public function __construct(float $value, string $label, string $description = "") {
     $this->value = $value;
     $this->label = $label;
     $this->description = $description;
