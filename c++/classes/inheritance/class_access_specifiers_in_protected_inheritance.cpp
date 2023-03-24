@@ -4,7 +4,7 @@ class Mammal {
 public:
   bool is_domesticated;
 protected:
-  bool has_wings;
+  bool has_tail;
 private:
   bool is_milk_feeded = true;
   const std::string class_taxon = "Mammalia";
@@ -16,7 +16,7 @@ public:
 
   Fox() {
     // is_milk_feeded = true;
-    has_wings = false;
+    has_tail = true;
     is_domesticated = false;
   }
 
@@ -26,7 +26,7 @@ public:
       << "Species: " << species_taxon << std::endl
       << std::boolalpha
       // << "Am I milk-feeded as a cub? " << is_milk_feeded << std::endl
-      << "Do I have wings? " << has_wings << std::endl
+      << "Do I have tail? " << has_tail << std::endl
       << "Do I have fur? " << has_fur << std::endl
       << "Am I domesticated? " << is_domesticated << std::endl
       << std::noboolalpha;
@@ -44,7 +44,7 @@ public:
       // << "Species: " << species_taxon << std::endl
       << std::boolalpha
       // << "Am I milk-feeded as a cub? " << is_milk_feeded << std::endl
-      << "Do I have wings? " << has_wings << std::endl
+      << "Do I have tail? " << has_tail << std::endl
       // << "Do I have fur? " << has_fur << std::endl
       << "Am I domesticated? " << is_domesticated << std::endl
       << std::noboolalpha;
@@ -66,7 +66,7 @@ int main() {
     // << "Species: " << fox_ferdinand.species_taxon << std::endl
     << std::boolalpha
     // << "Am I milk-feeded as a cub? " << is_milk_feeded << std::endl
-    // << "Do I have wings? " << fox_ferdinand.has_wings << std::endl
+    // << "Do I have tail? " << fox_ferdinand.has_tail << std::endl
     // << "Do I have fur? " << fox_ferdinand.has_fur << std::endl
     // << "Am I domesticated? " << fox_ferdinand.is_domesticated << std::endl
     << std::noboolalpha
