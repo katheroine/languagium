@@ -2,7 +2,7 @@ class Value {
   public double value;
   public string label;
 
-  public Value(double value_value, string value_label) {
+  public Value(double value_value, string value_label = "") {
     value = value_value;
     label = value_label;
 
@@ -17,7 +17,7 @@ class Value {
 class Datum : Value {
   public string description;
 
-  public Datum(double value_value, string value_label, string value_description) : base(value_value, value_label) {
+  public Datum(double value_value, string value_label, string value_description = "") : base(value_value, value_label) {
     description = value_description;
 
     System.Console.WriteLine("# Datum constructor is running...");
