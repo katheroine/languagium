@@ -10,6 +10,12 @@ class Mammal {
 class Fox : Mammal {
   public string Name;
 
+  public Fox() {
+    // IsMilkFeeded = true;
+    HasTail = true;
+    IsDomesticated = false;
+  }
+
   public void Show() {
     System.Console.WriteLine("Hi, my name is " + Name
       // + ".\nClass: " + ClassTaxon
