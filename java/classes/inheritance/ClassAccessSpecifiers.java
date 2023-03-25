@@ -10,6 +10,12 @@ class Mammal {
 class Fox extends Mammal {
   public String name;
 
+  public Fox() {
+    // isMilkFeeded = true;
+    hasTail = true;
+    isDomesticated = false;
+  }
+
   public void show() {
     System.out.println("Hi, my name is " + name
       // + ".\nClass: " + classTaxon
