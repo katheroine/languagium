@@ -11,7 +11,7 @@ class Fox(Mammal):
         print("Hi, my name is " + self.name + ".\n"
       + "Class: " + self.class_taxon + "\n"
       + "Species: " + self.species_taxon
-    );
+    )
 
 foxFerdinand = Fox()
 
