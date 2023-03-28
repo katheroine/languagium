@@ -25,7 +25,8 @@ class Fox extends Mammal {
       // . "\nAm I milk-feeded as a cub? " . $this->isMilkFeeded
       . "\nDo I have tail? " . $this->hasTail
       . "\nDo I have fur? " . $this->hasFur
-      . "\nAm I domesticated? " . $this->isDomesticated . "\n"
+      . "\nAm I domesticated? " . $this->isDomesticated
+      . "\n"
     );
   }
 
@@ -41,7 +42,8 @@ class UrbanFox extends Fox {
       // . "\nAm I milk-feeded as a cub? " . $this->isMilkFeeded
       . "\nDo I have tail? " . $this->hasTail
       // . "\nDo I have fur? " . $this->hasFur
-      . "\nAm I domesticated? " . $this->isDomesticated . "\n"
+      . "\nAm I domesticated? " . $this->isDomesticated
+      . "\n"
     );
   }
 }
@@ -59,7 +61,8 @@ print("\nHi, my name is " . $foxFerdinand->name
   // . "\nAm I milk-feeded as a cub? " . $foxFerdinand->isMilkFeeded
   // . "\nDo I have tail? " . $foxFerdinand->hasTail
   // . "\nDo I have fur? " . $foxFerdinand->hasFur
-  . "\nAm I domesticated? " . $foxFerdinand->isDomesticated . "\n\n"
+  . "\nAm I domesticated? " . $foxFerdinand->isDomesticated
+  . "\n\n"
 );
 
 $foxMelody = new UrbanFox();
