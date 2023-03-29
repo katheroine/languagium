@@ -5,10 +5,10 @@ using std::string, std::cout, std::endl, std::boolalpha, std::noboolalpha;
 class Mammal {
 public:
   bool is_domesticated;
-  bool has_wings;
+  bool has_tail;
 
-  static bool is_milk_feeded;// = true;
-  static string class_taxon;// = "Mammalia";
+  static bool is_milk_feeded;
+  static string class_taxon;
 };
 
 bool Mammal::is_milk_feeded = true;
@@ -18,11 +18,11 @@ class Fox : public Mammal {
 public:
   string name;
 
-  static bool has_fur;// = true;
-  static string species_taxon;// = "Vulpes vulpes";
+  static bool has_fur;
+  static string species_taxon;
 
   Fox() {
-    has_wings = false;
+    has_tail = true;
     is_domesticated = false;
   }
 
@@ -32,7 +32,7 @@ public:
       << "Species: " << species_taxon << endl
       << boolalpha
       << "Am I milk-feeded as a cub? " << is_milk_feeded << endl
-      << "Do I have wings? " << has_wings << endl
+      << "Do I have tail? " << has_tail << endl
       << "Do I have fur? " << has_fur << endl
       << "Am I domesticated? " << is_domesticated << endl
       << noboolalpha;
@@ -47,18 +47,6 @@ public:
   PetFox() {
     is_domesticated = true;
   }
-
-  void display() {
-    cout << "Hi, my name is " << name << "." << endl
-      << "Class: " << class_taxon << endl
-      << "Species: " << species_taxon << endl
-      << boolalpha
-      << "Am I milk-feeded as a cub? " << is_milk_feeded << endl
-      << "Do I have wings? " << has_wings << endl
-      << "Do I have fur? " << has_fur << endl
-      << "Am I domesticated? " << is_domesticated << endl
-      << noboolalpha;
-    }
 };
 
 int main() {
@@ -71,6 +59,6 @@ int main() {
   PetFox fox_agnes;
   fox_agnes.name = "Agnes";
 
-  fox_agnes.display();
+  fox_agnes.show();
   cout << endl;
 }
