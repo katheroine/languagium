@@ -92,6 +92,7 @@ var
 begin
   fox_ferdinand := Fox.create();
   fox_ferdinand.name := 'Ferdinand';
+  fox_ferdinand.has_tail := true;
 
   fox_ferdinand.display();
   writeln();
