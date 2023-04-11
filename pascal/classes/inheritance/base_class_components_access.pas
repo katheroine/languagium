@@ -1,6 +1,6 @@
 {$MODE OBJFPC}
 
-program BaseClassElementsAccess;
+program BaseClassComponentsAccess;
 
 type
   Mammal = class
