@@ -78,6 +78,7 @@ bool Fox::has_fur = true;
 int main() {
   Fox fox_ferdinand;
   fox_ferdinand.name = "Ferdinand";
+  fox_ferdinand.has_tail = true;
 
   fox_ferdinand.show();
   cout << endl;
