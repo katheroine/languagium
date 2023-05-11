@@ -8,15 +8,16 @@ double sourceValue(string prompt, string (*validate)(double value))
   string validation_message = "";
 
   do {
-    if (! validation_message.empty()) {
-      cout << validation_message << endl
-        << "Try again." << endl;
-    }
     cout << prompt;
     cin >> value;
-
     validation_message = validate(value);
-  } while (! validation_message.empty());
+
+    if (validation_message.empty())
+      break;
+
+    cout << validation_message << endl
+      << "Try again." << endl;
+  } while (true);
 
   return value;
 }
