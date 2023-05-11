@@ -3,16 +3,17 @@ const prompt = require("prompt-sync")({sigint:true});
 
 function sourceValue(prompt_message, validate) {
   var value;
-  var validation_message = "";
+  var validation_message;
 
   do {
-    if (validation_message != "") {
-      console.log(validation_message + "\nTry again.");
-    }
     value = prompt(prompt_message);
-
     validation_message = validate(value);
-  } while (validation_message != "");
+
+    if (validation_message == "")
+      break;
+
+    console.log(validation_message + "\nTry again.");
+  } while (true);
 
   return value;
 }
