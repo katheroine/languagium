@@ -3,17 +3,15 @@
 
 function sourceValue($prompt, $validate)
 {
-    $validation_message = "";
-
     do {
-        if (! empty($validation_message)) {
-            print($validation_message
-                . "\nTry again.\n");
-        }
         $value = (string)readline($prompt);
-
         $validation_message = $validate($value);
-    } while (! empty($validation_message));
+
+        if (empty($validation_message))
+            break;
+
+        print($validation_message . "\nTry again.\n");
+    } while (true);
 
     return $value;
 }
