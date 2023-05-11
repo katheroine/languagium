@@ -6,18 +6,20 @@ class Callbacks {
   static double SourceValue(string prompt, Validation validate)
   {
     double value;
-    string validationMessage = "";
+    string validationMessage;
 
     do {
-      if (! string.IsNullOrEmpty(validationMessage)) {
-        System.Console.WriteLine(validationMessage);
-        System.Console.WriteLine("Try again.");
-      }
       System.Console.Write(prompt);
       value =  Convert.ToDouble(Console.ReadLine());
-
       validationMessage = validate(value);
-    } while (! string.IsNullOrEmpty(validationMessage));
+
+      if (string.IsNullOrEmpty(validationMessage)) {
+        break;
+      }
+
+      System.Console.WriteLine(validationMessage);
+      System.Console.WriteLine("Try again.");
+    } while (true);
 
     return value;
   }
