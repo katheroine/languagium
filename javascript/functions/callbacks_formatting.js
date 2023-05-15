@@ -2,8 +2,8 @@
 const prompt = require("prompt-sync")({sigint:true});
 
 function sourceValue(prompt_message, validate) {
-  var value;
-  var validation_message;
+  let value;
+  let validation_message;
 
   do {
     value = prompt(prompt_message);
@@ -19,7 +19,7 @@ function sourceValue(prompt_message, validate) {
 }
 
 function validateTemperatureInCelsius(value) {
-  var message = "";
+  let message = "";
 
   if (value > 26) {
     message = "Temperature is to high for human health.";
@@ -40,15 +40,15 @@ const validateHumidityInPercents = function(value) {
   return '';
 }
 
-var temperature;
+let temperature;
 temperature = sourceValue("Give the ambient temperature in degrees Celsius: ", validateTemperatureInCelsius);
 console.log("Tempetature has been set to " + temperature + " degree Celsius.");
 
-var humidity;
+let humidity;
 humidity = sourceValue("Give the air humidity in percents: ", validateHumidityInPercents);
 console.log("Humidity has been set to " + humidity + " percent.");
 
-var pressure;
+let pressure;
 pressure = sourceValue("Give the atmospheric pressure in hectopascals: ", function(value) {
   if (value != 1013.25) {
     return "Pressure is not perfect.";
