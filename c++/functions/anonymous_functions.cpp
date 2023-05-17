@@ -2,7 +2,7 @@
 
 int main()
 {
-  auto simple_function = []() -> void { std::cout << "Simple function." << std::endl; };
+  auto simple_function = [] () -> void { std::cout << "Simple function." << std::endl; };
 
   auto function_with_local_variable = [] () -> void
   {
