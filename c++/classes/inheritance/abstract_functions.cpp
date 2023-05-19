@@ -21,8 +21,6 @@ public:
 
   Datum(double value, string label, string description = "") :
     Value(value, label) {
-    this->value = value;
-    this->label = label;
     this->description = description.length() ? description : this->description;
   }
 
@@ -39,27 +37,9 @@ public:
   }
 };
 
-void display_by_value(Datum datum) {
-  datum.show();
-}
-
-void display_by_pointer(Datum *datum) {
-  datum->show();
-}
-
-void display_by_reference(Datum &datum) {
-  datum.show();
-}
-
 int main() {
-  Content temperature(666, "Page of Harry Potter book", "The satanistic ritual hidden in the book for kids. Oh noes!");
+  // Value temperature(24, "Health for humans temperature in degree Celsius"); // One cannot instantiate.
 
-  display_by_value(temperature);
-  cout << endl;
-
-  display_by_pointer(&temperature);
-  cout << endl;
-
-  display_by_reference(temperature);
-  cout << endl;
+  Content page(666, "Page of Harry Potter book", "The satanistic ritual hidden in the book for kids. Oh noes!");
+  page.show();
 }
