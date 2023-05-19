@@ -23,8 +23,6 @@ public:
 
   Datum(double value, string label, string description = "") :
     Value(value, label) {
-    this->value = value;
-    this->label = label;
     this->description = description.length() ? description : this->description;
   }
 
