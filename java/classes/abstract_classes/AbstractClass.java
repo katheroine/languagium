@@ -1,18 +1,26 @@
 abstract class Datum {
-  public String description;
+  protected String description;
+
+  public String formatDescriptionAsText() {
+    return ("Description: " + description);
+  }
 }
 
 class Content extends Datum {
-  private String core;
+  protected String core;
 
   public Content(String contentCore, String contentDescription) {
     core = contentCore;
     description = contentDescription;
   }
 
+  public String formatCoreAsText() {
+    return ("Core: " + core);
+  }
+
   public void show() {
-    System.out.println("Description: " + description
-      + "\nCore: " + core
+    System.out.println(formatDescriptionAsText() + "\n"
+      + formatCoreAsText()
     );
   }
 }
