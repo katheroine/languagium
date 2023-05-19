@@ -21,8 +21,6 @@ public:
 
   Datum(double value, string label, string description = "") :
     Value(value, label) {
-    this->value = value;
-    this->label = label;
     this->description = description.length() ? description : this->description;
   }
 
@@ -52,14 +50,14 @@ void display_by_reference(Datum &datum) {
 }
 
 int main() {
-  Content temperature(666, "Page of Harry Potter book", "The satanistic ritual hidden in the book for kids. Oh noes!");
+  Content page(666, "Page of Harry Potter book", "The satanistic ritual hidden in the book for kids. Oh noes!");
 
-  display_by_value(temperature);
+  display_by_value(page);
   cout << endl;
 
-  display_by_pointer(&temperature);
+  display_by_pointer(&page);
   cout << endl;
 
-  display_by_reference(temperature);
+  display_by_reference(page);
   cout << endl;
 }
