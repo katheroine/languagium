@@ -3,9 +3,10 @@
 using std::string, std::cout, std::endl;
 
 class Datum {
-public:
+protected:
   string description;
 
+public:
   virtual void show() = 0;
 
   string formatDescriptionAsText() {
@@ -14,8 +15,9 @@ public:
 };
 
 class Content: public Datum {
-private:
+protected:
   string core;
+
 public:
   Content(string content_core, string content_description = "") :
     core(content_core) {
