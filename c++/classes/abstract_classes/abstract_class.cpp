@@ -7,6 +7,10 @@ public:
   string description;
 
   virtual void show() = 0;
+
+  string formatDescriptionAsText() {
+    return ("Description: " + description);
+  }
 };
 
 class Content: public Datum {
@@ -18,9 +22,13 @@ public:
       description = content_description;
   }
 
+  string formatCoreAsText() {
+    return ("Core: " + core);
+  }
+
   void show() {
-    cout << "Description: " << description << endl
-      << "Core: " << core << endl;
+    cout << formatDescriptionAsText() << endl
+      << formatCoreAsText() << endl;
   }
 };
 
