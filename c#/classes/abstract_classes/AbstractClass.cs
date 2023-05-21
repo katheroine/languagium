@@ -1,18 +1,26 @@
 abstract class Datum {
-  public string Description;
+  protected string Description;
+
+  public string FormatDescriptionAsText() {
+    return ("Description: " + Description);
+  }
 }
 
 class Content : Datum {
-  private string Core;
+  protected string Core;
 
   public Content(string contentCore, string contentDescription) {
     Core = contentCore;
     Description = contentDescription;
   }
 
+  public string FormatCoreAsText() {
+    return ("Core: " + Core);
+  }
+
   public void Show() {
-    System.Console.WriteLine("Description: " + Description
-      + "\nCore: " + Core
+    System.Console.WriteLine(FormatDescriptionAsText() + "\n"
+      + FormatCoreAsText()
     );
   }
 }
