@@ -2,20 +2,28 @@
 <?php
 
 abstract class Datum {
-    public string $description;
+    protected string $description;
+
+    public function formatDescriptionAsText() : string {
+        return ("Description: " . $this->description);
+    }
 }
 
 class Content extends Datum {
-    private string $core;
+    protected string $core;
 
     public function __construct(string $core, string $description = "") {
         $this->core = $core;
         $this->description = $description;
     }
 
+    public function formatCoreAsText() : string {
+        return ("Core: " . $this->core);
+    }
+
     public function show() : void {
-        print("Description: " . $this->description
-            . "\nCore: " . $this->core . "\n");
+        print($this->formatDescriptionAsText() . "\n"
+          . $this->formatCoreAsText() . "\n");
     }
 };
 
