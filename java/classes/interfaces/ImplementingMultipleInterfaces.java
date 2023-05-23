@@ -26,10 +26,6 @@ class Content extends Datum {
     core = contentCore;
   }
 
-  public String formatCoreAsText() {
-    return ("Core: " + core);
-  }
-
   public void show() { // Must be implemented.
     System.out.println(getLabel() + "\n"
       + "Core: " + core
