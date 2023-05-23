@@ -1,8 +1,5 @@
-interface Labelled {
+interface Presentation {
   public String getLabel();
-}
-
-interface Presentation extends Labelled {
   public void show();
 }
 
@@ -37,7 +34,7 @@ class Content extends Datum {
   }
 }
 
-class InterfaceExtendingInterface {
+class InterfaceAndAbstractClass {
   public static void main(String[] args) {
     Content lectio = new Content(
       "In omnibus requiem quaesivi, et nusquam inveni nisi in angulo cum libro.",
