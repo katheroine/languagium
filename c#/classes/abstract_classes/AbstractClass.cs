@@ -25,7 +25,7 @@ class Content : Datum {
   }
 }
 
-class StandardConversionsWithinClassHierarchy {
+class AbstractClass {
   public static void Main(string[] args) {
     // Datum data = new Datum(); // One cannot instantiate.
 
