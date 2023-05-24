@@ -34,7 +34,7 @@ class Content extends Datum {
         print($this->getLabel() . "\n"
           . "Core: " . $this->core . "\n");
     }
-};
+}
 
 $color = new Datum("Favourite color");
 $color->show();
