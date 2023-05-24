@@ -21,7 +21,7 @@ class Value {
     private string $name;
     private float $value;
 
-    public function __construct(string $value, string $name = "", string $presentationTitle = "") {
+    public function __construct(float $value, string $name = "", string $presentationTitle = "") {
         $this->value = $value;
         $this->name = $name;
         $this->presentationTitle = $presentationTitle;
