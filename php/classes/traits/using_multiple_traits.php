@@ -32,7 +32,7 @@ trait Typeable {
 class Value {
     use Presentable, Typeable;
     private string $name;
-    private float $value;
+    private $value;
 
     public function __construct(string $value, string $type, string $name = "", string $presentationTitle = "") {
         $this->setupTypeConverters();
