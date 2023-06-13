@@ -49,9 +49,12 @@ int main() {
     } else if (number == 1000) {
       ThousandException exception(number);
       throw exception;
+    } else if (number == 10000) { // Unhandled exception.
+      NumberValueException exception;
+      throw exception;
     }
 
-    cout << "Given number didn't case exception throwing." << endl;
+    cout << "Given number " << number << " didn't case exception throwing." << endl;
   } catch (ZeroException e) {
     cout << "CASE 1: " << e.message << " (" << e.number << ")" << endl;
   } catch (OneException e) {
