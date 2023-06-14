@@ -63,6 +63,8 @@ begin
   writeln('Program begin...');
 
   try
+    writeln('Risky code...');
+
     number := drawNumber();
 
     writeln('Given number ', number, ' didn''t case exception throwing.');
