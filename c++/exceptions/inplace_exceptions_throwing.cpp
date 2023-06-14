@@ -36,6 +36,8 @@ int main() {
   cout << "Program begin..." << endl;
 
   try {
+    cout << "Risky code..." << endl;
+
     cout << "Give some number: ";
     int number;
     cin >> number;
