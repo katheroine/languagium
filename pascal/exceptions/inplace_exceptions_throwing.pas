@@ -45,6 +45,8 @@ begin
   writeln('Program begin...');
 
   try
+    writeln('Risky code...');
+    
     write('Give some number: ');
     readln(number);
 
