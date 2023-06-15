@@ -27,7 +27,7 @@ class ThousandException extends NumberValueException {
 }
 
 class Exceptions {
-  static int drawNumber() throws ZeroException, OneException, ThousandException {
+  static int drawNumber() throws ZeroException, OneException, ThousandException, NumberValueException {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Give some number: ");
     int number = scanner.nextInt();
@@ -39,13 +39,13 @@ class Exceptions {
     } else if (number == 1000) {
       throw new ThousandException(number);
     } else if (number == 10000) { // Unhandled exception.
-      // throw new NumberValueException();
+      throw new NumberValueException();
     }
 
     return number;
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws NumberValueException {
     System.out.println("Program begin...");
 
     try {
