@@ -62,7 +62,7 @@ int main() {
 
     int number = drawNumber();
 
-    cout << "Given number didn't case exception throwing." << endl;
+    cout << "Given number " << number << " didn't case exception throwing." << endl;
   } catch (ZeroException e) {
     cout << "CASE 1: " << e.message << " (" << e.number << ")" << endl;
   } catch (OneException e) {
@@ -73,7 +73,7 @@ int main() {
 
       int number = drawNumber();
 
-      cout << "Another given number didn't case exception throwing." << endl;
+      cout << "Another given number " << number << " didn't case exception throwing." << endl;
     } catch (ZeroException e) {
       cout << "CASE 1: " << e.message << " (" << e.number << ")" << endl;
     } catch (OneException e) {
