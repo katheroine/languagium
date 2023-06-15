@@ -27,7 +27,7 @@ class ThousandException extends NumberValueException {
 }
 
 class InplaceExceptionsThrowing {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws ZeroException, OneException, ThousandException, NumberValueException {
     System.out.println("Program begin...");
 
     try {
@@ -44,7 +44,7 @@ class InplaceExceptionsThrowing {
       } else if (number == 1000) {
         throw new ThousandException(number);
       } else if (number == 10000) { // Unhandled exception.
-        // throw new NumberValueException();
+        throw new NumberValueException();
       }
 
       System.out.println("Given number " + number + " didn't case exception throwing.");
