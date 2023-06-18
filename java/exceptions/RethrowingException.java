@@ -45,7 +45,7 @@ class RethrowingException {
     return number;
   }
 
-  public static void main(String[] args) throws OneException, NumberValueException {
+  public static void main(String[] args) throws NumberValueException {
     System.out.println("Program begin...");
 
     try {
