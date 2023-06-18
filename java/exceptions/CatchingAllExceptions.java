@@ -38,14 +38,14 @@ class CatchingAllExceptions {
       throw new OneException(number);
     } else if (number == 1000) {
       throw new ThousandException(number);
-    } else if (number == 10000) { // Unhandled exception.
+    } else if (number == 10000) {
       throw new NumberValueException();
     }
 
     return number;
   }
 
-  public static void main(String[] args) throws NumberValueException {
+  public static void main(String[] args) throws Exception {
     System.out.println("Program begin...");
 
     try {
