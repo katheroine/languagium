@@ -51,7 +51,6 @@ begin
   number = draw_number
 
   puts("Given number #{number} didn't case exception throwing.")
-
 rescue ZeroException => e
   puts("CASE 1: #{e.message} (#{e.number})")
 rescue OneException => e
