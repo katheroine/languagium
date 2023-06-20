@@ -26,29 +26,10 @@ class ThousandException < NumberValueException
   end
 end
 
-# def draw_number
-#   print "Give some number: "
-#   number = gets.to_i
-#
-#   if number == 0
-#     raise ZeroException.new(number)
-#   elsif number == 1
-#     raise OneException.new(number)
-#   elsif number == 1000
-#     raise ThousandException.new(number)
-#   elsif number == 10000 # Unhandled exception.
-#     raise NumberValueException.new
-#   end
-#
-#   number
-# end
-
 puts "Program begin..."
 
 begin
   puts "Risky code..."
-
-  # number = draw_number
 
   print "Give some number: "
   number = gets.to_i
