@@ -60,6 +60,8 @@ end;
 var number: integer;
 
 begin
+  writeln('Risky code...');
+
   writeln('Program begin...');
 
   try
