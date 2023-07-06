@@ -144,3 +144,8 @@ Learning several script/programming languages at the same time.
 |--|--|--|--|--|--|--|--|--|--|
 |Structures|[records.pas](https://github.com/katheroine/languagium/blob/master/pascal/records/records.pas)|[structures.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/structures/structures.cpp)|--|[structures.cs](https://github.com/katheroine/languagium/blob/master/c%23/structures/structures.cs)|--|--|--|--|--|
 |Default access level in inheritance|--|[default_structure_inheritance_access_level.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/structures/inheritance/default_structure_inheritance_access_level.cpp)|--|--|--|--|--|--|--|
+
+### Unions
+|  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
+|--|--|--|--|--|--|--|--|--|--|
+|Unions|--|[unions.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/unions/unions.cpp)|--|--|--|--|--|--|--|
