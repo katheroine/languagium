@@ -138,3 +138,9 @@ Learning several script/programming languages at the same time.
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Enums|[enums.pas](https://github.com/katheroine/languagium/blob/master/pascal/enums/enums.pas)|[enums.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/enums/enums.cpp)|[Enums.java](https://github.com/katheroine/languagium/blob/master/java/enums/Enums.java)|[Enums.cs](https://github.com/katheroine/languagium/blob/master/c%23/enums/Enums.cs)|--|--|[enums.php](https://github.com/katheroine/languagium/blob/master/php/enums/enums.php)|--|--|
+
+### Structures
+|  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
+|--|--|--|--|--|--|--|--|--|--|
+|Structures|[records.pas](https://github.com/katheroine/languagium/blob/master/pascal/records/records.pas)|[structures.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/structures/structures.cpp)|--|[structures.cs](https://github.com/katheroine/languagium/blob/master/c%23/structures/structures.cs)|--|--|--|--|--|
+|Default access level in inheritance|--|[default_structure_inheritance_access_level.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/structures/inheritance/default_structure_inheritance_access_level.cpp)|--|--|--|--|--|--|--|
