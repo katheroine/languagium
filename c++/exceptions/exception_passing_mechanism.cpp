@@ -27,15 +27,15 @@ public:
 
 int main()
 {
-  cout << "Throwing automatic value, catching value: " << endl << endl;
+  cout << endl << "Throwing automatic value, catching value: " << endl << endl;
 
   try
   {
     SomeException some_exception;
-    cout << "Thowing [" << some_exception.level << "]" << endl;
+    cout << "Thowing [level " << some_exception.level << "]" << endl;
     throw some_exception;
   } catch (SomeException e) {
-    cout << "Catching [" << e.level << "]" << endl;
+    cout << "Catching [level " << e.level << "]" << endl;
   }
 
   cout << endl << "Throwing automatic value, catching reference: " << endl << endl;
@@ -43,10 +43,10 @@ int main()
   try
   {
     SomeException some_exception;
-    cout << "Thowing [" << some_exception.level << "]" << endl;
+    cout << "Thowing [level " << some_exception.level << "]" << endl;
     throw some_exception;
   } catch (SomeException &e) {
-    cout << "Catching [" << e.level << "]" << endl;
+    cout << "Catching [level " << e.level << "]" << endl;
   }
 
   cout << endl << "Throwing allocated value, catching value: " << endl << endl;
@@ -56,10 +56,10 @@ int main()
   try
   {
     some_exception = new SomeException;
-    cout << "Thowing [" << some_exception->level << "]" << endl;
+    cout << "Thowing [level " << some_exception->level << "]" << endl;
     throw *some_exception;
   } catch (SomeException e) {
-    cout << "Catching [" << e.level << "]" << endl;
+    cout << "Catching [level " << e.level << "]" << endl;
   }
 
   delete some_exception;
@@ -69,10 +69,12 @@ int main()
   try
   {
     SomeException *some_exception = new SomeException;
-    cout << "Thowing [" << some_exception->level << "]" << endl;
+    cout << "Thowing [level " << some_exception->level << "]" << endl;
     throw some_exception;
   } catch (SomeException *e) {
-    cout << "Catching [" << e->level << "]" << endl;
+    cout << "Catching [level " << e->level << "]" << endl;
     delete e;
   }
+
+  cout << endl;
 }
