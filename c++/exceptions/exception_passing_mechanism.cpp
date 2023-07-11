@@ -27,7 +27,7 @@ public:
 
 int main()
 {
-  cout << "Throwing value, catching value: " << endl << endl;
+  cout << "Throwing automatic value, catching value: " << endl << endl;
 
   try
   {
@@ -38,7 +38,7 @@ int main()
     cout << "Catching [" << e.level << "]" << endl;
   }
 
-  cout << endl << "Throwing value, catching reference: " << endl << endl;
+  cout << endl << "Throwing automatic value, catching reference: " << endl << endl;
 
   try
   {
@@ -48,6 +48,21 @@ int main()
   } catch (SomeException &e) {
     cout << "Catching [" << e.level << "]" << endl;
   }
+
+  cout << endl << "Throwing allocated value, catching value: " << endl << endl;
+
+  SomeException *some_exception;
+
+  try
+  {
+    some_exception = new SomeException;
+    cout << "Thowing [" << some_exception->level << "]" << endl;
+    throw *some_exception;
+  } catch (SomeException e) {
+    cout << "Catching [" << e.level << "]" << endl;
+  }
+
+  delete some_exception;
 
   cout << endl << "Throwing pointer, catching pointer: " << endl << endl;
 
