@@ -16,12 +16,20 @@ public:
   }
 };
 
-class SingleAcquisitor
+class Acquisitor
 {
 public:
   Something *const resource;
 
-  SingleAcquisitor(Something *something) : resource(something)
+  Acquisitor(Something *something) : resource(something)
+  {
+  }
+};
+
+class SingleAcquisitor : public Acquisitor
+{
+public:
+  SingleAcquisitor(Something *something) : Acquisitor(something)
   {
   }
 
@@ -31,12 +39,10 @@ public:
   }
 };
 
-class MultipleAcquisitor
+class MultipleAcquisitor : public Acquisitor
 {
 public:
-  Something *const resource;
-
-  MultipleAcquisitor(Something *something) : resource(something)
+  MultipleAcquisitor(Something *something) : Acquisitor(something)
   {
   }
 
