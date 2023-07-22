@@ -244,3 +244,11 @@ Learning several script/programming languages at the same time.
 |Interface extending interface|--|--|[InterfaceExtendingInterface.java](https://github.com/katheroine/languagium/blob/master/java/classes/interfaces/InterfaceExtendingInterface.java)|[InterfaceExtendingInterface.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/interfaces/InterfaceExtendingInterface.cs)|--|--|[interface_extending_interface.php](https://github.com/katheroine/languagium/blob/master/php/classes/interfaces/interface_extending_interface.php)|--|--|
 |Implementing multiple interfaces|--|--|[ImplementingMultipleInterfaces.java](https://github.com/katheroine/languagium/blob/master/java/classes/interfaces/ImplementingMultipleInterfaces.java)|[ImplementingMultipleInterfaces.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/interfaces/ImplementingMultipleInterfaces.cs)|--|--|[implementing_multiple_interfaces.php](https://github.com/katheroine/languagium/blob/master/php/classes/interfaces/implementing_multiple_interfaces.php)|--|--|
 |Interface and abstract class|--|--|[InterfaceAndAbstractClass.java](https://github.com/katheroine/languagium/blob/master/java/classes/interfaces/InterfaceAndAbstractClass.java)|[InterfaceAndAbstractClass.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/interfaces/InterfaceAndAbstractClass.cs)|--|--|[interface_and_abstract_class.php](https://github.com/katheroine/languagium/blob/master/php/classes/interfaces/interface_and_abstract_class.php)|--|--|
+
+#### Mixins
+|  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
+|--|--|--|--|--|--|--|--|--|--|
+|Mixins|--|--|--|--|--|--|--|[mixin.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/mixins/mixin.rb)|--|
+|Mixin including mixin|--|--|--|--|--|--|--|[mixin_including_mixin.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/mixins/mixin_including_mixin.rb)|--|
+|Including multiple mixins|--|--|--|--|--|--|--|[including_multiple_mixins.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/mixins/including_multiple_mixins.rb)|--|
+|Diamond problem|--|--|--|--|--|--|--|[diamond_problem.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/mixins/diamond_problem.rb)|--|
