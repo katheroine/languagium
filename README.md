@@ -5,6 +5,20 @@ Learning several script/programming languages at the same time.
 ## Topics and Examples
 [repository_url]: https://github.com/katheroine/languagium
 
+1. [Types](#types)
+2. [Operators](#operators)
+3. [Control flow](#control-flow)
+4. [Arrays](#arrays)
+5. [Strings](#strings)
+6. [Functions](#functions)
+7. [Enums](#enums)
+8. [Structures](#structures)
+9. [Unions](#unions)
+10. [Classes](#classes)
+11. [Pointers](#pointers)
+12. [Exceptions](#exceptions)
+13. [Templates](#templates)
+
 ### Types
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
