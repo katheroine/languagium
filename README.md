@@ -2,14 +2,14 @@
 
 Learning several script/programming languages at the same time.
 
-## Topics and Examples
+## Index
 [repository_url]: https://github.com/katheroine/languagium
 
 1. [Types](#types)
 2. [Operators](#operators)
 3. [Control flow](#control-flow)
-4. [Arrays](#arrays)
-5. [Strings](#strings)
+4. [Strings](#strings)
+5. [Arrays](#arrays)
 6. [Functions](#functions)
 7. [Enums](#enums)
 8. [Structures](#structures)
@@ -20,6 +20,7 @@ Learning several script/programming languages at the same time.
 13. [Templates](#templates)
 
 ### Types
+[▼ Next](#operators) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Types|[types.pas](https://github.com/katheroine/languagium/blob/master/pascal/types/types.pas)|[types_basic.cpp](https://github.com/katheroine/languagium/blob/master/c++/types/types_basic.cpp)<br /> [types_complex.cpp](https://github.com/katheroine/languagium/blob/master/c++/types/types_complex.cpp)|[TypesBasic.java](https://github.com/katheroine/languagium/blob/master/java/types/TypesBasic.java)<br /> [TypesComplex.java](https://github.com/katheroine/languagium/blob/master/java/types/TypesComplex.java)|[TypesBasic.cs](https://github.com/katheroine/languagium/blob/master/c%23/types/TypesBasic.cs)<br /> [TypesComplex.cs](https://github.com/katheroine/languagium/blob/master/c%23/types/TypesComplex.cs)|[types.js](https://github.com/katheroine/languagium/blob/master/javascript/types/types.js)|[types.pl](https://github.com/katheroine/languagium/blob/master/perl/types/types.pl)|[types.php](https://github.com/katheroine/languagium/blob/master/php/types/types.php)|[types.rb](https://github.com/katheroine/languagium/blob/master/ruby/types/types.rb)<br /> [type_constructors.rb](https://github.com/katheroine/languagium/blob/master/ruby/types/type_constructors.rb)|[types.py](https://github.com/katheroine/languagium/blob/master/python/types/types.py)<br /> [type_constructors.py](https://github.com/katheroine/languagium/blob/master/python/types/type_constructors.py)|
@@ -41,6 +42,7 @@ Learning several script/programming languages at the same time.
 |Type function|--|[types_functions.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/types/types_functions.cpp)|--|--|--|--|--|--|--|
 
 ### Operators
+[▲ Previous](#types) [▼ Next](#control-flow) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Arithemtic|[operators_arithmetic.pas](https://github.com/katheroine/languagium/blob/master/pascal/operators/operators_arithmetic.pas)|[operators_arithmetic.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/operators/operators_arithmetic.cpp)|[OperatorsArithmetic.java](https://github.com/katheroine/languagium/blob/master/java/operators/OperatorsArithmetic.java)|[OperatorsArithmetic.cs](https://github.com/katheroine/languagium/blob/master/c%23/operators/OperatorsArithmetic.cs)|[operators_arithmetic.js](https://github.com/katheroine/languagium/blob/master/javascript/operators/operators_arithmetic.js)|[operators_arithmetic.pl](https://github.com/katheroine/languagium/blob/master/perl/operators/operators_arithmetic.pl)|[operators_arithmetic.php](https://github.com/katheroine/languagium/blob/master/php/operators/operators_arithmetic.php)|[operators_arithmetic.rb](https://github.com/katheroine/languagium/blob/master/ruby/operators/operators_arithmetic.rb)|[operators_arithmetic.py](https://github.com/katheroine/languagium/blob/master/python/operators/operators_arithmetic.py)|
@@ -60,6 +62,7 @@ Learning several script/programming languages at the same time.
 |Cast|--|[operators_cast.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/operators/operators_cast.cpp)|--|--|--|--|--|--|--|
 
 ### Control flow
+[▲ Previous](#operators) [▼ Next](#strings) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |if|[if_statement.pas](https://github.com/katheroine/languagium/blob/master/pascal/control_flow/if_statement/if_statement.pas)<br /> [if_statement_formatting.pas](https://github.com/katheroine/languagium/blob/master/pascal/control_flow/if_statement/if_statement_formatting.pas)<br /> [if_else_statement.pas](https://github.com/katheroine/languagium/blob/master/pascal/control_flow/if_statement/if_else_statement.pas)<br /> [if_else_statement_formatting.pas](https://github.com/katheroine/languagium/blob/master/pascal/control_flow/if_statement/if_else_statement_formatting.pas)<br /> [if_else_multiple_statement.pas](https://github.com/katheroine/languagium/blob/master/pascal/control_flow/if_statement/if_else_multiple_statement.pas)|[if_statement.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/control_flow/if_statement/if_statement.cpp)<br /> [if_statement_with_initializer.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/control_flow/if_statement/if_statement_with_initializer.cpp)<br /> [if_statement_formatting.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/control_flow/if_statement/if_statement_formatting.cpp)<br /> [if_else_statement.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/control_flow/if_statement/if_else_statement.cpp)<br /> [if_else_statement_formatting.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/control_flow/if_statement/if_else_statement_formatting.cpp)<br /> [if_else_multiple_statement.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/control_flow/if_statement/if_else_multiple_statement.cpp)|[IfStatement.java](https://github.com/katheroine/languagium/blob/master/java/control_flow/if_statement/IfStatement.java)<br /> [IfStatementFormatting.java](https://github.com/katheroine/languagium/blob/master/java/control_flow/if_statement/IfStatementFormatting.java)<br /> [IfElseStatement.java](https://github.com/katheroine/languagium/blob/master/java/control_flow/if_statement/IfElseStatement.java)<br /> [IfElseStatementFormatting.java](https://github.com/katheroine/languagium/blob/master/java/control_flow/if_statement/IfElseStatementFormatting.java)<br /> [IfElseMultipleStatement.java](https://github.com/katheroine/languagium/blob/master/java/control_flow/if_statement/IfElseMultipleStatement.java)|[IfStatement.cs](https://github.com/katheroine/languagium/blob/master/c%23/control_flow/if_statement/IfStatement.cs)<br /> [IfStatementFormatting.cs](https://github.com/katheroine/languagium/blob/master/c%23/control_flow/if_statement/IfStatementFormatting.cs)<br /> [IfElseStatement.cs](https://github.com/katheroine/languagium/blob/master/c%23/control_flow/if_statement/IfElseStatement.cs)<br /> [IfElseStatementFormatting.cs](https://github.com/katheroine/languagium/blob/master/c%23/control_flow/if_statement/IfElseStatementFormatting.cs)<br /> [IfElseMultipleStatement.cs](https://github.com/katheroine/languagium/blob/master/c%23/control_flow/if_statement/IfElseMultipleStatement.cs)|[if_statement.js](https://github.com/katheroine/languagium/blob/master/javascript/control_flow/if_statement/if_statement.js)<br /> [if_statement_formatting.js](https://github.com/katheroine/languagium/blob/master/javascript/control_flow/if_statement/if_statement_formatting.js)<br /> [if_else_statement.js](https://github.com/katheroine/languagium/blob/master/javascript/control_flow/if_statement/if_else_statement.js)<br /> [if_else_statement_formatting.js](https://github.com/katheroine/languagium/blob/master/javascript/control_flow/if_statement/if_else_statement_formatting.js)<br /> [if_else_multiple_statement.js](https://github.com/katheroine/languagium/blob/master/javascript/control_flow/if_statement/if_else_multiple_statement.js)|[if_statement.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_statement.pl)<br /> [if_statement_formatting.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_statement_formatting.pl)<br /> [if_statement_modifier.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_statement_modifier.pl)<br /> [if_else_statement.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_else_statement.pl)<br /> [if_else_statement_formatting.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_else_statement_formatting.pl)<br /> [if_else_multiple_statement.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_else_multiple_statement.pl)<br /> [if_else_statement_returned_value.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/if_statement/if_else_statement_returned_value.pl)|[if_statement.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_statement.php)<br /> [if_statement_formatting.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_statement_formatting.php)<br /> [if_statement_alternative_syntax.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_statement_alternative_syntax.php)<br /> [if_else_statement.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_else_statement.php)<br /> [if_else_statement_formatting.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_else_statement_formatting.php)<br /> [if_statement/if_else_statement_alternative_syntax.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_else_statement_alternative_syntax.php)<br /> [if_else_multiple_statement.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_else_multiple_statement.php)<br /> [if_else_multiple_statement_alternative_syntax.php](https://github.com/katheroine/languagium/blob/master/php/control_flow/if_statement/if_else_multiple_statement_alternative_syntax.php)|[if_statement.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/if_statement/if_statement.rb)<br /> [if_statement_formatting.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/if_statement/if_statement_formatting.rb)<br /> [if_else_statement.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/if_statement/if_else_statement.rb)<br /> [if_else_statement_formatting.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/if_statement/if_else_statement_formatting.rb)<br /> [if_else_statement_returned_value.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/if_statement/if_else_statement_returned_value.rb)<br /> [if_else_multiple_statement.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/if_statement/if_else_multiple_statement.rb)|[if_statement.py](https://github.com/katheroine/languagium/blob/master/python/control_flow/if_statement/if_statement.py)<br /> [if_statement_formatting.py](https://github.com/katheroine/languagium/blob/master/python/control_flow/if_statement/if_statement_formatting.py)<br /> [if_else_statement.py](https://github.com/katheroine/languagium/blob/master/python/control_flow/if_statement/if_else_statement.py)<br /> [if_else_statement_formatting.py](https://github.com/katheroine/languagium/blob/master/python/control_flow/if_statement/if_else_statement_formatting.py)<br /> [if_else_multiple_statement.py](https://github.com/katheroine/languagium/blob/master/python/control_flow/if_statement/if_else_multiple_statement.py)|
@@ -78,6 +81,7 @@ Learning several script/programming languages at the same time.
 |redo|--|--|--|--|--|[redo_instruction.pl](https://github.com/katheroine/languagium/blob/master/perl/control_flow/redo_instruction/redo_instruction.pl)|--|[redo_instruction.rb](https://github.com/katheroine/languagium/blob/master/ruby/control_flow/redo_instruction/redo_instruction.rb)|--|
 
 ### Strings
+[▲ Previous](#control-flow) [▼ Next](#arrays) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Strings|[strings.pas](https://github.com/katheroine/languagium/blob/master/pascal/strings/strings.pas)|[strings.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/strings/strings/strings.cpp)|[Strings.java](https://github.com/katheroine/languagium/blob/master/java/strings/Strings.java)|[Strings.cs](https://github.com/katheroine/languagium/blob/master/c%23/strings/Strings.cs)|[strings.js](https://github.com/katheroine/languagium/blob/master/javascript/strings/strings.js)|[strings.pl](https://github.com/katheroine/languagium/blob/master/perl/strings/strings.pl)|[strings.php](https://github.com/katheroine/languagium/blob/master/php/strings/strings.php)|[strings.rb](https://github.com/katheroine/languagium/blob/master/ruby/strings/strings.rb)|[strings.py](https://github.com/katheroine/languagium/blob/master/python/strings/strings.py)|
@@ -95,6 +99,7 @@ Learning several script/programming languages at the same time.
 |Iterating over|--|[iterationg_over_cstrings.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/strings/cstrings/iterationg_over_cstrings.cpp)|--|--|--|--|--|--|--|
 
 ### Arrays
+[▲ Previous](#strings) [▼ Next](#functions) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Arrays|[arrays.pas](https://github.com/katheroine/languagium/blob/master/pascal/arrays/arrays.pas)|[arrays.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/arrays/arrays.cpp)|[Arrays.java](https://github.com/katheroine/languagium/blob/master/java/arrays/Arrays.java)|[Arrays.cs](https://github.com/katheroine/languagium/blob/master/c%23/arrays/Arrays.cs)|[arrays.js](https://github.com/katheroine/languagium/blob/master/javascript/arrays/arrays.js)<br /> [associative_arrays_substitute.js](https://github.com/katheroine/languagium/blob/master/javascript/arrays/associative_arrays_substitute.js)|[arrays.pl](https://github.com/katheroine/languagium/blob/master/perl/arrays/arrays/arrays.pl)<br /> [hashes.pl](https://github.com/katheroine/languagium/blob/master/perl/arrays/hashes/hashes.pl)|[arrays.php](https://github.com/katheroine/languagium/blob/master/php/arrays/arrays.php)<br /> [associative_arrays.php](https://github.com/katheroine/languagium/blob/master/php/arrays/associative_arrays.php)|[arrays.rb](https://github.com/katheroine/languagium/blob/master/ruby/arrays/arrays/arrays.rb)<br /> [hashes.rb](https://github.com/katheroine/languagium/blob/master/ruby/arrays/hashes/hashes.rb)|[lists.py](https://github.com/katheroine/languagium/blob/master/python/arrays/lists/lists.py)<br /> [tuples.py](https://github.com/katheroine/languagium/blob/master/python/arrays/tuples/tuples.py)<br /> [associative_array_substitute.py](https://github.com/katheroine/languagium/blob/master/python/arrays/dictionaries/associative_array_substitute.py)|
@@ -122,6 +127,7 @@ Learning several script/programming languages at the same time.
 |Inserting elements|--|--|--|--|--|--|--|[inserting_elements.rb](https://github.com/katheroine/languagium/blob/master/ruby/arrays/arrays/operations_on_elements/inserting_elements.rb)|[inserting_elements.py](https://github.com/katheroine/languagium/blob/master/python/arrays/lists/operations_on_elements/inserting_elements.py)|
 
 ### Functions
+[▲ Previous](#arrays) [▼ Next](#enums) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Functions|[procedures.pas](https://github.com/katheroine/languagium/blob/master/pascal/functions_and_procedures/procedures.pas)<br /> [functions.pas](https://github.com/katheroine/languagium/blob/master/pascal/functions_and_procedures/functions.pas)|[functions.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/functions/functions.cpp)|[Functions.java](https://github.com/katheroine/languagium/blob/master/java/functions/Functions.java)|[Functions.cs](https://github.com/katheroine/languagium/blob/master/c%23/functions/Functions.cs)|[functions.js](https://github.com/katheroine/languagium/blob/master/javascript/functions/functions.js)|[functions.pl](https://github.com/katheroine/languagium/blob/master/perl/functions/functions.pl)|[functions.php](https://github.com/katheroine/languagium/blob/master/php/functions/functions.php)|[functions.rb](https://github.com/katheroine/languagium/blob/master/ruby/functions/functions.rb)<br/> [blocks.rb](https://github.com/katheroine/languagium/blob/master/ruby/blocks/blocks.rb)|[functions.py](https://github.com/katheroine/languagium/blob/master/python/functions/functions.py)<br /> [functions_with_and_without_type_hints.py](https://github.com/katheroine/languagium/blob/master/python/functions/functions_with_and_without_type_hints.py)|
@@ -149,22 +155,26 @@ Learning several script/programming languages at the same time.
 |Main function|--|[main_with_no_return.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/functions/main_with_no_return.cpp)<br /> [main_with_return.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/functions/main_with_return.cpp)|--|--|--|--|--|--|--|
 
 ### Enums
+[▲ Previous](#functions) [▼ Next](#structures) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Enums|[enums.pas](https://github.com/katheroine/languagium/blob/master/pascal/enums/enums.pas)|[enums.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/enums/enums.cpp)|[Enums.java](https://github.com/katheroine/languagium/blob/master/java/enums/Enums.java)|[Enums.cs](https://github.com/katheroine/languagium/blob/master/c%23/enums/Enums.cs)|--|--|[enums.php](https://github.com/katheroine/languagium/blob/master/php/enums/enums.php)|--|--|
 
 ### Structures
+[▲ Previous](#enums) [▼ Next](#unions) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Structures|[records.pas](https://github.com/katheroine/languagium/blob/master/pascal/records/records.pas)|[structures.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/structures/structures.cpp)|--|[structures.cs](https://github.com/katheroine/languagium/blob/master/c%23/structures/structures.cs)|--|--|--|--|--|
 |Default access level in inheritance|--|[default_structure_inheritance_access_level.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/structures/inheritance/default_structure_inheritance_access_level.cpp)|--|--|--|--|--|--|--|
 
 ### Unions
+[▲ Previous](#structures) [▼ Next](#classes) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Unions|--|[unions.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/unions/unions.cpp)|--|--|--|--|--|--|--|
 
 ### Classes
+[▲ Previous](#unions) [▼ Next](#constructors-and-destructors) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Classes|[classes.pas](https://github.com/katheroine/languagium/blob/master/pascal/classes/classes.pas)|[classes.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/classes.cpp)|[Classes.java](https://github.com/katheroine/languagium/blob/master/java/classes/Classes.java)|[Classes.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/Classes.cs)|[classes.js](https://github.com/katheroine/languagium/blob/master/javascript/classes/classes.js)|[classes.pl](https://github.com/katheroine/languagium/blob/master/perl/classes/classes.pl)|[classes.php](https://github.com/katheroine/languagium/blob/master/php/classes/classes.php)|[classes.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/classes.rb)|[classes.py](https://github.com/katheroine/languagium/blob/master/python/classes/classes.py)|
@@ -186,6 +196,7 @@ Learning several script/programming languages at the same time.
 |Passing object to function|[passing_object_to_function.pas](https://github.com/katheroine/languagium/blob/master/pascal/classes/passing_object_to_function.pas)|[passing_object_to_function.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/passing_object_to_function.cpp)|[PassingObjectToFunction.java](https://github.com/katheroine/languagium/blob/master/java/classes/PassingObjectToFunction.java)|[PassingObjectToFunction.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/PassingObjectToFunction.cs)|[passing_object_to_function.js](https://github.com/katheroine/languagium/blob/master/javascript/classes/passing_object_to_function.js)|--|[passing_object_to_function.php](https://github.com/katheroine/languagium/blob/master/php/classes/passing_object_to_function.php)|[passing_object_to_function.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/passing_object_to_function.rb)|[passing_object_to_function.py](https://github.com/katheroine/languagium/blob/master/python/classes/passing_object_to_function.py)|
 
 #### Constructors and destructors
+[▲ Previous](#classes) [▼ Next](#conversions) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Constructor and destructor|[constructor_and_destructor.pas](https://github.com/katheroine/languagium/blob/master/pascal/classes/constructors_and_destructors/constructor_and_destructor.pas)|[constructor_and_destructor.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/constructors_and_destructors/constructor_and_destructor.cpp)|[Constructor.java](https://github.com/katheroine/languagium/blob/master/java/classes/constructors/Constructor.java)|[ConstructorAndDestructor.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/constructors_and_destructors/ConstructorAndDestructor.cs)|[constructor.js](https://github.com/katheroine/languagium/blob/master/javascript/classes/constructors/constructor.js)|[constructor_and_destructor.pl](https://github.com/katheroine/languagium/blob/master/perl/classes/constructor_and_destructor.pl)|[constructor_and_destructor.php](https://github.com/katheroine/languagium/blob/master/php/classes/constructors_and_destructors/constructor_and_destructor.php)|[constructor.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/constructors/constructor.rb)|[constructor_and_destructor.py](https://github.com/katheroine/languagium/blob/master/python/classes/constructors_and_destructors/constructor_and_destructor.py)|
@@ -198,6 +209,7 @@ Learning several script/programming languages at the same time.
 |Class attribute constructor and destructor|--|[class_attribute_constructor_and_destructor.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/constructors_and_destructors/class_attribute_constructor_and_destructor.cpp)|--|--|--|--|--|--|--|
 
 #### Conversions
+[▲ Previous](#constructors-and-destructors) [▼ Next](#operator-overloading) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Explicit constructor|--|[explicit_constructor.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/conversions/explicit_constructor.cpp)|--|--|--|--|--|--|--|
@@ -205,6 +217,7 @@ Learning several script/programming languages at the same time.
 |Conversion operator|--|[conversion_operator.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/conversions/conversion_operator.cpp)|--|[ConversionOperators.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/conversions/ConversionOperators.cs)|--|--|--|--|--|
 
 #### Operator overloading
+[▲ Previous](#conversions) [▼ Next](#inheritance) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Single argument minus operator|--|[nonmember_single_argument_minus_operator.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/operator_overloading/nonmember_single_argument_minus_operator.cpp)<br /> [member_single_argument_minus_operator.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/operator_overloading/member_single_argument_minus_operator.cpp)|--|[SingleArgumentMinusOperator.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/operator_overloading/SingleArgumentMinusOperator.cs)|--|--|--|[single_argument_minus_operator.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/operator_overloading/single_argument_minus_operator.rb)|--|
@@ -222,6 +235,7 @@ Learning several script/programming languages at the same time.
 |New and delete operators|--|[new_and_delete_operators.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/operator_overloading/new_and_delete_operators.cpp)|--|--|--|--|--|--|--|
 
 #### Inheritance
+[▲ Previous](#operator-overloading) [▼ Next](#abstract-classes) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Base and derived class|[based_and_derived_class.pas](https://github.com/katheroine/languagium/blob/master/pascal/classes/inheritance/based_and_derived_class.pas)|[base_and_derived_class.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/inheritance/base_and_derived_class.cpp)|[BaseAndDerivedClass.java](https://github.com/katheroine/languagium/blob/master/java/classes/inheritance/BaseAndDerivedClass.java)|[BaseAndDerivedClass.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/inheritance/BaseAndDerivedClass.cs)|--|--|[base_and_derived_class.php](https://github.com/katheroine/languagium/blob/master/php/classes/inheritance/base_and_derived_class.php)|[base_and_derived_class.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/inheritance/base_and_derived_class.rb)|[base_and_derived_class.py](https://github.com/katheroine/languagium/blob/master/python/classes/inheritance/base_and_derived_class.py)|
@@ -245,6 +259,7 @@ Learning several script/programming languages at the same time.
 |Operator <dynamic_cast> with polymorphic types|--|[operator_dynamic_cast_with_polimorphic_types.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/inheritance/operator_dynamic_cast_with_polimorphic_types.cpp)|--|--|--|--|--|--|--|
 
 #### Abstract classes
+[▲ Previous](#inheritance) [▼ Next](#interfaces) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Abstract class|--|[abstract_class.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/abstract_classes/abstract_class.cpp)|[AbstractClass.java](https://github.com/katheroine/languagium/blob/master/java/classes/abstract_classes/AbstractClass.java)|[AbstractClass.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/abstract_classes/AbstractClass.cs)|--|--|[abstract_class.php](https://github.com/katheroine/languagium/blob/master/php/classes/abstract_classes/abstract_class.php)|--|--|
@@ -252,6 +267,7 @@ Learning several script/programming languages at the same time.
 |Abstract functions with implementation|--|[abstract_functions_with_implementation.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/classes/abstract_classes/abstract_functions_with_implementation.cpp)|--|--|--|--|--|--|--|
 
 #### Interfaces
+[▲ Previous](#abstract-classes) [▼ Next](#mixins) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Interface|--|--|[Interface.java](https://github.com/katheroine/languagium/blob/master/java/classes/interfaces/Interface.java)|[Interface.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/interfaces/Interface.cs)|--|--|[interface.php](https://github.com/katheroine/languagium/blob/master/php/classes/interfaces/interface.php)|--|--|
@@ -260,6 +276,7 @@ Learning several script/programming languages at the same time.
 |Interface and abstract class|--|--|[InterfaceAndAbstractClass.java](https://github.com/katheroine/languagium/blob/master/java/classes/interfaces/InterfaceAndAbstractClass.java)|[InterfaceAndAbstractClass.cs](https://github.com/katheroine/languagium/blob/master/c%23/classes/interfaces/InterfaceAndAbstractClass.cs)|--|--|[interface_and_abstract_class.php](https://github.com/katheroine/languagium/blob/master/php/classes/interfaces/interface_and_abstract_class.php)|--|--|
 
 #### Mixins
+[▲ Previous](#interfaces) [▼ Next](#pointers) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Mixins|--|--|--|--|--|--|--|[mixin.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/mixins/mixin.rb)|--|
@@ -268,6 +285,7 @@ Learning several script/programming languages at the same time.
 |Diamond problem|--|--|--|--|--|--|--|[diamond_problem.rb](https://github.com/katheroine/languagium/blob/master/ruby/classes/mixins/diamond_problem.rb)|--|
 
 ### Pointers
+[▲ Previous](#mixins) [▼ Next](#exceptions) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Pointers and types|[pointers_and_types.pas](https://github.com/katheroine/languagium/blob/master/pascal/pointers/pointers_and_types.pas)|[pointers_and_types.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/pointers/pointers_and_types.cpp)|--|--|--|--|--|--|--|
@@ -301,6 +319,7 @@ Learning several script/programming languages at the same time.
 |Function pointers|--|[function_pointers.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/pointers/function_pointers.cpp)|--|--|--|--|--|--|--|
 
 ### Exceptions
+[▲ Previous](#pointers) [▼ Next](#templates) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Exceptions|[exceptions.pas](https://github.com/katheroine/languagium/blob/master/pascal/exceptions/exceptions.pas)|[exceptions.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/exceptions/exceptions.cpp)|[Exceptions.java](https://github.com/katheroine/languagium/blob/master/java/exceptions/Exceptions.java)|[Exceptions.cs](https://github.com/katheroine/languagium/blob/master/c%23/exceptions/Exceptions.cs)|[exceptions.js](https://github.com/katheroine/languagium/blob/master/javascript/exceptions/exceptions.js)|--|[exceptions.php](https://github.com/katheroine/languagium/blob/master/php/exceptions/exceptions.php)|[exceptions.rb](https://github.com/katheroine/languagium/blob/master/ruby/exceptions/exceptions.rb)|[exceptions.py](https://github.com/katheroine/languagium/blob/master/python/exceptions/exceptions.py)|
@@ -325,6 +344,7 @@ Learning several script/programming languages at the same time.
 |Setting terminate function|--|[setting_terminate_function.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/exceptions/setting_terminate_function.cpp)|--|--|--|--|--|--|--|
 
 ### Templates
+[▲ Previous](#exceptions) [⌂ Home](#languagium)
 |  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
 |--|--|--|--|--|--|--|--|--|--|
 |Function template|--|[function_template.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/templates/function_templates/function_template.cpp)|--|--|--|--|--|--|--|
