@@ -309,3 +309,9 @@ Learning several script/programming languages at the same time.
 |Resource acquisition is initialisation|--|[resource_acquisition_is_initialisation.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/exceptions/resource_acquisition_is_initialisation.cpp)|--|--|--|--|--|--|--|
 |Resource acquisition is initialisation smart pointer|--|[resource_acquisition_is_initialisation_smart_pointer.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/exceptions/resource_acquisition_is_initialisation_smart_pointer.cpp)|--|--|--|--|--|--|--|
 |Setting terminate function|--|[setting_terminate_function.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/exceptions/setting_terminate_function.cpp)|--|--|--|--|--|--|--|
+
+### Templates
+|  |Pascal|C++|Java|C#|JavaScript|Perl|PHP|Ruby|Python|
+|--|--|--|--|--|--|--|--|--|--|
+|Function template|--|[function_template.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/templates/function_templates/function_template.cpp)|--|--|--|--|--|--|--|
+|Class template|--|[class_template.cpp](https://github.com/katheroine/languagium/blob/master/c%2B%2B/templates/class_templates/class_template.cpp)|--|--|--|--|--|--|--|
