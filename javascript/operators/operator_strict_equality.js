@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 i1 = 1; i2 = 2;
 console.log(`(integer) ${i1} == (integer) ${i2} = ${i1 == i2}`);
 console.log(`(integer) ${i1} === (integer) ${i2} = ${i1 === i2}\n`);

@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
 
 print "The largest (positive) floating point supported: PHP_FLOAT_MAX = " . PHP_FLOAT_MAX . " (" . gettype(PHP_FLOAT_MAX) . ")\n";
 $f = PHP_FLOAT_MAX + 0.1;

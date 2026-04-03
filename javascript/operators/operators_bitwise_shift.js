@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 let n = 4; // 00100
 
 console.log(`${n.toString(2).padStart(5, "0")} >> 1 = ${(n >> 1).toString(2).padStart(5, "0")}`); // 00010 // 2

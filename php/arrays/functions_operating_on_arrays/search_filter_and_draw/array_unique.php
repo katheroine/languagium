@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
 
 $numbers = [2, 9, 5, 0, 2, 0, 3, 5];
 print("Array:\n");

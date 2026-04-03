@@ -1,3 +1,7 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+
 array = [1, 2, 3, 4, 5, 6, 7, 8]
 
 puts("Initial state:\n\n")

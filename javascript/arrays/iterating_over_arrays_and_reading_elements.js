@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 let array = ['apple', 'orange', 'banana', 'pear', 'peach'];
 
 for (let i = 0; i < array.length; i++) {

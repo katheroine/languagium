@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
 
 print "is_int(0): " . is_int(0) . "\n";
 print "is_int(1): " . is_int(1) . "\n";

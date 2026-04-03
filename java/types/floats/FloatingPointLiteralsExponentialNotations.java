@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 class FloatingPointLiteralsExponentialNotations {
   public static void main(String[] args) {
     System.out.print(String.format("5e3 / 5E3: %f / %f\n", 5e3, 5E3));

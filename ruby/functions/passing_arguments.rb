@@ -1,3 +1,7 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+
 require 'ostruct'
 
 def function_receiving_value(argument)

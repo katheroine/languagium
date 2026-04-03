@@ -1,3 +1,7 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+
 puts "5e3 / 5E3: #{5e3} / #{5E3}"
 puts "5e+3 / 5E+3: #{5e+3} / #{5E+3}"
 puts "5e-3 / 5E-3: #{5e-3} / #{5E-3}\n\n"

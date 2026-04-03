@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 function function_with_static_variable() {
   let i = 0;
   if (typeof function_with_static_variable.n == 'undefined') {

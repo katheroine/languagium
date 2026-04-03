@@ -1,3 +1,8 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 i1 = 6; i2 = 3
 print("{} / {} = {}".format(i1, i2, (i1 / i2)))
 print("{} // {} = {}\n".format(i1, i2, (i1 // i2)))

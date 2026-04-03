@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
 
 $array_1 = [3 => 0, 8 => 1, 'b' => 2, 'n' => 3, null => 4];
 $array_2 = [1 => 0, 2 => 1, 3 => 2, 4 => 3, 5 => 4, 'b' => 5, 'n' => 3];

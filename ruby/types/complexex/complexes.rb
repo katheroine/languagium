@@ -1,3 +1,7 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+
 x = -1 + 2i
 puts("x: #{x} (#{x.class})")
 puts("real: #{x.real}")

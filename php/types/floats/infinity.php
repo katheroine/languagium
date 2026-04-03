@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
 
 $positive_infinity = 1.9e411;
 print "\$positive_infinity = 1.9e411; // {$positive_infinity} (" . gettype($positive_infinity) . ")\n";

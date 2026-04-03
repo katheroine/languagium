@@ -1,3 +1,8 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 def function_with_static_variable():
     i = 0
     if not hasattr(function_with_static_variable, 'n'):

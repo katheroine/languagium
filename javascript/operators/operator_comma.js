@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 let a = 3, b = 12.6, c = 123;
 console.log("a = 3, b = 12.6, c = 123:\n"
   + `a: ${a}\n`

@@ -1,3 +1,7 @@
+# Copyright (C) 2019-2026 Katarzyna Krasińska
+# Languagium - https://github.com/katheroine/languagium
+# Licensed under GPL-3.0 - see LICENSE.md
+
 i1 = 6; i2 = 1
 puts "#{i1} % #{i2} = #{i1 % i2}"
 i1 = 6; i2 = 2

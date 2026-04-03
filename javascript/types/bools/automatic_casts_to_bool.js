@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
+
 let i = 0;
 console.log("let i = 0; // (" + typeof i + ")");
 if (i) console.log("casted to true");

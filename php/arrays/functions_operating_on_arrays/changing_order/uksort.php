@@ -1,4 +1,9 @@
 <?php
+/*
+ * Copyright (C) 2019-2026 Katarzyna Krasińska
+ * Languagium - https://github.com/katheroine/languagium
+ * Licensed under GPL-3.0 - see LICENSE.md
+ */
 
 $array = ["9" => 0, "5" => 1, 101 => 2, "B" => 3, "12" => 4, 5000 => 5, "b" => 6, "01" => 7, 0 => 8, "32000" => 9, "C" => 10, "c" => 11, "a" => 12, "A" => 13];
 print("Array:\n");
