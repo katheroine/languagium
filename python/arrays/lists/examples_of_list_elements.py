@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 numbers = [2, 4, 6]
 
 print(f"numbers[0]: {numbers[0]}")

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 i = 1; f = 2.3; s = "apple"
 
 print("i = %i, f = %f, s = %s"%(i, f, s))

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 numbers = [2, 4, 6]
 
 puts("numbers[0]: #{numbers[0]}")

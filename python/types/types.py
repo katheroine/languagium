@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 b = True
 i = 5
 f = 2.4

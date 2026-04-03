@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $not_a_number = acos(2);

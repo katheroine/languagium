@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function function_with_static_variable() {
   let i = 0;
   if (typeof function_with_static_variable.n == 'undefined') {

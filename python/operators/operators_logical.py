@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 a = True; b = False
 
 c = a and b

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 simple_function = -> { puts "Simple function." }
 
 function_with_local_variable = -> {

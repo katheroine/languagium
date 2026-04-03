@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 if (1 > 2):

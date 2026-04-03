@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Account
   attr_accessor :login
   attr_reader :is_active

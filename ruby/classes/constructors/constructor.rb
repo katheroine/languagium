@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Item
   def initialize
     puts "Constructor is running..."

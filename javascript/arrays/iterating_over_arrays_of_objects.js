@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let array = [
   {
     species: 'rabbit',

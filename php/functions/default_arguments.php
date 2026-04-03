@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 function function_with_default_argument(int $argument = 3): int

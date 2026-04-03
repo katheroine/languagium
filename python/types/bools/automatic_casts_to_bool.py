@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 i = 0
 print(f"i = 0 # {type(i)}")
 if (i): print("casted to true")

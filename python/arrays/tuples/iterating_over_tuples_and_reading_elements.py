@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 tuple = ('apple', 'orange', 'banana', 'pear', 'peach')
 
 for i in range(len(tuple)):

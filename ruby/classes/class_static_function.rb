@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Token
   @@number = 0
   attr_accessor :color;

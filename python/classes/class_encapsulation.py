@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Account:
     is_active = False # public by default
     login = ""

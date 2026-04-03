@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let values = [9.5, 2.5, 7.5];
 let items = [2.5, "orange"];
 

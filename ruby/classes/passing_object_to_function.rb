@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Book
   attr_accessor :title, :author, :isbn
 

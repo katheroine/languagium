@@ -1,5 +1,3 @@
-#!/usr/bin/perl
-
 package Item;
 
 use strict;

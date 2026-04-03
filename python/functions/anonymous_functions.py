@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 simple_function = lambda : print("Simple function.")
 
 function_returning_value = lambda : 9

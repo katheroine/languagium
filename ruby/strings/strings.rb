@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 s = "hello"
 puts "string \"hello\": #{s} (#{s.class})"
 

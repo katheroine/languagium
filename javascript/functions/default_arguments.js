@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function function_with_default_argument(argument = 3) {
   return argument * 2;
 }

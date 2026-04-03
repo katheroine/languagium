@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def function_receiving_tuple_by_value(argument: tuple) -> None:

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-const prompt = require("prompt-sync")({sigint:true});
 
 function sourceValue(prompt_message, validate) {
   let value;

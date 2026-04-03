@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let word = "hello";
 console.log("word = " + word);
 console.log("length: " + word.length + "\n");

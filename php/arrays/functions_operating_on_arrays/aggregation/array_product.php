@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $array = [3, 4, 2.5];

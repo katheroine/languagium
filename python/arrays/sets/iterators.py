@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 set = {2, 4, 4, 6}
 iterator = iter(set)
 

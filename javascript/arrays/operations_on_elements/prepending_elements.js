@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let array = [2, 4, 6];
 
 console.log("Initial state:\n");

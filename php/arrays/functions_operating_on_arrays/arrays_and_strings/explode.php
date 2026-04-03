@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $string = "Stat rosa pristina nomine, nomina nuda tenemus.";

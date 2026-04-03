@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let piggy = {
   name: "",
   saved_amount: 0,

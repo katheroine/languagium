@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $array = array_fill_keys([1, 2, 3], 'ho');

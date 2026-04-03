@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Account
   CONNECTIONS_MAX_NUMBER = 10
   # :is_active is pubic by default

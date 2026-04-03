@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Mammal
   @hasTail
   @@isMilkFeeded = true

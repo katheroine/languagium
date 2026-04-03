@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 array = [1, 3, 5]
 
 puts("Before:")

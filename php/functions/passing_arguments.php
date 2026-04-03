@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 function function_receiving_value_by_value($argument)

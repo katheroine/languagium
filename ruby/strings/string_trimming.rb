@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 sententia = "   Sapere aude.   "
 puts("sententia = <#{sententia}>\n\n")
 

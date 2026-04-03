@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function function_receiving_array_by_value(argument)
 {
   console.log("Function receiving array by value");

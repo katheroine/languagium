@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 things = {
   'fruit': 'grape',
   'utensil': 'spoon',

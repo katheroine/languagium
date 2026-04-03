@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 set = {'apple', 'orange', 'orange', 'banana', 'pear', 'peach'}
 
 for key, value in enumerate(set):

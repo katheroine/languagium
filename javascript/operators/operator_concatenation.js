@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let a, b, c;
 
 a = "hello"; b = "world";

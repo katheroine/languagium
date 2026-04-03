@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let n = null;
 let b = true;
 let i = 5;

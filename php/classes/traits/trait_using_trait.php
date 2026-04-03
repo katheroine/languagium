@@ -1,4 +1,3 @@
-#!/usr/bin/php8.2
 <?php
 
 trait Describable {

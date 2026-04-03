@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 values = (1, 3, 5, (2, 4, 6), 5, 'seven')
 
 print(values)

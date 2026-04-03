@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function* evens(quantity, start_value = 1) {
   for (i = 0; i < quantity; i++)
   {

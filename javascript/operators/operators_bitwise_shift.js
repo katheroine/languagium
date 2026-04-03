@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let n = 4; // 00100
 
 console.log(`${n.toString(2).padStart(5, "0")} >> 1 = ${(n >> 1).toString(2).padStart(5, "0")}`); // 00010 // 2

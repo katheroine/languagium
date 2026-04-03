@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 numbers = [0, 0, 0]
 
 numbers[0] = 2

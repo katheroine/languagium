@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 a = 0; b = 0
 
 puts("a: #{a}")

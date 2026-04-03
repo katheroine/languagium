@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 print "5e3 / 5E3: " . 5e3 . " / " . 5E3 . "\n";

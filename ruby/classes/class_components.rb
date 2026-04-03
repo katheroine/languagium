@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Account
   attr_accessor :login, :email, :is_active, :id, :connections_number
 

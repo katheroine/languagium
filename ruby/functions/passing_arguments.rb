@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 require 'ostruct'
 
 def function_receiving_value(argument)

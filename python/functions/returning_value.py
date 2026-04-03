@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def returning_boolean() -> bool:

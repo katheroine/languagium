@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $array = [2 => 'apple', 5 => 'orange', 15 => 'banana', 20 => 'pear', 35 => 'peach'];

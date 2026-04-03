@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Mammal:
     isDomesticated = False
     hasTail = False

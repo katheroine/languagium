@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 print "is_float(0): " . is_float(0) . "\n";

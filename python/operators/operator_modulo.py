@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 i1 = 6; i2 = 1
 print("{} % {} = {}".format(i1, i2, (i1 % i2)))
 i1 = 6; i2 = 2

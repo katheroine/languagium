@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 module Describable
   DESCRIPTION_TITLE = "Description: "
 

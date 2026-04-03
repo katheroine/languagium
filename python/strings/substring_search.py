@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 cite = "Stat rosa pristina nomine, nomina nuda tenemus."
 print(f"cite = {cite}\n")
 

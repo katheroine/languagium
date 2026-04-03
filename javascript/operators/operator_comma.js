@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let a = 3, b = 12.6, c = 123;
 console.log("a = 3, b = 12.6, c = 123:\n"
   + `a: ${a}\n`

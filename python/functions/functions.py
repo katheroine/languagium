@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def simple_function() -> None:

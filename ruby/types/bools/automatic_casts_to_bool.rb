@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 i = 0
 puts "i = 0 # (#{i.class})"
 if i then puts "casted to true"

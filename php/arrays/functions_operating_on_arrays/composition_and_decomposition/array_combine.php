@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $keys = ['Name', 2, 'color', 3.14, 'NO'];

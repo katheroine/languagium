@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 i = 0
 puts "i = #{i}, class: #{i.class}, size: #{i.size}"
 

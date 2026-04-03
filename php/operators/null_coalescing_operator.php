@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $values = [3, 5, 7];

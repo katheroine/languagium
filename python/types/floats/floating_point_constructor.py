@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 f = float(0.0)
 print(f"f = float(0.0) # {f} ({type(f)})")
 

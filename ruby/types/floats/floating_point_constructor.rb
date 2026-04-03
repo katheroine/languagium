@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 f = Float(0.0)
 puts "f = Float(0.0) # #{f} (#{f.class})"
 

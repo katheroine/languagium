@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $cite = "Stat rosa pristina nomine, nomina nuda tenemus.";

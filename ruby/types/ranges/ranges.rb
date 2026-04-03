@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 r = (5..7)
 puts "range (5..7): #{r} (#{r.class})"
 print "elements: "

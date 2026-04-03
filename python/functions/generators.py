@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def evens(quantity: int, start_value: int = 1) -> object:

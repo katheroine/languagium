@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 def sourceValue(prompt, validate)
   while true
     print(prompt)

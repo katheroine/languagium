@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 n = 4 # 00100
 
 print("{} >> 1 = {}".format(n, (n >> 1))) # 00010 # 2

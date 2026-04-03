@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let numbers = [2, 4, 6];
 
 let second_element = numbers[1];

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let array = ['apple', 'orange', 'banana', 'pear', 'peach'];
 
 for (let i = 0; i < array.length; i++) {

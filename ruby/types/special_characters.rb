@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 puts "?a = #{?a}" # ASCII character
 puts "?\n = #{?\n}" # New line
 puts "?\C-a = #{?\C-a}" # Control character: Ctrl-a

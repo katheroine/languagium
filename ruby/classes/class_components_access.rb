@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class MoneyBox
   attr_writer :name
   attr_reader :name, :saved_amount

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 numbers = {2, 4, 4, 6}
 
 iterator = iter(numbers)

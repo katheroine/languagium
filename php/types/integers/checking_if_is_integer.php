@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 print "is_int(0): " . is_int(0) . "\n";

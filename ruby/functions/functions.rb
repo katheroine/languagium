@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 def simple_function()
   puts "Simple function."
 end

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 array = ['apple', 'orange', 'banana', 'pear', 'peach']
 
 for i in 0..(array.length() - 1)

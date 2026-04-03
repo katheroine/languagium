@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 a = 1; b = 2
 puts "(integer) #{a} == (integer) #{b} = #{a == b}"
 puts "(integer) #{a} === (integer) #{b} = #{a === b}\n\n"

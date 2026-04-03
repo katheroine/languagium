@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 # g is in the global namespace
 g = 5
 print(f"{g}\n")

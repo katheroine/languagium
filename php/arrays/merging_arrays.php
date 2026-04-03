@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $values = [9.5, 2.5, 7.5];

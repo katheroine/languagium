@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 s = "hello"
 print(f"string \"hello\": {s} ({type(s)})")
 

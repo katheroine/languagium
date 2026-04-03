@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let numbers = [];
 
 numbers[0] = 2;

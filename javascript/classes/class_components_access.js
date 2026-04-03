@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 class MoneyBox {
   constructor() {
     this.name = "";

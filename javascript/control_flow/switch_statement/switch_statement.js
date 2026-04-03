@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let now = "afternoon";
 
 switch (now)

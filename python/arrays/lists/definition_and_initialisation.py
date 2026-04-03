@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from pprint import pprint
 
 list_1 = []

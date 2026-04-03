@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 hash = {
     2 => "Hello, there!",
     'color' => 'orange',

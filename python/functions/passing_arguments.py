@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def function_receiving_value(argument: int) -> None:

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 condition = 1 > 2
 
 unless condition

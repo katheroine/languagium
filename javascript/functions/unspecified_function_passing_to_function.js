@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function inside_1(number)
 {
   console.log("* Inside.");

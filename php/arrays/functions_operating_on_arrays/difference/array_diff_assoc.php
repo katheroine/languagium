@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $array_1 = ['m' => 3 , 'a' => 8, 9 => 'b', 1 => 'n', 'hello' => null];

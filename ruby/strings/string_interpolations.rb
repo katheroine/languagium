@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 i = 1; f = 2.3; s = "apple"
 
 puts("i = #{i}, f = #{f}, s = #{s}\n\n")

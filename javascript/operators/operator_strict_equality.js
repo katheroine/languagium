@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 i1 = 1; i2 = 2;
 console.log(`(integer) ${i1} == (integer) ${i2} = ${i1 == i2}`);
 console.log(`(integer) ${i1} === (integer) ${i2} = ${i1 === i2}\n`);

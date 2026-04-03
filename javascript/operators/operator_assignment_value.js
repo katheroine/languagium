@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let i, iv;
 iv = (i = 3);
 console.log(`(i = 3) = ${iv}`);

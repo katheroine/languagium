@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 values = {9.5, 2.5, 7.5}
 items = {2.5, "orange"}
 

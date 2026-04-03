@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 i = Integer(0)
 puts "i = Integer(0) # #{i} (#{i.class})"
 

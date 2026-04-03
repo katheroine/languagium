@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 function function_receiving_array_by_value(array $argument): array

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 array = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28]
 
 puts("Initial state:\n\n")

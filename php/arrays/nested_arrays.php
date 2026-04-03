@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $values = [1, 3, 5, [2, 4, 6], 'seven'];

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 dictionary = {
     2: "Hello, there!",
     'color': 'orange',

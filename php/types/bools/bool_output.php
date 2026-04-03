@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $a = true; $b = false;

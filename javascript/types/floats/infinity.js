@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let positive_infinity = Infinity;
 console.log("let positive_infinity = Infinity; // " + positive_infinity + " (" + typeof positive_infinity + ")");
 

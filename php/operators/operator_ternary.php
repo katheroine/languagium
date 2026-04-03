@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $value = readline("Give some value: ");

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let values = [1, 3, 5, [2, 4, 6], 'seven'];
 
 console.log(values);

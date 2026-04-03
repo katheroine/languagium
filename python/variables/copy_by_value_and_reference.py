@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 some_list = [1, 2, 3, "apple", "banana"]
 print(some_list)
 

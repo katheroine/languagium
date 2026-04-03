@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $i1 = 6; $i2 = 1;

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 if (1 > 2)
   console.log('1 > 2');
 else if (2 > 3)

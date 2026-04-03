@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 array = [1, 3, 5];
 
 console.log("Before:");

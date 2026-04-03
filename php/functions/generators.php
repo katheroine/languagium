@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 function evens(int $quantity, int $start_value = 1): Generator

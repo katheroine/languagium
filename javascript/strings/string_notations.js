@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let s = "hello";
 console.log("\"hello\": " + s + " (" + typeof s + ")");
 

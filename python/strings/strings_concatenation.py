@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 s1 = "abc"
 s2 = "def"
 s3 = s1 + s2

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class Basket
   def initialize()
     @items = []

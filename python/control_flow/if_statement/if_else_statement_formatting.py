@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 condition = 1 > 2
 
 if condition:

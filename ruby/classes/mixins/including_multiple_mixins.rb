@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 module Presentable
   DESCRIPTION_TITLE = "Description: "
   CORE_TITLE = "Core: "

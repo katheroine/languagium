@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 hash = {}
 
 puts("Not initialised, before assignments: array = []\n\n")

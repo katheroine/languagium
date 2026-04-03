@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $simple_function = function(): void { print("Simple function.\n"); };

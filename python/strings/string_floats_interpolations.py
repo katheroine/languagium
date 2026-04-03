@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 f = 235.846279302548003
 
 print("f = %f"%f)

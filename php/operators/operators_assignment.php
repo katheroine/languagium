@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $a = 0; $b = 0;

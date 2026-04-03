@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 a = 0; b = 0
 
 print(f"a: {a}")

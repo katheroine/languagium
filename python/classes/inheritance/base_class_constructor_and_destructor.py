@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Value:
     value = 0
     label = ""

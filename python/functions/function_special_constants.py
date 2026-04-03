@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def some_function(arg1: str, arg2: int) -> str:

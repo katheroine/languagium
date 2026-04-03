@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 sententia = "   Sapere aude.   "
 print(f"sententia = <{sententia}>\n")
 

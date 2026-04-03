@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 items = {}
 
 items[2] = "Hello, there!"

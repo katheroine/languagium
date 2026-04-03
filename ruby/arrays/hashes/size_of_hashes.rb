@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 things = {
   'fruit' => 'grape',
   'utensil' => 'spoon',

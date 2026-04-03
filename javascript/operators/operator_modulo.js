@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let i1 = 6, i2 = 1;
 console.log(`${i1} % ${i2} = ${i1 % i2}`);
 i1 = 6, i2 = 2;

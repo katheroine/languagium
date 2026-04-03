@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 class Item {
   constructor() {
     console.log("Constructor is running...");

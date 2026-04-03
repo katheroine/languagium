@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from pprint import pprint
 
 list = [2, 4, 6, 8, 10, 12]

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Mammal:
     has_tail = False
     is_milk_feeded = True

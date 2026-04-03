@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 a = "hello"; b = "world"
 c = a + b
 print(f"{a} + {b} = {c}\n(a: {type(a)}, b: {type(b)}, c: {type(c)})\n")

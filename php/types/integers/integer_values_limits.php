@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 print "The largest integer supported: PHP_INT_MAX = " . PHP_INT_MAX . " (" . gettype(PHP_INT_MAX) . ")\n";

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 value = int(input("Give some value: "))
 
 state = "low" if (value < 10) else "high"

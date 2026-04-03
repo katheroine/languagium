@@ -1,4 +1,3 @@
-#!/usr/bin/php8.1
 <?php
 
 //const $i = 10; // error

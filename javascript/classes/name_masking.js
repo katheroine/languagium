@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 class House {
   constructor() {
     this.balcony = "#####";

@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let sententia = "   Sapere aude.   ";
 console.log(`sententia = <${sententia}>\n`);
 

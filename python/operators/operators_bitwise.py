@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 a = 10; b = 12
 
 c = a & b

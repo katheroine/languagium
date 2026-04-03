@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function function_receiving_value(argument) {
   console.log("Function receiving value\n"
     + "-- begin:\n"

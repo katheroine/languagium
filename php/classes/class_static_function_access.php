@@ -1,4 +1,3 @@
-#!/usr/bin/php8.1
 <?php
 
 class Token {

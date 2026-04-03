@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 r = range(5, 8, 1)
 print(f"range (5, 8, 1): {r} ({type(r)})")
 print("elements: ", end = '')

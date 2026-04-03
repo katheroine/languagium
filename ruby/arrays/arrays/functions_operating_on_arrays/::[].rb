@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 nothing = []
 puts("nothing = []", "nothing = #{nothing}; nothing.class = #{nothing.class}", "\n")
 

@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 def function_with_static_variable():
     i = 0
     if not hasattr(function_with_static_variable, 'n'):

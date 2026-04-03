@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 hash_1 = {}
 
 puts("Not initialised, defined as empty by {}:\n")

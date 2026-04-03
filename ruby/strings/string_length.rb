@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 word = "hello"
 puts("word = #{word}")
 puts("length: #{word.length}\n\n")

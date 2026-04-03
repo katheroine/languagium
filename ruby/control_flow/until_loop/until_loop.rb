@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 i = 0
 
 until i > 9

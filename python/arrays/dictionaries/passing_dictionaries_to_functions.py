@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def function_receiving_dictionary_by_value(argument: dict) -> dict:

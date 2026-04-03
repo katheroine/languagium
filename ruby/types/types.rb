@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 require 'ostruct'
 
 n = nil

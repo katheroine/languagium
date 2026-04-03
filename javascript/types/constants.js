@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const pi = 3.14;
 
 // pi = 3; // TypeError: Assignment to constant variable.

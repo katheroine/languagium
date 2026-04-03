@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 process.stdout.write("Give some value: ");
 process.stdin.on('readable', () => {
   const value = process.stdin.read();

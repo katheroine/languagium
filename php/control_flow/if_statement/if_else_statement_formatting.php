@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $condition = (1 > 2);

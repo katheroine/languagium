@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $numbers = [2, 4, 6];

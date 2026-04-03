@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let items = {
   2: "Hello, there!",
   color: 'orange',

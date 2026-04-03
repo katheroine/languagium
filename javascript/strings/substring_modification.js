@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let cite = "Stat rosa pristina nomine, nomina nuda tenemus.";
 console.log(`cite = ${cite}\n`);
 

@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 function explicit_function(int $number, string $text): int

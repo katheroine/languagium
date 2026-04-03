@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 module Datum
   def set_label(label)
     @label = label

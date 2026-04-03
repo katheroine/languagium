@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $positive_infinity = 1.9e411;

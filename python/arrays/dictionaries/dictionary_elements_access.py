@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 numbers = {'two': 2, 'four': 4, 'six': 6}
 
 print(f"numbers['two']: {numbers['two']}")

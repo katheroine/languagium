@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 iv = i = 3
 print(f"i = 3 = {iv}")
 

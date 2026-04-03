@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 if (1 > 2):
   print('1 > 2')
 elif (2 > 3):

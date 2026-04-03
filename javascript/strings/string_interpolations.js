@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let i = 1, f = 2.3, s = "apple";
 
 console.log(`i = ${i}, f = ${f}, s = ${s}\n`);

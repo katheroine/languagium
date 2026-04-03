@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 positive_infinity = float("inf")
 print(f"positive_infinity = float(\"inf\") # {positive_infinity} ({type(positive_infinity)})")
 

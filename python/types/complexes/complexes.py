@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import cmath
 
 x = -1 + 2j

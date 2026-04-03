@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 data = {
   'name': 'amelie',
   'address': {

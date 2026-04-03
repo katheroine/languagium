@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let i = 0;
 console.log("let i = 0; // (" + typeof i + ")");
 if (i) console.log("casted to true");

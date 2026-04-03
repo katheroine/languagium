@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 class NumberValueException < Exception
   attr_reader :number
   attr_accessor :message

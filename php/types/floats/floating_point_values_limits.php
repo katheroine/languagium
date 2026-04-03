@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 print "The largest (positive) floating point supported: PHP_FLOAT_MAX = " . PHP_FLOAT_MAX . " (" . gettype(PHP_FLOAT_MAX) . ")\n";

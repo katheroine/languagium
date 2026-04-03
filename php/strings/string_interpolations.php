@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $i = 1; $f = 2.3; $s = "apple";

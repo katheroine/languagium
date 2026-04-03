@@ -1,4 +1,3 @@
-#!/usr/bin/php8.0
 <?php
 
 $array = array_fill(1, 5, 3);

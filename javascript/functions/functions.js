@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function simple_function() {
   console.log("Simple function.");
 }

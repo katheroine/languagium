@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Donkey:
     def speak(self):
         print("Bray, bray!")

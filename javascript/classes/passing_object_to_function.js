@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 class Book {
   constructor(title, author, isbn) {
     this.title = title;

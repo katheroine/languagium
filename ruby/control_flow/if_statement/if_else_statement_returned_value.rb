@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 relation = if 1 > 2
   '1 > 2'
 else

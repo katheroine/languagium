@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 data = {
   'name' => 'amelie',
   'address' => {

@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 x = -1 + 2i
 puts("x: #{x} (#{x.class})")
 puts("real: #{x.real}")

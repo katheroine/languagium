@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let i = 0;
 
 while (i < 10) {

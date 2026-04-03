@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let a = 10, b = 12;
 
 c = a & b;

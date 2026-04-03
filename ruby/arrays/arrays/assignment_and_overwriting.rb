@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 array = []
 
 puts("Not initialised, before assignments: array = []\n\n")

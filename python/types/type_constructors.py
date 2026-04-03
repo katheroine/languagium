@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 b = bool(True)
 i = int(5)
 f = float(2.4)

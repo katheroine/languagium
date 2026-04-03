@@ -1,4 +1,3 @@
-#!/usr/bin/php8.1
 <?php
 
 abstract class Value { // Must be abstract class to have abstract method.

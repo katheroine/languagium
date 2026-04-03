@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 def function_receiving_array_by_value(argument)
   puts("Function receiving array by value")
   puts("-- begin:")

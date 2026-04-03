@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function draw_number() {
   const prompt = require('prompt-sync')();
   const number = parseInt(prompt("Give some number: "));

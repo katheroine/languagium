@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 numbers = []
 
 numbers[0] = 2

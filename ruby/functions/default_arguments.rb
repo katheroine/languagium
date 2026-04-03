@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 def function_with_default_argument(argument = 3)
   argument * 2
 end

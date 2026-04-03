@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function explicit_function(number, text) {
   console.log(`An explicit function with some arguments:\nnumber: ${number}\ntext: ${text}`);
   return 2 * number;

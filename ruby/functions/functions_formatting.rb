@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 def explicit_function(number, text)
   puts("An explicit function with some arguments:\nnumber: #{number}\ntext: #{text}")
   return 2 * number

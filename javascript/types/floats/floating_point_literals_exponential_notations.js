@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 console.log("5e3 / 5E3: " + 5e3 + " / " + 5E3);
 console.log("5e+3 / 5E+3: " + 5e+3 + " / " + 5E+3);
 console.log("5e-3 / 5E-3: " + 5e-3 + " / " + 5E-3 + "\n");

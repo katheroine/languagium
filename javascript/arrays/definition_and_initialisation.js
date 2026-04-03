@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let array_1 = [];
 
 console.log("Not initialised, defined as empty by []:");

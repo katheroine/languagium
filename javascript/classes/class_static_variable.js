@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 class Token {
   static number = 0;
   color = '';

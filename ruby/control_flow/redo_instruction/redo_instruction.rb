@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 number = 0
 
 while number < 10

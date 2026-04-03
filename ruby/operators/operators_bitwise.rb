@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 a = 10; b = 12
 
 c = a & b

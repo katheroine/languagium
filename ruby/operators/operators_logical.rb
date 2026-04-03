@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 a = true; b = false
 
 c = a && b

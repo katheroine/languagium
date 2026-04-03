@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Token:
     number = 0
 

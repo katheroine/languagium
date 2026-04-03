@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 simple_function = () => { console.log("Simple function."); }
 
 function_with_local_variable = () => {

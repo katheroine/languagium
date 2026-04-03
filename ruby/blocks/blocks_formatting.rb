@@ -1,5 +1,3 @@
-#!/usr/bin/ruby2.7
-
 def simple_function_processing_block
   yield
 end

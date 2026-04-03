@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 function inside() {
   console.log("* Inside.");
   return "IN";

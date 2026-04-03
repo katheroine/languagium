@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let condition = (1 > 2);
 
 if (condition)

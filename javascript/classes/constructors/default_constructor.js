@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 class Basket {
   constructor() {
     this.capacity = 3;

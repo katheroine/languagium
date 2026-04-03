@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def function_with_default_argument(argument: int = 3) -> int:

@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 $a = "hello"; $b = "world";

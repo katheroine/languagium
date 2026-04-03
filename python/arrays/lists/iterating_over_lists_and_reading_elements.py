@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 list = ['apple', 'orange', 'banana', 'pear', 'peach']
 
 for i in range(len(list)):

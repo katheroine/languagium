@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class Basket:
     def __init__(self, label, capacity):
         self.label = label

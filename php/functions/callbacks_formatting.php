@@ -1,4 +1,3 @@
-#!/usr/bin/php
 <?php
 
 function sourceValue($prompt, $validate)

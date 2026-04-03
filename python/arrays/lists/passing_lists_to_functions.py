@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import typing
 
 def function_receiving_list_by_value(argument: list) -> list:

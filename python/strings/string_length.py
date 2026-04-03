@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 word = "hello"
 print(f"word = {word}")
 print(f"length: {len(word)}\n")

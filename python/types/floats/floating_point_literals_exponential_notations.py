@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 print(f"5e3 / 5E3: {5e3} / {5E3}")
 print(f"5e+3 / 5E+3: {5e+3} / {5E+3}")
 print(f"5e-3 / 5E-3: {5e-3} / {5E-3}\n")

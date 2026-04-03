@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 class MoneyBox:
     name = ""
     saved_amount = 0

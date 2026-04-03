@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 data = {}
 data['number'] = 10
 data['value'] = 5.7

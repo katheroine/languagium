@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 list = [1, 3, 5]
 iterator = iter(list)
 

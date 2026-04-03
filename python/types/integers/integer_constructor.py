@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 i = int(0)
 print(f"i = int(0) # {i} ({type(i)})")
 

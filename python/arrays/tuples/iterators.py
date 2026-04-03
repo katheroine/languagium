@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 tuple = (2, 4, 6)
 iterator = iter(tuple)
 

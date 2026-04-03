@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 let a = true, b = false;
 
 c = a && b;

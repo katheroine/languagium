@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 now = "afternoon"
 
 phase = case now
